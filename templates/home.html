@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block main %}
 <section class="wall" aria-label="Post Tenebras Lux">
-  <p class="motto" aria-label="Post Tenebras Lux">P<span class="star-o">O</span>ST TENEBR<span class="io">IO</span>AS LUX</p>
+  <p class="motto" aria-label="Post Tenebras Lux"><span aria-hidden="true">P{% include "symbol.html" %}ST TENEBRAS LUX</span></p>
   <p class="motto-sub">{{ site.tagline }}</p>
 </section>
 <div class="measure">
