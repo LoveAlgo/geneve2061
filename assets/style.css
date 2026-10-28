@@ -4,7 +4,7 @@
   --done:#2F6F45; --done-bg:#E1EEE4; --will:#1F5C6B; --will-bg:#DCE9EB;
   --eng:#8A5A0E; --eng-bg:#F3E8D3; --front:#5B4A9E; --front-bg:#E7E3F4;
   --serif:"EB Garamond",Garamond,"Times New Roman",serif;
-  --sans:"Atkinson Hyperlegible",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --sans:"Source Sans 3","Source Sans Pro",system-ui,-apple-system,"Segoe UI",sans-serif;
   --cap:"Cinzel","Trajan Pro",Georgia,serif;
   color-scheme:light;
   box-sizing:border-box;
@@ -48,7 +48,7 @@ p{margin:0 0 1em}
 
 /* hero: the Reformation Wall */
 .wall{padding:2.5rem 0 1.5rem;border-bottom:1px solid var(--rule);margin-bottom:2rem}
-.motto{font-family:var(--cap);font-weight:500;letter-spacing:.08em;font-size:clamp(2.1rem,8.2vw,5.4rem);line-height:1.05;margin:0;color:var(--ink)}
+.motto{font-family:var(--cap);font-weight:500;letter-spacing:.08em;font-size:clamp(1.3rem, calc((100vw - 2.5rem) / 11.8), 4.6rem);line-height:1.05;margin:0;color:var(--ink);white-space:nowrap}
 .motto-sub{font:italic 500 1.35rem/1.4 var(--serif);color:var(--muted);margin:.8rem 0 0}
 
 /* the walk */
@@ -130,7 +130,7 @@ footer p{margin:0 0 .3rem}
 .view .src{font-size:.85rem;color:var(--muted);margin:0}
 .prose h2{margin-top:2rem}
 /* Dream World symbol: a perfectly round O with the star */
-.symbol{display:inline-block;width:.72em;height:.72em;vertical-align:-.01em;margin:0 .02em;color:inherit}
+.symbol{display:inline-block;width:.72em;height:.72em;vertical-align:-.01em;margin:0 .02em;color:var(--ruby)}
 .symbol line{stroke:currentColor}
 .symbol-star line{stroke:var(--ruby)}
 .brand{display:inline-flex;align-items:center;gap:.4rem}
