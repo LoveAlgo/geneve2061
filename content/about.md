@@ -1,7 +1,7 @@
 ---
 title: About Geneva 2061
 ---
-Geneva 2061 starts from a picture of the future and works backwards to today. Planners call this backcasting; in the Grooters, Leo calls it reverse creativity.
+Geneva 2061 starts from a picture of the future and works backwards to today. Planners call this *backcasting*; in the Grooters, Leo calls it *reverse creativity*.
 
 The picture comes from Verity’s walk through Geneva in the first Grooters book. The ideas behind it come from urban planning studies and twenty years of independent research, and each one is checked against two things: where Geneva stands today, and what other cities have already achieved. Geneva 2061 is meant to fit a vision for the whole planet, not to stand alone.
 
