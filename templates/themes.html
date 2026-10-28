@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block main %}
+<div class="measure">
+  <h1>Themes</h1>
+  <p class="lede">The ideas for Geneva 2061 are grouped into {{ themes | length }} themes, the way a town planner would organise a city. Each idea has its own page and code, such as HEA-01 for the first Health idea.</p>
+</div>
+<ul class="elist">
+{% for t in themes %}
+  <li>
+    {% if t.ideas %}<a class="t" href="{{ root }}themes/{{ t.code | lower }}/">{{ t.name }}</a>{% else %}<span class="t-off">{{ t.name }}</span>{% endif %}
+    <span class="code">{{ t.code }}</span>
+    <span class="sub">{{ t.covers }} · {% if t.ideas %}{{ t.ideas | length }} idea{{ 's' if t.ideas | length != 1 }}{% else %}<span class="draft">in preparation</span>{% endif %}</span>
+  </li>
+{% endfor %}
+</ul>
+{% endblock %}

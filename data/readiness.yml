@@ -1,0 +1,22 @@
+levels:
+- code: done
+  label: Done somewhere
+  short: ''
+  missing: adapt it to Geneva
+  text: A city or country already does it. Geneva only needs to adapt it.
+- code: will
+  label: Political will
+  short: We know how to do it
+  missing: a decision
+  text: We know how to do it. Someone has to decide to.
+- code: eng
+  label: Engineering and scale
+  short: The principle works
+  missing: money, time or technology
+  text: The principle works, but it needs investment, time or better technology.
+- code: front
+  label: Research frontier
+  short: A promising idea
+  missing: knowledge
+  text: >-
+    Nobody knows yet how to do it. This is where research, helped by AI, is needed most.

@@ -1,0 +1,39 @@
+intro: >-
+  In the first Grooters book, Verity wakes up in a Dream World: the Geneva of 2061. It is quiet, green
+  and beautiful, and the people are radiant. This site follows her walk and asks, at every stop, how we
+  get there from where we stand today.
+stops:
+- place: Plaine de Plainpalais market
+  see: Glowing fresh vegetables, honey, cheese and berries from nearby farms.
+  theme: FOD
+- place: Rond-point de Plainpalais
+  see: >-
+    No fast-food chain, no tram rails, a beautiful metro entrance, and no advertising anywhere.
+  theme: MOB
+- place: Parc des Bastions
+  see: >-
+    Chess on the giant boards, people reading and embracing, dogs playing off the leash.
+  theme: LEI
+- place: The Reformation Wall
+  see: POST TENEBRAS LUX, with a star chiselled inside the O.
+  theme: EDU
+- place: The Old Town
+  see: Cobbled streets, the bells of Saint-Pierre, warm and cosy shops and cafés.
+  theme: BEA
+- place: Jardin Anglais and the lake
+  see: Sailing boats gliding silently, swans, and no traffic noise at all.
+  theme: MOB
+- place: Where the hospital used to be
+  see: The HUG-Centre, where people come to refuel on affection.
+  theme: HEA
+  quote: >-
+    “Yes, the ugliest building in town was replaced many years ago by a wonderful HUG-Centre, where people
+    come to refuel on affection.”
+- place: The old book club
+  see: The Crystal of Love, hovering above a wooden commode.
+  theme: REL
+final:
+  place: What Verity couldn’t see
+  see: >-
+    How decisions are made, how the economy works, and why people are so relaxed. None of this shows on
+    a walk, yet all of it is needed.

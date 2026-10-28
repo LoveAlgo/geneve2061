@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block main %}
+<section class="wall" aria-label="Post Tenebras Lux">
+  <p class="motto" aria-label="Post Tenebras Lux">P<span class="star-o">O</span>ST TENEBR<span class="io">IO</span>AS LUX</p>
+  <p class="motto-sub">{{ site.tagline }}</p>
+</section>
+<div class="measure">
+  <p class="lede">{{ walk.intro }}</p>
+  <h2>Walk with Verity</h2>
+  <ol class="walk">
+  {% for s in walk.stops %}{% set live = themes_by_code[s.theme].ideas %}
+    <li class="{{ 'live' if live }}">
+      <span class="dot" aria-hidden="true">{{ loop.index }}</span>
+      <h3>{% if live %}<a href="{{ root }}themes/{{ s.theme | lower }}/">{{ s.place }}</a>{% else %}{{ s.place }}{% endif %}</h3>
+      <p>{{ s.see }}</p>
+      {% if s.quote %}<blockquote>{{ s.quote }}</blockquote>{% endif %}
+      {% if live %}<a href="{{ root }}themes/{{ s.theme | lower }}/">Explore the {{ themes_by_code[s.theme].name }} theme</a>{% else %}<span class="soon">{{ themes_by_code[s.theme].name }}: in preparation</span>{% endif %}
+    </li>
+  {% endfor %}
+    <li>
+      <span class="dot" aria-hidden="true">+</span>
+      <h3>{{ walk.final.place }}</h3>
+      <p>{{ walk.final.see }}</p>
+    </li>
+  </ol>
+</div>
+{% endblock %}

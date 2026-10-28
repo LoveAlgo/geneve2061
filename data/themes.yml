@@ -1,0 +1,178 @@
+themes:
+- code: BEA
+  name: Beauty
+  covers: Architecture quality, public art, no advertising
+  name_fr: Beauté
+  code_fr: BEA
+  heading: ''
+  intro: ''
+- code: COM
+  name: Communication
+  covers: News and media, internet and digital networks
+  name_fr: Communication
+  code_fr: COM
+  heading: ''
+  intro: ''
+- code: CON
+  name: Construction
+  covers: 'How we build: materials, cool buildings, pipes and networks, roadworks'
+  name_fr: Construction
+  code_fr: CON
+  heading: ''
+  intro: ''
+- code: ECO
+  name: Economy
+  covers: Money, taxes, banks, basic income, local currencies
+  name_fr: Économie
+  code_fr: ECO
+  heading: ''
+  intro: ''
+- code: EDU
+  name: Education
+  covers: Schools, universities as places of learning, lifelong learning
+  name_fr: Éducation
+  code_fr: EDU
+  heading: ''
+  intro: ''
+- code: ENE
+  name: Energy
+  covers: Production, heating and cooling, off-grid homes, free energy
+  name_fr: Énergie
+  code_fr: ENE
+  heading: ''
+  intro: ''
+- code: FOD
+  name: Food
+  covers: Farms, markets, local sourcing, additives, eateries
+  name_fr: Alimentation
+  code_fr: ALI
+  heading: ''
+  intro: ''
+- code: GOV
+  name: Governance
+  covers: Decision-making, consent, participation, administration
+  name_fr: Gouvernance
+  code_fr: GOU
+  heading: ''
+  intro: ''
+- code: HEA
+  name: Health
+  covers: Prevention, care, accidents, the HUG-Centre
+  name_fr: Santé
+  code_fr: SAN
+  heading: 'Health: towards a city without sickness or accidents'
+  intro: >-
+    Where Geneva’s hospital stands today, Verity finds a HUG-Centre, where people come to refuel on affection.
+    When she asks where the sick are treated, Smaranda answers with a simple principle: supply and demand.
+    As people stay healthy, the demand for treatment shrinks, and the hospital shrinks with it.
+
+
+    The ideas below are the steps on that path. Some have already been achieved elsewhere; one or two
+    are still open research questions.
+- code: HER
+  name: Heritage and culture
+  covers: >-
+    Built and living heritage, history, traditions and festivals, identity, languages
+  name_fr: Patrimoine et culture
+  code_fr: PAT
+  heading: ''
+  intro: ''
+- code: HOU
+  name: Housing
+  covers: >-
+    Who lives where, affordability, cooperatives, intentional communities, speculation
+  name_fr: Logement
+  code_fr: LOG
+  heading: ''
+  intro: ''
+- code: IND
+  name: Industry
+  covers: 'What we make and move: crafts, manufacturing, logistics, deliveries'
+  name_fr: Industrie
+  code_fr: IND
+  heading: ''
+  intro: ''
+- code: INT
+  name: International Geneva
+  covers: UN and international organisations, a renewed United Nations
+  name_fr: Genève internationale
+  code_fr: INT
+  heading: ''
+  intro: ''
+- code: JUS
+  name: Justice
+  covers: Law, safety, police, prisons, corruption
+  name_fr: Justice
+  code_fr: JUS
+  heading: ''
+  intro: ''
+- code: LEI
+  name: Leisure
+  covers: Sport, games, cafés, festivals, performing arts, tourism
+  name_fr: Loisirs
+  code_fr: LOI
+  heading: ''
+  intro: ''
+- code: MOB
+  name: Mobility
+  covers: Walking, cycling, metro, vehicles, traffic noise
+  name_fr: Mobilité
+  code_fr: MOB
+  heading: ''
+  intro: ''
+- code: NAT
+  name: Nature
+  covers: Trees, parks, biodiversity, animals, lakeshore
+  name_fr: Nature
+  code_fr: NAT
+  heading: ''
+  intro: ''
+- code: NEI
+  name: Neighbourhoods
+  covers: Urban form, density, local centres, villages
+  name_fr: Quartiers
+  code_fr: QUA
+  heading: ''
+  intro: ''
+- code: POP
+  name: Population
+  covers: Demographics, ageing, migration, the Great Migration
+  name_fr: Population
+  code_fr: POP
+  heading: ''
+  intro: ''
+- code: REL
+  name: Relationships
+  covers: Family, couples, friendship, loneliness, community life
+  name_fr: Relations
+  code_fr: REL
+  heading: ''
+  intro: ''
+- code: RES
+  name: Research
+  covers: Research institutions, the research frontier, AI
+  name_fr: Recherche
+  code_fr: REC
+  heading: ''
+  intro: ''
+- code: WAS
+  name: Waste
+  covers: Recycling, repair, reuse, circular economy
+  name_fr: Déchets
+  code_fr: DEC
+  heading: ''
+  intro: ''
+- code: WAT
+  name: Water
+  covers: Lake and rivers, drinking water, rainwater, sewage, floods
+  name_fr: Eau
+  code_fr: EAU
+  heading: ''
+  intro: ''
+- code: WOR
+  name: Work
+  covers: Jobs, occupations, career guidance, placement
+  name_fr: Travail
+  code_fr: TRA
+  heading: ''
+  intro: ''

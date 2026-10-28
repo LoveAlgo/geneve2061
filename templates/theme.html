@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% from "macros.html" import badge with context %}
+{% block main %}
+<div class="measure">
+  <p class="crumbs"><a href="{{ root }}themes/">Themes</a> / {{ t.name }}</p>
+  <h1>{{ t.heading or t.name }}</h1>
+  {% if t.intro_html %}<div class="lede">{{ t.intro_html | safe }}</div>{% else %}<p class="lede">{{ t.covers }}.</p>{% endif %}
+</div>
+{% if t.ideas %}
+<ul class="elist">
+{% for e in t.ideas %}
+  <li>
+    <a class="t" href="{{ root }}ideas/{{ e.id | lower }}/">{{ e.title }}</a>
+    <span>{{ badge(e.readiness) }}</span>
+    <span class="sub">{{ e.summary }} <span class="code">{{ e.id }}</span>{% if e.status != 'ready' %} <span class="draft">· page in preparation</span>{% endif %}</span>
+  </li>
+{% endfor %}
+</ul>
+{% else %}
+<div class="measure"><div class="stub">The ideas for this theme are in preparation.</div></div>
+{% endif %}
+{% endblock %}

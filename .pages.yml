@@ -1,0 +1,355 @@
+# Pages CMS configuration: https://pagescms.org/docs/
+content:
+- name: ideas
+  label: Ideas
+  type: collection
+  path: content/ideas
+  filename: '{fields.id}.md'
+  view:
+    fields:
+    - id
+    - title
+    - status
+    primary: title
+    sort:
+    - id
+  fields:
+  - name: id
+    label: Code
+    type: string
+    required: true
+    description: Theme code + number, e.g. HEA-09. Also used as the file name.
+  - name: title
+    label: Title
+    type: string
+    required: true
+  - name: theme
+    label: Home theme
+    type: select
+    options:
+      values: &id001
+      - BEA
+      - COM
+      - CON
+      - ECO
+      - EDU
+      - ENE
+      - FOD
+      - GOV
+      - HEA
+      - HER
+      - HOU
+      - IND
+      - INT
+      - JUS
+      - LEI
+      - MOB
+      - NAT
+      - NEI
+      - POP
+      - REL
+      - RES
+      - WAS
+      - WAT
+      - WOR
+    required: true
+  - name: readiness
+    label: How far along
+    type: select
+    options:
+      values:
+      - value: done
+        label: Done somewhere
+      - value: will
+        label: Political will
+      - value: eng
+        label: Engineering and scale
+      - value: front
+        label: Research frontier
+    required: true
+  - name: status
+    label: Page status
+    type: select
+    options:
+      values:
+      - value: draft
+        label: Draft (shows title, summary and needs only)
+      - value: ready
+        label: Ready (shows the full page)
+    required: true
+  - name: summary
+    label: Summary (one or two sentences, shown on the theme page)
+    type: text
+  - name: also_relevant
+    label: Also relevant to (other themes)
+    type: select
+    options:
+      values: *id001
+      multiple: true
+  - name: needs
+    label: Human needs it serves
+    type: select
+    options:
+      values:
+      - Acceptance
+      - Affection
+      - Appreciation
+      - Belonging
+      - Closeness
+      - Communication
+      - Community
+      - Companionship
+      - Compassion
+      - Consideration
+      - Consistency
+      - Cooperation
+      - Empathy
+      - Inclusion
+      - Intimacy
+      - Love
+      - Mutuality
+      - Nurturing
+      - Reciprocity
+      - Respect / Self-respect
+      - Safety / Security
+      - Shared reality
+      - Stability
+      - Support
+      - To know / be known
+      - To see / be seen
+      - To understand / be understood
+      - Trust
+      - Warmth
+      - Authenticity
+      - Integrity
+      - Presence
+      - Beauty
+      - Communion
+      - Ease
+      - Equality
+      - Harmony
+      - Inspiration
+      - Order
+      - Joy
+      - Humor
+      - Adventure
+      - Air
+      - Clothing
+      - Food
+      - Hygiene
+      - Movement / exercise
+      - Rest / sleep
+      - Safety
+      - Sexual expression
+      - Shelter
+      - Touch
+      - Water
+      - Awareness
+      - Celebration
+      - Challenge
+      - Clarity
+      - Competence
+      - Consciousness
+      - Contribution
+      - Creativity
+      - Discovery
+      - Effectiveness
+      - Efficiency
+      - Growth
+      - Integration
+      - Learning
+      - Mourning
+      - Movement
+      - Participation
+      - Purpose
+      - Self-expression
+      - Stimulation
+      - Understanding
+      - Choice
+      - Dignity
+      - Freedom
+      - Independence
+      - Space
+      - Spontaneity
+      multiple: true
+  - name: vision
+    label: Geneva in 2061
+    type: text
+  - name: quote_text
+    label: Quote from the Grooters (optional)
+    type: text
+  - name: quote_cite
+    label: Quote reference
+    type: string
+  - name: today_headline
+    label: 'Geneva today: headline figure'
+    type: string
+  - name: today_detail
+    label: 'Geneva today: explanation'
+    type: text
+  - name: today_source
+    label: 'Geneva today: source'
+    type: string
+  - name: today_facts
+    label: 'Geneva today: more facts'
+    type: text
+    list: true
+  - name: precedents
+    label: Where it is already done
+    type: object
+    list: true
+    fields:
+    - name: place
+      label: Place
+      type: string
+    - name: text
+      label: What they did
+      type: text
+    - name: source_needed
+      label: Source still to be added
+      type: boolean
+  - name: path
+    label: The path to 2061
+    type: object
+    list: true
+    fields:
+    - name: year
+      label: Year
+      type: string
+    - name: text
+      label: Milestone
+      type: text
+  - name: levers
+    label: What moves it
+    type: select
+    options:
+      values:
+      - Law
+      - Culture
+      - Investment
+      - Technology
+      - Research
+      multiple: true
+  - name: questions
+    label: Open questions
+    type: text
+    list: true
+  - name: view
+    label: The author’s view
+    type: text
+  - name: sensitive
+    label: Sensitive topic (shows the helpline box)
+    type: boolean
+  - name: sources
+    label: Sources
+    type: object
+    list: true
+    fields:
+    - name: title
+      label: Title
+      type: string
+    - name: url
+      label: Link
+      type: string
+  - name: notes
+    label: Private notes (not shown on the site, but visible in the repository)
+    type: text
+- name: about
+  label: About page
+  type: file
+  path: content/about.md
+  fields:
+  - name: title
+    label: Title
+    type: string
+  - name: body
+    label: Text (write [[bridge-diagram]] on its own line where the diagram goes)
+    type: rich-text
+- name: themes
+  label: Themes
+  type: file
+  path: data/themes.yml
+  fields:
+  - name: themes
+    label: Themes
+    type: object
+    list: true
+    fields:
+    - name: code
+      label: Code
+      type: string
+    - name: name
+      label: Name
+      type: string
+    - name: covers
+      label: Covers
+      type: string
+    - name: name_fr
+      label: Nom (français)
+      type: string
+    - name: code_fr
+      label: Code (français)
+      type: string
+    - name: heading
+      label: Heading on the theme page (optional)
+      type: string
+    - name: intro
+      label: Introduction on the theme page (optional)
+      type: text
+- name: walk
+  label: Verity’s walk (home page)
+  type: file
+  path: data/walk.yml
+  fields:
+  - name: intro
+    label: Introduction
+    type: text
+  - name: stops
+    label: Stops
+    type: object
+    list: true
+    fields:
+    - name: place
+      label: Place
+      type: string
+    - name: see
+      label: What Verity sees
+      type: text
+    - name: theme
+      label: Theme
+      type: select
+      options:
+        values: *id001
+    - name: quote
+      label: Quote (optional)
+      type: text
+  - name: final
+    label: Final stop
+    type: object
+    fields:
+    - name: place
+      label: Title
+      type: string
+    - name: see
+      label: Text
+      type: text
+- name: site
+  label: Site settings and footer
+  type: file
+  path: data/site.yml
+  fields:
+  - name: title
+    label: Site title
+    type: string
+  - name: tagline
+    label: Tagline
+    type: string
+  - name: copyright
+    label: Copyright line
+    type: string
+  - name: footer
+    label: Footer text
+    type: text
+  - name: helpline
+    label: Helpline box text
+    type: text
