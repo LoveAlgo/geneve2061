@@ -105,6 +105,10 @@ def main():
     write("about", "about.html", nav="about", page_title=about.get("title", "About"),
           about={"title": about.get("title", "About"), "html": about_html})
 
+    page, gbody = load_front_matter(ROOT / "content/grooters.md")
+    page["html"] = md(gbody)
+    write("grooters", "grooters.html", nav="grooters", page_title=page.get("title", "The Grooters"), page=page)
+
     print(f"Built {len(ideas)} ideas in {len(themes)} themes into {OUT.name}/")
     if problems:
         print("\nPlease check:")

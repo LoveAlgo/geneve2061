@@ -353,3 +353,20 @@ content:
   - name: helpline
     label: Helpline box text
     type: text
+- name: grooters
+  label: The Grooters page
+  type: file
+  path: content/grooters.md
+  fields:
+    - name: title
+      label: Title
+      type: string
+    - name: body
+      label: Introduction
+      type: rich-text
+    - name: hut_caption
+      label: Caption under the hut image
+      type: string
+    - name: crystal_caption
+      label: Caption under the Crystal of Love image
+      type: string

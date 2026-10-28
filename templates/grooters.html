@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block main %}
+<div class="measure">
+  <h1>{{ page.title }}</h1>
+  <div class="g-intro">
+    <img class="g-cover" src="{{ root }}assets/images/grooters-1-cover.jpg" alt="Cover of Grooters, Book 1: the circle with the star on a yellow background" width="700" height="1120">
+    <div class="prose">{{ page.html | safe }}</div>
+  </div>
+
+  <h2>Read the walk</h2>
+  <p>Part 16, “2061”, is free to download, with the page numbers of the paperback edition.</p>
+  <div class="downloads">
+    <a class="dl" href="{{ root }}assets/downloads/grooters-1-part-16-2061.pdf" download>Download Part 16<small>English · PDF · 19 pages</small></a>
+    <a class="dl" href="{{ root }}assets/downloads/grooters-1-partie-16-2061.pdf" download lang="fr">Télécharger la Partie 16<small>Français · PDF · 20 pages</small></a>
+  </div>
+
+  <figure class="g-fig">
+    <img src="{{ root }}assets/images/young-grooters-hut.jpg" alt="Six children relaxing on a sofa and on cushions in a wooden hut decorated with 1980s posters" width="1400" height="1400" loading="lazy">
+    <figcaption>{{ page.hut_caption }}</figcaption>
+  </figure>
+  <figure class="g-fig g-fig-narrow">
+    <img src="{{ root }}assets/images/verity-crystal-of-love.jpg" alt="A woman in a red qipao holding a glowing heart-shaped red crystal in front of old bookshelves" width="1045" height="1400" loading="lazy">
+    <figcaption>{{ page.crystal_caption }}</figcaption>
+  </figure>
+
+  <h2>More about the series</h2>
+  <p>The books, the soundtrack and the Visual Companion, with images of the characters and scenes, are at <a href="https://thegrooters.com" target="_blank" rel="noopener">thegrooters.com</a>.</p>
+</div>
+{% endblock %}

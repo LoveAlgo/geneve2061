@@ -135,3 +135,16 @@ footer p{margin:0 0 .3rem}
 .symbol-star line{stroke:var(--ruby)}
 .brand{display:inline-flex;align-items:center;gap:.4rem}
 .brand .symbol{width:1.05em;height:1.05em;margin:0;vertical-align:middle}
+/* images and the Grooters page */
+figure{margin:1.5rem 0}
+figure img{display:block;width:100%;height:auto;border-radius:8px}
+figcaption{font-size:.9rem;color:var(--muted);margin-top:.5rem}
+.about-fig{margin:.5rem 0 2rem}
+.g-intro{display:grid;grid-template-columns:minmax(120px,190px) 1fr;gap:1.5rem;align-items:start;margin:1rem 0 1.5rem}
+.g-cover{width:100%;height:auto;border-radius:4px;box-shadow:0 2px 10px rgba(0,0,0,.15)}
+.g-fig-narrow{max-width:30rem}
+.downloads{display:flex;gap:1rem;flex-wrap:wrap;margin:1rem 0 2rem}
+.dl{display:inline-flex;flex-direction:column;padding:.7rem 1.1rem;border-radius:8px;background:var(--ruby);color:#fff;text-decoration:none;font-weight:600}
+.dl small{font-weight:400;font-size:.8rem;opacity:.9}
+.dl:hover{filter:brightness(1.08)}
+@media (max-width:560px){ .g-intro{grid-template-columns:1fr} .g-cover{max-width:180px} }
