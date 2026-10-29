@@ -1,9 +1,8 @@
 ---
-title: Les Grooters
+title: Grooters
 hut_caption: Les jeunes Grooters dans leur cabane, là où tout a commencé.
-crystal_caption: >-
-  Verity tient le Cristal d’Amour, dans un vieux cercle de lecture de la Vieille-Ville de Genève (Livre
-  1, partie 16).
+crystal_caption: Verity tient le Cristal d’Amour, dans un vieux cercle de
+  lecture de la Vieille-Ville de Genève (Livre 1, partie 16).
 ---
 *Grooters* est une série de romans de Henrik Hillerström. Enfants, six amis ont scellé un Pacte : aider leurs parents et rendre le monde un peu meilleur. Des années plus tard, devenus adultes, ils se retrouvent et commencent à voyager dans des Mondes de Rêve, des lieux où le monde tel qu’il pourrait être existe déjà, à la recherche des cristaux de Crystallica.
 
