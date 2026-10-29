@@ -91,7 +91,9 @@ view: "The number of suicides is far too high for such a wealthy country, and
   the rise in “exits” among older people is alarming. The aim is not to ban
   anything: assisted suicide is a legal choice in Switzerland. The aim is a
   society in which people are no longer pushed to check out early, because their
-  lives are full of meaning and other people."
+  lives are full of meaning and other people. On way to achieve this is to
+  organise society in intentional communities, be it a simple extended household
+  or a whole city building or villa street, or neighbourhood."
 sensitive: true
 sources:
   - title: "Federal Statistical Office: Cause of death statistics 2023"
