@@ -17,10 +17,10 @@ needs:
 - Warmth
 - Trust
 vision: >-
-  Most babies in Geneva are born in calm, homely birth centres run by midwives, close to but separate
-  from the hospital, or at home for families who choose it. Birth is treated as a natural event rather
-  than a medical procedure, at its own pace and on its own day of the week. The hospital remains a few
-  minutes away for the minority of births that need it.
+  Most babies in Geneva are born in calm, homely birth centres run by midwives in every neighbourhood,
+  or at home for families who choose it. Birth is treated as a natural event rather than a medical procedure,
+  at its own pace and on its own day of the week. Skilled emergency care is always within a few minutes
+  for the rare births that need it.
 today_headline: Only about 2 in 100 births in Switzerland take place in a birth centre
 today_detail: >-
   In 2023, 1,600 of the 79,200 births in Swiss hospitals and birth centres took place in a birth centre.
@@ -52,6 +52,13 @@ precedents:
     has a long tradition of home births: they accounted for 35% of births in the 1990s and still for 13%
     in 2015, within a system where healthy women are cared for by independent midwives.
   source_needed: false
+- place: The World Health Organization
+  text: >-
+    recommends waiting at least one minute before clamping the umbilical cord. The blood that keeps flowing
+    from the placenta improves the baby’s iron stores for up to six months after birth; in the studies
+    reviewed, babies whose cord was clamped early were more than twice as likely to be iron deficient
+    at three to six months.
+  source_needed: false
 path:
 - year: '2027'
   text: >-
@@ -70,8 +77,8 @@ path:
     Births are spread evenly over the week again, following their own rhythm rather than hospital schedules.
 - year: '2061'
   text: >-
-    Most babies in Geneva are born in calm, homely places, with the hospital close by for those who need
-    it.
+    Babies in Geneva are born in calm, homely places, with emergency care within minutes for the rare
+    births that need it.
 levers:
 - Culture
 - Investment
@@ -87,7 +94,9 @@ view: >-
   Giving birth is not an illness. Most healthy pregnancies need patience, warmth and a skilled midwife,
   not an operating theatre. When birth is organised around hospital schedules, we create a demand for
   interventions that many women do not need. The hospital should be close by for those who need it, not
-  the default for everyone.
+  the default for everyone. And let nature finish its work: when the cord is left to pulse for a few minutes
+  before it is cut, the baby receives the blood still in the placenta, with iron for its first months
+  of life.
 sensitive: false
 sources:
 - title: >-
@@ -101,6 +110,10 @@ sources:
     DutchNews: Home births out of favour with Dutch mums; just 13% stick with tradition (February 2017)
   url: >-
     https://www.dutchnews.nl/2017/02/home-births-out-of-favour-with-dutch-mums-just-13-stick-with-tradition/
+- title: >-
+    World Health Organization: Optimal timing of cord clamping for the prevention of iron deficiency anaemia
+    in infants
+  url: https://www.who.int/tools/elena/interventions/cord-clamping
 notes: >-
   Neither Rethink Everything nor the published Grooters books cover births. Author’s view drafted by Claude
   for Henrik to review.
