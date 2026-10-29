@@ -59,6 +59,12 @@ precedents:
       whose cord was clamped early were more than twice as likely to be iron
       deficient at three to six months.
     source_needed: false
+patterns:
+  - number: "65"
+    name: Birth places
+    text: "Alexander and his colleagues argue that birth belongs in a homely setting
+      rather than a hospital ward: small birth places organised around the
+      mother and her family, supported by midwives."
 path:
   - year: "2027"
     text: Geneva publishes yearly figures on place of birth, inductions and
