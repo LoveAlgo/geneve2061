@@ -20,8 +20,9 @@ today_source: >-
   Reports, 2025)
 today_facts:
 - >-
-  Les maladies chroniques (non transmissibles) causent environ 80 % des coûts directs de la santé en Suisse,
-  et environ un quart de la population en est atteint (Office fédéral de la santé publique).
+  Les maladies chroniques (non transmissibles) représentent environ 80 % des coûts de la santé en Suisse,
+  et environ la moitié d’entre elles pourraient être évitées en bougeant plus, en buvant moins d’alcool
+  et en ne fumant pas, selon la directrice de l’Office fédéral de la santé publique (2025).
 - >-
   À Genève, les primes d’assurance maladie augmenteront de 4,4 % en 2027 ; la moyenne suisse augmente
   de 5,0 %, à 412 francs par mois. Genève prévoit 830 millions de francs de subsides aux primes dans son
@@ -90,9 +91,9 @@ sources:
     en anglais)
   url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11999646/
 - title: >-
-    Office fédéral de la santé publique : feuille d’information sur les maladies non transmissibles
-  url: >-
-    https://www.blv.admin.ch/dam/bag/fr/dokumente/nat-gesundheitsstrategien/ncd-strategie/faktenblatt-ncd.pdf.download.pdf/feuille-info-mnt.pdf
+    Office fédéral de la santé publique : « La prévention reste importante », entretien avec la directrice
+    Anne Lévy (juin 2025)
+  url: https://www.bag.admin.ch/fr/mesures-d-economie-la-prevention-reste-importante
 - title: 'La Télé : nouvelle envolée des primes maladie en 2027'
   url: https://latele.ch/articles/nouvelle-envolee-des-primes-maladie-en-2027
 - title: 'La Télé : les primes 2027 à Genève et la réaction de Pierre Maudet'

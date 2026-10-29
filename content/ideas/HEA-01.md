@@ -49,8 +49,8 @@ precedents:
 - place: Sweden
   text: >-
     adopted Vision Zero in 1997: the principle that no one should be killed or seriously injured on the
-    roads, and that the road system must be designed so human mistakes are not fatal. Road deaths in Sweden
-    have since been halved.
+    roads, and that the road system must be designed so human mistakes are not fatal. It has since been
+    adopted by many other countries and cities.
   source_needed: false
 - place: Oslo (Norway)
   text: >-
@@ -98,10 +98,9 @@ sources:
     EU Urban Mobility Observatory: Helsinki records zero road deaths over the past year (22 August 2025)
   url: >-
     https://urban-mobility-observatory.transport.ec.europa.eu/news-events/news/helsinki-records-zero-road-deaths-over-past-year-2025-08-22_en
-- title: >-
-    Swedish Transport Administration: Vision Zero, no fatalities or serious injuries through road accidents
+- title: 'Swedish Transport Administration: Origin and background of Vision Zero'
   url: >-
-    https://bransch.trafikverket.se/en/road-safety-conference/about-the-conference/vision-zero---no-fatalities-or-serious-injuries-through-road-accidents
+    https://bransch.trafikverket.se/en/startpage/operations/Operations-road/vision-zero-academy/Background-Vision-Zero/
 - title: 'CIHT: Zero pedestrian and cyclist deaths in Oslo last year (January 2020)'
   url: >-
     https://www.ciht.org.uk/news/zero-pedestrian-and-cyclist-deaths-in-oslo-last-year/

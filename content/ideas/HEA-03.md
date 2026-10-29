@@ -29,8 +29,9 @@ today_source: >-
   2025)
 today_facts:
 - >-
-  Chronic (non-communicable) diseases cause about 80% of direct health costs in Switzerland, and around
-  a quarter of the population lives with one (Federal Office of Public Health).
+  Chronic (non-communicable) diseases account for about 80% of health costs in Switzerland, and around
+  half of them could be avoided with more exercise, less alcohol and no smoking, according to the director
+  of the Federal Office of Public Health (2025).
 - >-
   Health insurance premiums in Geneva will rise by 4.4% in 2027; the Swiss average rises by 5.0% to 412
   francs a month. Geneva plans 830 million francs of premium subsidies in its 2027 budget.
@@ -96,9 +97,9 @@ sources:
     Nehme et al., Twenty years population-based trends in hypertension in Geneva (Preventive Medicine
     Reports, 2025)
   url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11999646/
-- title: 'Federal Office of Public Health: fact sheet on non-communicable diseases'
-  url: >-
-    https://www.blv.admin.ch/dam/bag/fr/dokumente/nat-gesundheitsstrategien/ncd-strategie/faktenblatt-ncd.pdf.download.pdf/feuille-info-mnt.pdf
+- title: >-
+    Federal Office of Public Health: interview with director Anne Lévy on prevention (June 2025, in French)
+  url: https://www.bag.admin.ch/en/sparmassnahmen-praevention-bleibt-wichtig-en
 - title: 'La Télé: 2027 premiums rise by 5% on average in Switzerland'
   url: https://latele.ch/articles/nouvelle-envolee-des-primes-maladie-en-2027
 - title: 'La Télé: Geneva premiums for 2027 and Pierre Maudet’s reaction'

@@ -43,7 +43,7 @@ precedents:
   text: >-
     a adopté la « Vision zéro » en 1997 : le principe selon lequel personne ne devrait être tué ni gravement
     blessé sur la route, et selon lequel le système routier doit être conçu pour que les erreurs humaines
-    ne soient pas mortelles. Depuis, le nombre de morts sur les routes suédoises a été divisé par deux.
+    ne soient pas mortelles. Elle a depuis été reprise par de nombreux autres pays et villes.
   source_needed: false
 - place: Oslo (Norvège)
   text: >-
@@ -90,10 +90,9 @@ sources:
   url: >-
     https://urban-mobility-observatory.transport.ec.europa.eu/news-events/news/helsinki-records-zero-road-deaths-over-past-year-2025-08-22_en
 - title: >-
-    Administration suédoise des transports : Vision zéro, aucun mort ni blessé grave sur la route (en
-    anglais)
+    Administration suédoise des transports : origine et histoire de la Vision zéro (en anglais)
   url: >-
-    https://bransch.trafikverket.se/en/road-safety-conference/about-the-conference/vision-zero---no-fatalities-or-serious-injuries-through-road-accidents
+    https://bransch.trafikverket.se/en/startpage/operations/Operations-road/vision-zero-academy/Background-Vision-Zero/
 - title: >-
     CIHT : aucun piéton ni cycliste tué à Oslo l’an dernier (janvier 2020, en anglais)
   url: >-
