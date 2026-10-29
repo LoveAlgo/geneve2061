@@ -1,19 +1,19 @@
 {# Bridge diagram: Geneva today to Geneva in 2061. Bar lengths are illustrative. #}
 <div class="bridge-wrap">
 <svg class="bridge" viewBox="0 0 1000 470" role="img" aria-labelledby="bridge-title bridge-desc">
-  <title id="bridge-title">How far along: the bridge from Geneva today to Geneva in 2061</title>
-  <desc id="bridge-desc">Four bridges of different lengths. Done somewhere is almost complete: still missing is adapting it to Geneva. Political will is two-thirds built: still missing is a decision. Engineering and scale is less than half built: still missing is money, time or technology. Research frontier has barely started: still missing is knowledge.</desc>
-  <text class="end" x="315" y="34" text-anchor="middle">Geneva</text>
-  <text class="end" x="315" y="60" text-anchor="middle">today</text>
-  <text class="end" x="885" y="34" text-anchor="middle">Geneva</text>
-  <text class="end" x="885" y="60" text-anchor="middle">in 2061</text>
+  <title id="bridge-title">{{ t.bridge_title }}</title>
+  <desc id="bridge-desc">{% for lvl in readiness_levels %}{{ lvl.label }}: {{ t.bridge_missing }} {{ lvl.missing }}. {% endfor %}</desc>
+  <text class="end" x="315" y="34" text-anchor="middle">{{ t.bridge_today[0] }}</text>
+  <text class="end" x="315" y="60" text-anchor="middle">{{ t.bridge_today[1] }}</text>
+  <text class="end" x="885" y="34" text-anchor="middle">{{ t.bridge_2061[0] }}</text>
+  <text class="end" x="885" y="60" text-anchor="middle">{{ t.bridge_2061[1] }}</text>
   <rect class="pillar" x="290" y="78" width="50" height="352"/>
   <rect class="pillar" x="860" y="78" width="50" height="352"/>
   <rect class="water" x="340" y="404" width="520" height="26"/>
   {% for lvl in readiness_levels %}{% set y = 120 + loop.index0 * 86 %}{% set ends = [787, 683, 548, 402] %}{% set end = ends[loop.index0] %}
   <text class="lbl f-{{ lvl.code }}" x="275" y="{{ y + 7 }}" text-anchor="end">{{ lvl.label }}</text>
   {% if lvl.short %}<text class="sub" x="275" y="{{ y + 31 }}" text-anchor="end">{{ lvl.short }}</text>{% endif %}
-  <text class="miss" x="850" y="{{ y - 16 }}" text-anchor="end">still missing: {{ lvl.missing }}</text>
+  <text class="miss" x="850" y="{{ y - 16 }}" text-anchor="end">{{ t.bridge_missing }} {{ lvl.missing }}</text>
   <rect class="f-{{ lvl.code }}" x="340" y="{{ y - 9 }}" width="{{ end - 340 }}" height="18"/>
   {% for px in range(390, end - 10, 100) %}<rect class="f-{{ lvl.code }} pier" x="{{ px }}" y="{{ y + 9 }}" width="7" height="16"/>{% endfor %}
   <line class="gap" x1="{{ end + 4 }}" y1="{{ y }}" x2="858" y2="{{ y }}"/>

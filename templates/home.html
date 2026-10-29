@@ -6,15 +6,15 @@
 </section>
 <div class="measure">
   <p class="lede">{{ walk.intro }}</p>
-  <h2>Walk with Verity</h2>
+  <h2>{{ t.walk_heading }}</h2>
   <ol class="walk">
-  {% for s in walk.stops %}{% set live = themes_by_code[s.theme].ideas %}
+  {% for s in walk.stops %}{% set th = tkey[s.theme] %}{% set live = th.ideas %}
     <li class="{{ 'live' if live }}">
       <span class="dot" aria-hidden="true">{{ loop.index }}</span>
-      <h3>{% if live %}<a href="{{ root }}themes/{{ s.theme | lower }}/">{{ s.place }}</a>{% else %}{{ s.place }}{% endif %}</h3>
+      <h3>{% if live %}<a href="{{ theme_url(s.theme) }}">{{ s.place }}</a>{% else %}{{ s.place }}{% endif %}</h3>
       <p>{{ s.see }}</p>
       {% if s.quote %}<blockquote>{{ s.quote }}</blockquote>{% endif %}
-      {% if live %}<a href="{{ root }}themes/{{ s.theme | lower }}/">Explore the {{ themes_by_code[s.theme].name }} theme</a>{% else %}<span class="soon">{{ themes_by_code[s.theme].name }}: in preparation</span>{% endif %}
+      {% if live %}<a href="{{ theme_url(s.theme) }}">{{ t.explore_theme | replace('{theme}', th.name) }}</a>{% else %}<span class="soon">{{ th.name }}{{ '\u00a0:' if lang == 'fr' else ':' }} {{ t.in_preparation }}</span>{% endif %}
     </li>
   {% endfor %}
     <li>

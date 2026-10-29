@@ -1,0 +1,97 @@
+# Interface text in both languages (menus, headings, labels).
+en:
+  nav_walk: 2061 walk
+  nav_themes: Themes
+  nav_grooters: Grooters
+  nav_about: About
+  switch_label: Français
+  switch_short: FR
+  walk_heading: Walk with Verity
+  explore_theme: Explore the {theme} theme
+  in_preparation: in preparation
+  themes_title: Themes
+  themes_lede: The ideas for Geneva 2061 are grouped into {n} themes, the way a town planner would organise a city. Each idea has its own page and code, such as HEA-01 for the first Health idea.
+  idea_one: idea
+  idea_many: ideas
+  theme_empty: The ideas for this theme are in preparation.
+  page_in_preparation: page in preparation
+  stub: This page is in preparation.
+  also_relevant: "Also relevant to:"
+  h_vision: Geneva in 2061
+  h_today: Geneva today
+  source: "Source:"
+  h_done: Where it is already done
+  source_needed: Source to be added
+  h_far: How far along
+  h_path: The path to 2061
+  path_note: Milestones proposed for discussion.
+  h_levers: What moves it
+  h_needs: Human needs it serves
+  h_questions: Open questions
+  h_view: The author’s view
+  h_sources: Sources
+  back_to: Back to all {theme} ideas
+  bridge_today: [Geneva, today]
+  bridge_2061: [Geneva, in 2061]
+  bridge_missing: "still missing:"
+  bridge_title: "How far along: the bridge from Geneva today to Geneva in 2061"
+  read_walk: Read the walk
+  read_walk_text: Part 16, “2061”, is free to download, with the page numbers of the paperback edition.
+  download: Download Part 16
+  download_meta: English · PDF · 19 pages
+  download_file: grooters-1-part-16-2061.pdf
+  more_series: More about the series
+  more_series_text: The books, the soundtrack and the Visual Companion, with images of the characters and scenes, are at
+  cover_alt: "Cover of Grooters, Book 1: the circle with the star on a yellow background"
+  hut_alt: Six children relaxing on a sofa and on cushions in a wooden hut decorated with 1980s posters
+  crystal_alt: A woman in a red qipao holding a glowing heart-shaped red crystal in front of old bookshelves
+  rainbow_alt: The Jet d’Eau in Geneva under a double rainbow, with a paddle steamer on the lake
+  levers: {Law: Law, Culture: Culture, Investment: Investment, Technology: Technology, Research: Research}
+fr:
+  nav_walk: Balade 2061
+  nav_themes: Thèmes
+  nav_grooters: Grooters
+  nav_about: À propos
+  switch_label: English
+  switch_short: EN
+  walk_heading: Balade avec Verity
+  explore_theme: Découvrir le thème {theme}
+  in_preparation: en préparation
+  themes_title: Thèmes
+  themes_lede: Les idées pour Genève 2061 sont regroupées en {n} thèmes, comme un urbaniste organiserait une ville. Chaque idée a sa propre page et son code, par exemple SAN-01 pour la première idée du thème Santé.
+  idea_one: idée
+  idea_many: idées
+  theme_empty: Les idées de ce thème sont en préparation.
+  page_in_preparation: page en préparation
+  stub: Cette page est en préparation.
+  also_relevant: "Concerne aussi :"
+  h_vision: Genève en 2061
+  h_today: Genève aujourd’hui
+  source: "Source :"
+  h_done: Là où c’est déjà fait
+  source_needed: Source à ajouter
+  h_far: Où en sommes-nous ?
+  h_path: Le chemin vers 2061
+  path_note: Étapes proposées pour la discussion.
+  h_levers: Ce qui la fait avancer
+  h_needs: Les besoins humains qu’elle sert
+  h_questions: Questions ouvertes
+  h_view: Le point de vue de l’auteur
+  h_sources: Sources
+  back_to: Retour aux idées du thème {theme}
+  bridge_today: [Genève, aujourd’hui]
+  bridge_2061: [Genève, en 2061]
+  bridge_missing: "il manque encore :"
+  bridge_title: "Où en sommes-nous : le pont entre Genève aujourd’hui et Genève en 2061"
+  read_walk: Lire la balade
+  read_walk_text: La partie 16, « 2061 », peut être téléchargée gratuitement, avec la numérotation des pages de l’édition brochée.
+  download: Télécharger la partie 16
+  download_meta: Français · PDF · 20 pages
+  download_file: grooters-1-partie-16-2061.pdf
+  more_series: En savoir plus sur la série
+  more_series_text: Les livres, la bande originale et le Visual Companion, avec des images des personnages et des scènes, se trouvent sur
+  cover_alt: "Couverture de Grooters, Livre 1 : le cercle avec l’étoile sur fond jaune"
+  hut_alt: Six enfants détendus sur un canapé et sur des coussins dans une cabane en bois décorée d’affiches des années 1980
+  crystal_alt: Une femme en qipao rouge tenant un cristal rouge lumineux en forme de cœur devant de vieilles étagères de livres
+  rainbow_alt: Le Jet d’Eau de Genève sous un double arc-en-ciel, avec un bateau à vapeur sur le lac
+  levers: {Law: Loi, Culture: Culture, Investment: Investissement, Technology: Technologie, Research: Recherche}

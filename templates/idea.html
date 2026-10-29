@@ -1,67 +1,67 @@
 {% extends "base.html" %}
 {% from "macros.html" import badge, needs_block with context %}
 {% block main %}
-<p class="crumbs"><a href="{{ root }}themes/">Themes</a> / <a href="{{ root }}themes/{{ e.theme | lower }}/">{{ theme.name }}</a> / {{ e.id }}</p>
+<p class="crumbs"><a href="{{ base }}themes/">{{ t.themes_title }}</a> / <a href="{{ theme_url(e.theme) }}">{{ theme.name }}</a> / {{ e.id }}</p>
 <div class="e-head measure">
   <div class="e-meta">{{ badge(e.readiness) }} <span class="code">{{ e.id }}</span></div>
   <h1>{{ e.title }}</h1>
-  {% if e.also_relevant %}<p class="also">Also relevant to: {% for c in e.also_relevant %}<a href="{{ root }}themes/{{ c | lower }}/">{{ themes_by_code[c].name }}</a>{{ ', ' if not loop.last }}{% endfor %}</p>{% endif %}
+  {% if e.also_relevant %}<p class="also">{{ t.also_relevant }} {% for c in e.also_relevant %}<a href="{{ theme_url(c) }}">{{ tkey[c].name }}</a>{{ ', ' if not loop.last }}{% endfor %}</p>{% endif %}
 </div>
 <div class="measure">
 {% if e.status != 'ready' %}
   <p class="vision">{{ e.summary }}</p>
-  <div class="stub">This page is in preparation.</div>
+  <div class="stub">{{ t.stub }}</div>
   {{ needs_block(e) }}
 {% else %}
-  <h2 style="margin-top:0">Geneva in 2061</h2>
+  <h2 style="margin-top:0">{{ t.h_vision }}</h2>
   <p class="vision">{{ e.vision }}</p>
   {% if e.quote_text %}<blockquote class="quote">{{ e.quote_text }}<cite>{{ e.quote_cite }}</cite></blockquote>{% endif %}
 
-  <h2>Geneva today</h2>
+  <h2>{{ t.h_today }}</h2>
   <div class="now">
     <p class="big">{{ e.today_headline }}</p>
     <p>{{ e.today_detail }}</p>
-    {% if e.today_source %}<p class="src">Source: {{ e.today_source }}</p>{% endif %}
+    {% if e.today_source %}<p class="src">{{ t.source }} {{ e.today_source }}</p>{% endif %}
   </div>
   {% if e.today_facts %}<ul class="facts">{% for f in e.today_facts %}<li>{{ f }}</li>{% endfor %}</ul>{% endif %}
 
   {% if e.precedents %}
-  <h2>Where it is already done</h2>
-  <ul class="prec">{% for p in e.precedents %}<li><b>{{ p.place }}</b> {{ p.text }}{% if p.source_needed %} <span class="verify">Source to be added</span>{% endif %}</li>{% endfor %}</ul>
+  <h2>{{ t.h_done }}</h2>
+  <ul class="prec">{% for p in e.precedents %}<li><b>{{ p.place }}</b> {{ p.text }}{% if p.source_needed %} <span class="verify">{{ t.source_needed }}</span>{% endif %}</li>{% endfor %}</ul>
   {% endif %}
 
-  <h2>How far along</h2>
+  <h2>{{ t.h_far }}</h2>
   <p>{{ badge(e.readiness) }} {{ readiness[e.readiness].text }}</p>
 
   {% if e.path %}
-  <h2>The path to 2061</h2>
-  <p>Milestones proposed for discussion.</p>
+  <h2>{{ t.h_path }}</h2>
+  <p>{{ t.path_note }}</p>
   <ol class="path">{% for p in e.path %}<li><span class="yr">{{ p.year }}</span>{{ p.text }}</li>{% endfor %}</ol>
   {% endif %}
 
   {% if e.levers %}
-  <h3>What moves it</h3>
-  <div class="levers">{% for l in e.levers %}<span class="lever">{{ l }}</span>{% endfor %}</div>
+  <h3>{{ t.h_levers }}</h3>
+  <div class="levers">{% for l in e.levers %}<span class="lever">{{ lever(l) }}</span>{% endfor %}</div>
   {% endif %}
 
   {{ needs_block(e) }}
 
   {% if e.questions %}
-  <h2>Open questions</h2>
+  <h2>{{ t.h_questions }}</h2>
   <ul>{% for q in e.questions %}<li>{{ q }}</li>{% endfor %}</ul>
   {% endif %}
 
   {% if e.view %}
-  <aside class="view"><h2>The author’s view</h2><p>{{ e.view }}</p><p class="src">Henrik Hillerström</p></aside>
+  <aside class="view"><h2>{{ t.h_view }}</h2><p>{{ e.view }}</p><p class="src">Henrik Hillerström</p></aside>
   {% endif %}
 
   {% if e.sensitive %}<div class="help" role="note"><p>{{ site.helpline }}</p></div>{% endif %}
 
   {% if e.sources %}
-  <h2>Sources</h2>
+  <h2>{{ t.h_sources }}</h2>
   <ol class="sources">{% for s in e.sources %}<li>{% if s.url %}<a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.title }}</a>{% else %}{{ s.title }}{% endif %}</li>{% endfor %}</ol>
   {% endif %}
 {% endif %}
-  <p><a href="{{ root }}themes/{{ e.theme | lower }}/">Back to all {{ theme.name }} ideas</a></p>
+  <p><a href="{{ theme_url(e.theme) }}">{{ t.back_to | replace('{theme}', theme.name) }}</a></p>
 </div>
 {% endblock %}

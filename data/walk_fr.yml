@@ -1,0 +1,43 @@
+intro: >-
+  Dans le premier livre des Grooters, Verity se réveille dans un Monde de Rêve : la Genève de 2061. Elle
+  est calme, verte et belle, et les gens sont rayonnants. Ce site suit sa balade et pose, à chaque étape,
+  la même question : comment y arriver depuis là où nous sommes aujourd’hui ?
+stops:
+- place: Le marché de la Plaine de Plainpalais
+  see: >-
+    Des fruits et légumes presque luisants de fraîcheur, du miel, du fromage et des baies des fermes voisines.
+  theme: FOD
+- place: Le rond-point de Plainpalais
+  see: >-
+    Plus de chaîne de restauration rapide, plus de rails de tram, une belle entrée de métro, et aucune
+    publicité nulle part.
+  theme: MOB
+- place: Le parc des Bastions
+  see: >-
+    Des parties d’échecs sur les grands échiquiers, des gens qui lisent et s’enlacent, des chiens qui
+    jouent sans laisse.
+  theme: LEI
+- place: Le Mur des Réformateurs
+  see: POST TENEBRAS LUX, avec une étoile gravée dans le O.
+  theme: EDU
+- place: La Vieille-Ville
+  see: >-
+    Des rues pavées, les cloches de Saint-Pierre, des magasins et des cafés chaleureux et conviviaux.
+  theme: BEA
+- place: Le Jardin Anglais et le lac
+  see: Des voiliers qui glissent en silence, des cygnes, et aucun bruit de trafic.
+  theme: MOB
+- place: Là où se trouvait l’hôpital
+  see: Le HUG-Centre, où les gens viennent faire le plein d’affection.
+  theme: HEA
+  quote: >-
+    « Oui, le plus laid bâtiment de la ville a été remplacé il y a de nombreuses années par un magnifique
+    HUG-Centre, où les gens viennent faire le plein d’affection. »
+- place: Le vieux cercle de lecture
+  see: Le Cristal d’Amour, flottant au-dessus d’une commode en bois.
+  theme: REL
+final:
+  place: Ce que Verity n’a pas pu voir
+  see: >-
+    Comment les décisions sont prises, comment fonctionne l’économie, et pourquoi les gens sont si détendus.
+    Rien de tout cela ne se voit pendant une balade, et pourtant tout est nécessaire.

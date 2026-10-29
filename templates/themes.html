@@ -1,15 +1,15 @@
 {% extends "base.html" %}
 {% block main %}
 <div class="measure">
-  <h1>Themes</h1>
-  <p class="lede">The ideas for Geneva 2061 are grouped into {{ themes | length }} themes, the way a town planner would organise a city. Each idea has its own page and code, such as HEA-01 for the first Health idea.</p>
+  <h1>{{ t.themes_title }}</h1>
+  <p class="lede">{{ t.themes_lede | replace('{n}', themes | length | string) }}</p>
 </div>
 <ul class="elist">
-{% for t in themes %}
+{% for th in themes | sort(attribute='sortkey') %}
   <li>
-    {% if t.ideas %}<a class="t" href="{{ root }}themes/{{ t.code | lower }}/">{{ t.name }}</a>{% else %}<span class="t-off">{{ t.name }}</span>{% endif %}
-    <span class="code">{{ t.code }}</span>
-    <span class="sub">{{ t.covers }} · {% if t.ideas %}{{ t.ideas | length }} idea{{ 's' if t.ideas | length != 1 }}{% else %}<span class="draft">in preparation</span>{% endif %}</span>
+    {% if th.ideas %}<a class="t" href="{{ theme_url(th.key) }}">{{ th.name }}</a>{% else %}<span class="t-off">{{ th.name }}</span>{% endif %}
+    <span class="code">{{ th.code }}</span>
+    <span class="sub">{{ th.covers }} · {% if th.ideas %}{{ th.ideas | length }} {{ t.idea_one if th.ideas | length == 1 else t.idea_many }}{% else %}<span class="draft">{{ t.in_preparation }}</span>{% endif %}</span>
   </li>
 {% endfor %}
 </ul>

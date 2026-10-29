@@ -4,19 +4,37 @@ levels:
   short: ''
   missing: adapt it to Geneva
   text: A city or country already does it. Geneva only needs to adapt it.
+  label_fr: Déjà réalisé ailleurs
+  short_fr: ''
+  missing_fr: l’adapter à Genève
+  text_fr: Une ville ou un pays le fait déjà. Genève n’a plus qu’à l’adapter.
 - code: will
   label: Political will
   short: We know how to do it
   missing: a decision
   text: We know how to do it. Someone has to decide to.
+  label_fr: Volonté politique
+  short_fr: On sait comment faire
+  missing_fr: une décision
+  text_fr: On sait comment faire. Il reste à décider de le faire.
 - code: eng
   label: Engineering and scale
   short: The principle works
   missing: money, time or technology
   text: The principle works, but it needs investment, time or better technology.
+  label_fr: Ingénierie et échelle
+  short_fr: Le principe fonctionne
+  missing_fr: de l’argent, du temps ou de la technologie
+  text_fr: >-
+    Le principe fonctionne, mais il faut des investissements, du temps ou une meilleure technologie.
 - code: front
   label: Research frontier
   short: A promising idea
   missing: knowledge
   text: >-
     Nobody knows yet how to do it. This is where research, helped by AI, is needed most.
+  label_fr: Front de la recherche
+  short_fr: Une idée prometteuse
+  missing_fr: des connaissances
+  text_fr: >-
+    Personne ne sait encore comment faire. C’est là que la recherche, aidée par l’IA, est le plus nécessaire.

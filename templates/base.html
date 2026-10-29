@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ lang }}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>{% if page_title %}{{ page_title }} | {% endif %}{{ site.title }}</title>
 <meta name="description" content="{{ description | default(site.tagline) }}">
+<link rel="alternate" hreflang="{{ other }}" href="{{ alt }}">
 <link rel="icon" href="{{ root }}assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,12 +15,13 @@
 <body>
 <header class="site">
   <div class="bar">
-    <a class="brand" href="{{ root }}">{% include "symbol.html" %}Geneva <span>2061</span></a>
-    <nav class="main" aria-label="Main">
-      <a href="{{ root }}"{% if nav == 'walk' %} aria-current="page"{% endif %}>2061 walk</a>
-      <a href="{{ root }}themes/"{% if nav == 'themes' %} aria-current="page"{% endif %}>Themes</a>
-      <a href="{{ root }}grooters/"{% if nav == 'grooters' %} aria-current="page"{% endif %}>Grooters</a>
-      <a href="{{ root }}about/"{% if nav == 'about' %} aria-current="page"{% endif %}>About</a>
+    <a class="brand" href="{{ base }}">{% include "symbol.html" %}{{ site.title.rsplit(' ', 1)[0] }} <span>2061</span></a>
+    <nav class="main" aria-label="{{ 'Menu principal' if lang == 'fr' else 'Main' }}">
+      <a href="{{ base }}"{% if nav == 'walk' %} aria-current="page"{% endif %}>{{ t.nav_walk }}</a>
+      <a href="{{ base }}themes/"{% if nav == 'themes' %} aria-current="page"{% endif %}>{{ t.nav_themes }}</a>
+      <a href="{{ base }}grooters/"{% if nav == 'grooters' %} aria-current="page"{% endif %}>{{ t.nav_grooters }}</a>
+      <a href="{{ base }}{{ 'a-propos' if lang == 'fr' else 'about' }}/"{% if nav == 'about' %} aria-current="page"{% endif %}>{{ t.nav_about }}</a>
+      <a class="lang" href="{{ alt }}" hreflang="{{ other }}" lang="{{ other }}" title="{{ t.switch_label }}">{{ t.switch_short }}</a>
     </nav>
   </div>
 </header>

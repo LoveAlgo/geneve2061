@@ -1,7 +1,7 @@
 # Pages CMS configuration: https://pagescms.org/docs/
 content:
 - name: ideas
-  label: Ideas
+  label: Ideas (English, master)
   type: collection
   path: content/ideas
   filename: '{fields.id}.md'
@@ -68,10 +68,12 @@ content:
         label: Research frontier
     required: true
   - name: status
-    label: Page status
+    label: Page status (English)
     type: select
     options:
       values:
+      - value: hidden
+        label: Hidden (saved, not published)
       - value: draft
         label: Draft (shows title, summary and needs only)
       - value: ready
@@ -254,19 +256,111 @@ content:
   - name: notes
     label: Private notes (not shown on the site, but visible in the repository)
     type: text
-- name: about
-  label: About page
-  type: file
-  path: content/about.md
+- name: idees
+  label: Idées (français)
+  type: collection
+  path: content/idees
+  filename: '{fields.id}.md'
+  view:
+    fields:
+    - id
+    - title
+    - status
+    primary: title
+    sort:
+    - id
+  description: Theme, readiness, needs and levers are taken from the English idea with the same number.
   fields:
+  - name: id
+    label: 'Code (French, e.g. SAN-09: same number as the English idea)'
+    type: string
+    required: true
+  - name: status
+    label: Statut de la page (français)
+    type: select
+    required: true
+    options:
+      values:
+      - value: hidden
+        label: Masquée (enregistrée, non publiée)
+      - value: draft
+        label: Brouillon (titre, résumé et besoins seulement)
+      - value: ready
+        label: Prête (page complète)
   - name: title
     label: Title
     type: string
-  - name: body
-    label: Text (write [[bridge-diagram]] on its own line where the diagram goes)
-    type: rich-text
+    required: true
+  - name: summary
+    label: Summary (one or two sentences, shown on the theme page)
+    type: text
+  - name: vision
+    label: Geneva in 2061
+    type: text
+  - name: quote_text
+    label: Quote from the Grooters (optional)
+    type: text
+  - name: quote_cite
+    label: Quote reference
+    type: string
+  - name: today_headline
+    label: 'Geneva today: headline figure'
+    type: string
+  - name: today_detail
+    label: 'Geneva today: explanation'
+    type: text
+  - name: today_source
+    label: 'Geneva today: source'
+    type: string
+  - name: today_facts
+    label: 'Geneva today: more facts'
+    type: text
+    list: true
+  - name: precedents
+    label: Where it is already done
+    type: object
+    list: true
+    fields:
+    - name: place
+      label: Place
+      type: string
+    - name: text
+      label: What they did
+      type: text
+    - name: source_needed
+      label: Source still to be added
+      type: boolean
+  - name: path
+    label: The path to 2061
+    type: object
+    list: true
+    fields:
+    - name: year
+      label: Year
+      type: string
+    - name: text
+      label: Milestone
+      type: text
+  - name: questions
+    label: Open questions
+    type: text
+    list: true
+  - name: view
+    label: The author’s view
+    type: text
+  - name: sources
+    label: Sources
+    type: object
+    list: true
+    fields:
+    - name: title
+      label: Title
+      type: string
+    - name: url
+      label: Link
+      type: string
 - name: themes
-  label: Themes
+  label: Themes (English names, French names and codes)
   type: file
   path: data/themes.yml
   fields:
@@ -296,8 +390,30 @@ content:
     - name: intro
       label: Introduction on the theme page (optional)
       type: text
+- name: themes_fr
+  label: Thèmes (descriptions en français)
+  type: file
+  path: data/themes_fr.yml
+  fields:
+  - name: themes
+    label: Thèmes
+    type: object
+    list: true
+    fields:
+    - name: code
+      label: English code (do not change)
+      type: string
+    - name: covers
+      label: Contenu du thème
+      type: string
+    - name: heading
+      label: Titre de la page du thème (facultatif)
+      type: string
+    - name: intro
+      label: Introduction de la page du thème (facultatif)
+      type: text
 - name: walk
-  label: Verity’s walk (home page)
+  label: 2061 walk (English)
   type: file
   path: data/walk.yml
   fields:
@@ -333,8 +449,125 @@ content:
     - name: see
       label: Text
       type: text
+- name: walk_fr
+  label: Balade 2061 (français)
+  type: file
+  path: data/walk_fr.yml
+  fields:
+  - name: intro
+    label: Introduction
+    type: text
+  - name: stops
+    label: Stops
+    type: object
+    list: true
+    fields:
+    - name: place
+      label: Place
+      type: string
+    - name: see
+      label: What Verity sees
+      type: text
+    - name: theme
+      label: Theme
+      type: select
+      options:
+        values:
+        - BEA
+        - COM
+        - CON
+        - ECO
+        - EDU
+        - ENE
+        - FOD
+        - GOV
+        - HEA
+        - HER
+        - HOU
+        - IND
+        - INT
+        - JUS
+        - LEI
+        - MOB
+        - NAT
+        - NEI
+        - POP
+        - REL
+        - RES
+        - WAS
+        - WAT
+        - WOR
+    - name: quote
+      label: Quote (optional)
+      type: text
+  - name: final
+    label: Final stop
+    type: object
+    fields:
+    - name: place
+      label: Title
+      type: string
+    - name: see
+      label: Text
+      type: text
+- name: about
+  label: About page (English)
+  type: file
+  path: content/about.md
+  fields:
+  - name: title
+    label: Title
+    type: string
+  - name: body
+    label: Text (write [[bridge-diagram]] on its own line where the diagram goes)
+    type: rich-text
+- name: about_fr
+  label: À propos (français)
+  type: file
+  path: content/fr/about.md
+  fields:
+  - name: title
+    label: Title
+    type: string
+  - name: body
+    label: Text (write [[bridge-diagram]] on its own line where the diagram goes)
+    type: rich-text
+- name: grooters
+  label: Grooters page (English)
+  type: file
+  path: content/grooters.md
+  fields:
+  - name: title
+    label: Title
+    type: string
+  - name: body
+    label: Introduction
+    type: rich-text
+  - name: hut_caption
+    label: Caption under the hut image
+    type: string
+  - name: crystal_caption
+    label: Caption under the Crystal of Love image
+    type: string
+- name: grooters_fr
+  label: Grooters (français)
+  type: file
+  path: content/fr/grooters.md
+  fields:
+  - name: title
+    label: Title
+    type: string
+  - name: body
+    label: Introduction
+    type: rich-text
+  - name: hut_caption
+    label: Caption under the hut image
+    type: string
+  - name: crystal_caption
+    label: Caption under the Crystal of Love image
+    type: string
 - name: site
-  label: Site settings and footer
+  label: Site settings and footer (English)
   type: file
   path: data/site.yml
   fields:
@@ -353,20 +586,23 @@ content:
   - name: helpline
     label: Helpline box text
     type: text
-- name: grooters
-  label: The Grooters page
+- name: site_fr
+  label: Réglages et pied de page (français)
   type: file
-  path: content/grooters.md
+  path: data/site_fr.yml
   fields:
-    - name: title
-      label: Title
-      type: string
-    - name: body
-      label: Introduction
-      type: rich-text
-    - name: hut_caption
-      label: Caption under the hut image
-      type: string
-    - name: crystal_caption
-      label: Caption under the Crystal of Love image
-      type: string
+  - name: title
+    label: Site title
+    type: string
+  - name: tagline
+    label: Tagline
+    type: string
+  - name: copyright
+    label: Copyright line
+    type: string
+  - name: footer
+    label: Footer text
+    type: text
+  - name: helpline
+    label: Helpline box text
+    type: text

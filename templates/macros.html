@@ -1,5 +1,5 @@
 {% macro badge(code) %}<span class="badge r-{{ code }}">{{ readiness[code].label }}</span>{% endmacro %}
 {% macro needs_block(idea) %}{% if idea.needs %}
-<h3>Human needs it serves</h3>
-<div class="levers">{% for n in idea.needs %}<span class="lever need" title="{{ need_group.get(n, '') }}">{{ n }}<small>{{ need_group.get(n, '') }}</small></span>{% endfor %}</div>
+<h3>{{ t.h_needs }}</h3>
+<div class="levers">{% for n in idea.needs %}<span class="lever need" title="{{ need_group(n) }}">{{ need_name(n) }}<small>{{ need_group(n) }}</small></span>{% endfor %}</div>
 {% endif %}{% endmacro %}

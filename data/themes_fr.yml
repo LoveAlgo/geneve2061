@@ -1,0 +1,110 @@
+themes:
+- code: BEA
+  covers: Qualité architecturale, art public, absence de publicité
+  heading: ''
+  intro: ''
+- code: COM
+  covers: Information et médias, internet et réseaux numériques
+  heading: ''
+  intro: ''
+- code: CON
+  covers: >-
+    Comment on construit : matériaux, bâtiments frais, conduites et réseaux, chantiers
+  heading: ''
+  intro: ''
+- code: ECO
+  covers: Monnaie, impôts, banques, revenu de base, monnaies locales
+  heading: ''
+  intro: ''
+- code: EDU
+  covers: >-
+    Écoles, universités comme lieux d’apprentissage, formation tout au long de la vie
+  heading: ''
+  intro: ''
+- code: ENE
+  covers: Production, chauffage et rafraîchissement, maisons autonomes, énergie libre
+  heading: ''
+  intro: ''
+- code: FOD
+  covers: Fermes, marchés, approvisionnement local, additifs, restaurants
+  heading: ''
+  intro: ''
+- code: GOV
+  covers: >-
+    Prise de décision, consentement, participation, administration, relations transfrontalières et extérieures
+  heading: ''
+  intro: ''
+- code: HEA
+  covers: Prévention, soins, accidents, le HUG-Centre
+  heading: 'Santé : vers une ville sans maladie ni accident'
+  intro: >-
+    À l’endroit où se dresse aujourd’hui l’hôpital de Genève, Verity découvre un HUG-Centre, où les gens
+    viennent faire le plein d’affection. Quand elle demande où l’on soigne les malades, Smaranda répond
+    par un principe simple : l’offre et la demande. Quand les gens restent en bonne santé, la demande
+    de soins diminue, et l’hôpital avec elle.
+
+
+    Les idées ci-dessous sont les étapes de ce chemin. Certaines ont déjà été réalisées ailleurs ; une
+    ou deux restent des questions ouvertes pour la recherche.
+- code: HER
+  covers: Patrimoine bâti et vivant, histoire, traditions et fêtes, identité, langues
+  heading: ''
+  intro: ''
+- code: HOU
+  covers: >-
+    Qui habite où, accessibilité financière, coopératives, communautés intentionnelles, spéculation
+  heading: ''
+  intro: ''
+- code: IND
+  covers: >-
+    Ce que l’on fabrique et transporte : artisanat, production, logistique, livraisons
+  heading: ''
+  intro: ''
+- code: INT
+  covers: ONU et organisations internationales, des Nations Unies renouvelées
+  heading: ''
+  intro: ''
+- code: JUS
+  covers: Droit, sécurité, police, prisons, corruption
+  heading: ''
+  intro: ''
+- code: LEI
+  covers: Sport, jeux, cafés, fêtes, arts de la scène, tourisme
+  heading: ''
+  intro: ''
+- code: MOB
+  covers: Marche, vélo, métro, véhicules, bruit du trafic
+  heading: ''
+  intro: ''
+- code: NAT
+  covers: Arbres, parcs, biodiversité, animaux, rives du lac
+  heading: ''
+  intro: ''
+- code: NEI
+  covers: Forme urbaine, densité, centres locaux, villages
+  heading: ''
+  intro: ''
+- code: POP
+  covers: Démographie, vieillissement, migrations, la Grande Migration
+  heading: ''
+  intro: ''
+- code: REL
+  covers: Famille, couple, amitié, solitude, vie communautaire
+  heading: ''
+  intro: ''
+- code: RES
+  covers: Institutions de recherche, front de la recherche, IA
+  heading: ''
+  intro: ''
+- code: WAS
+  covers: Recyclage, réparation, réemploi, économie circulaire
+  heading: ''
+  intro: ''
+- code: WAT
+  covers: Lac et rivières, eau potable, eaux de pluie, eaux usées, crues
+  heading: ''
+  intro: ''
+- code: WOR
+  covers: Emplois, métiers, orientation professionnelle, placement
+  heading: ''
+  intro: ''

@@ -148,3 +148,5 @@ figcaption{font-size:.9rem;color:var(--muted);margin-top:.5rem}
 .dl small{font-weight:400;font-size:.8rem;opacity:.9}
 .dl:hover{filter:brightness(1.08)}
 @media (max-width:560px){ .g-intro{grid-template-columns:1fr} .g-cover{max-width:180px} }
+nav.main a.lang{font-weight:600;color:var(--lake);border:1px solid var(--rule);margin-left:.25rem}
+@media (max-width:560px){ nav.main a{padding:.3rem .45rem;font-size:.9rem} .bar{gap:.5rem} }
