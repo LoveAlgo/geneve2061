@@ -22,6 +22,8 @@ en:
   source: "Source:"
   h_done: Where it is already done
   source_needed: Source to be added
+  h_patterns: A Pattern Language
+  patterns_intro: Related patterns from the book A Pattern Language by Christopher Alexander and colleagues (1977), a classic of architecture and town planning.
   h_far: How far along
   h_path: The path to 2061
   path_note: Milestones proposed for discussion.
@@ -72,6 +74,8 @@ fr:
   source: "Source :"
   h_done: Là où c’est déjà fait
   source_needed: Source à ajouter
+  h_patterns: A Pattern Language
+  patterns_intro: Patterns liés, tirés du livre A Pattern Language de Christopher Alexander et ses collègues (1977), un classique de l’architecture et de l’urbanisme.
   h_far: Où en sommes-nous ?
   h_path: Le chemin vers 2061
   path_note: Étapes proposées pour la discussion.

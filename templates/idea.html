@@ -30,6 +30,12 @@
   <ul class="prec">{% for p in e.precedents %}<li><b>{{ p.place }}</b> {{ p.text }}{% if p.source_needed %} <span class="verify">{{ t.source_needed }}</span>{% endif %}</li>{% endfor %}</ul>
   {% endif %}
 
+  {% if e.patterns %}
+  <h2>{{ t.h_patterns }}</h2>
+  <p>{{ t.patterns_intro }}</p>
+  <ul class="prec">{% for p in e.patterns %}<li><b>{{ p.number }} {{ p.name }}</b>: {{ p.text }}</li>{% endfor %}</ul>
+  {% endif %}
+
   <h2>{{ t.h_far }}</h2>
   <p>{{ badge(e.readiness) }} {{ readiness[e.readiness].text }}</p>
 

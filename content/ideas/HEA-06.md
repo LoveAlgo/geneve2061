@@ -61,6 +61,14 @@ precedents:
     eating, exercise, brain training and monitoring of heart-health risks. The participants’ overall cognitive
     scores were 25% higher than those of the control group, and their processing speed 150% higher.
   source_needed: false
+patterns:
+- number: '156'
+  name: Settled Work
+  text: >-
+    Alexander and his colleagues argue that “settled work”, work that becomes a wholehearted extension
+    of the person, is essential for peace of mind in old age, and that our society undermines it by separating
+    working life from retirement, and the workplace from the home. Their answer is a place that can grow
+    slowly: at first a weekend hobby, gradually becoming a complete, productive and comfortable workshop.
 path:
 - year: '2027'
   text: >-
@@ -91,9 +99,11 @@ questions:
 view: >-
   Life is like a stay in a beautiful hotel. We would all like to check out at noon, after a swim and a
   long breakfast in the sun, not be woken by the manager at 6 a.m. and told to leave. Too many people
-  are forced to check out early, or spend their last years in a room they can no longer leave. The tightrope
-  walker Philippe Petit was still walking the wire well into his seventies: the aim is not only more years,
-  but years worth celebrating.
+  are forced to check out early, or spend their last years in a room they can no longer leave. I have
+  often observed that people who retire without finding new goals in life tend to decline quickly: having
+  something to live for matters as much as health itself. The tightrope walker Philippe Petit was still
+  walking the wire well into his seventies, and my parents’ neighbour still drives to the shops by herself
+  at 99: the aim is not only more years, but years worth celebrating.
 sensitive: false
 sources:
 - title: >-

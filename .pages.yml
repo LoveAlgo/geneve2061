@@ -210,6 +210,20 @@ content:
     - name: source_needed
       label: Source still to be added
       type: boolean
+  - fields:
+    - label: Pattern number
+      name: number
+      type: string
+    - label: Pattern name (as in the book)
+      name: name
+      type: string
+    - label: Summary in your own words
+      name: text
+      type: text
+    label: A Pattern Language (Alexander et al., 1977)
+    list: true
+    name: patterns
+    type: object
   - name: path
     label: The path to 2061
     type: object
@@ -330,6 +344,20 @@ content:
     - name: source_needed
       label: Source still to be added
       type: boolean
+  - fields:
+    - label: Pattern number
+      name: number
+      type: string
+    - label: Pattern name (as in the book)
+      name: name
+      type: string
+    - label: Summary in your own words
+      name: text
+      type: text
+    label: A Pattern Language (Alexander et al., 1977)
+    list: true
+    name: patterns
+    type: object
   - name: path
     label: The path to 2061
     type: object
