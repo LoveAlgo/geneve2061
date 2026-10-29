@@ -59,6 +59,13 @@ precedents:
       plus de deux fois plus de risques de manquer de fer entre trois et six
       mois.
     source_needed: false
+patterns:
+  - number: "65"
+    name: Birth places (lieux de naissance)
+    text: "Alexander et ses collègues estiment que la naissance a sa place dans un
+      cadre chaleureux plutôt que dans un service hospitalier : de petits lieux
+      de naissance organisés autour de la mère et de sa famille, avec un hôpital
+      assez proche pour les urgences."
 path:
   - year: "2027"
     text: Genève publie chaque année les chiffres sur le lieu de naissance, les
