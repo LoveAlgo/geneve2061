@@ -37,14 +37,17 @@ precedents:
   source_needed: false
 - place: La Carélie du Nord (Finlande)
   text: >-
-    a fortement réduit les décès par maladie cardiaque à partir des années 1970 grâce à un programme communautaire
-    sur l’alimentation, le tabac et les produits locaux.
-  source_needed: true
+    a lancé en 1972 un programme de prévention à l’échelle de toute la communauté, face au taux de mortalité
+    cardiaque le plus élevé jamais mesuré. Les décès coronariens chez les personnes d’âge moyen ont baissé
+    de 84 % entre 1972 et 2014, et environ deux tiers de cette baisse s’expliquent par l’évolution de
+    l’alimentation, du tabagisme et de la tension artérielle.
+  source_needed: false
 - place: Le Royaume-Uni
   text: >-
-    a introduit en 2018 une taxe sur les boissons sucrées, qui a conduit les fabricants à réduire le sucre
-    dans de nombreux produits.
-  source_needed: true
+    a introduit en avril 2018 une taxe à paliers sur les boissons sucrées, payée par les fabricants et
+    non par les consommateurs, et dont sont exemptées les boissons contenant moins de 5 g de sucre pour
+    100 ml. Les évaluations ont montré que les fabricants ont réduit la teneur en sucre de leurs boissons.
+  source_needed: false
 path:
 - year: '2027'
   text: >-
@@ -95,4 +98,12 @@ sources:
 - title: 'La Télé : les primes 2027 à Genève et la réaction de Pierre Maudet'
   url: >-
     https://latele.ch/articles/primes-maudet-cible-une-situation-insupportable-pour-les-genevois
+- title: >-
+    Vartiainen, le projet de Carélie du Nord : la prévention des maladies cardiovasculaires en Finlande
+    (Global Cardiology Science and Practice, 2018, en anglais)
+  url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6062761/
+- title: >-
+    Université de Cambridge, MRC Epidemiology Unit : évaluation de la taxe britannique sur les boissons
+    sucrées (déclaration du 5 décembre 2023, en anglais)
+  url: https://www.epi.ims.cam.ac.uk/?p=19108
 ---

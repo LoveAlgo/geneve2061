@@ -43,19 +43,23 @@ precedents:
   source_needed: false
 - place: La réforme de l’armée suisse (Armée XXI)
   text: >-
-    a réduit le nombre de soldats gardant leur arme à la maison ; des études ont constaté une baisse durable
-    des suicides par arme à feu.
-  source_needed: true
+    a réduit de moitié les effectifs de l’armée en 2003–2004, si bien que beaucoup moins d’hommes gardaient
+    une arme de service à la maison. Une étude a constaté une baisse durable des suicides chez les hommes
+    de 18 à 43 ans ; seuls environ 22 % des suicides par arme à feu évités se sont reportés sur d’autres
+    méthodes.
+  source_needed: false
 - place: La Finlande
   text: >-
-    a mené un programme national de prévention du suicide de 1986 à 1996, et son taux de suicide a nettement
-    baissé dans les années suivantes.
-  source_needed: true
+    a mené un projet national de prévention du suicide de 1986 à 1996. Son taux de suicide a culminé en
+    1990, puis a baissé de 45 % chez les hommes et de 31 % chez les femmes au cours des deux décennies
+    suivantes ; une partie de cette baisse est aussi liée à un recours plus large aux antidépresseurs.
+  source_needed: false
 - place: Le Royaume-Uni
   text: >-
-    a nommé un ministre de la Solitude en 2018, et les médecins peuvent prescrire des activités sociales
-    (« prescription sociale »).
-  source_needed: true
+    a nommé en janvier 2018 le premier ministre de la Solitude au monde et a publié une stratégie nationale
+    contre la solitude la même année. Il finance des conseillers en « prescription sociale » dans les
+    cabinets de médecins de famille, qui orientent les patients isolés vers des activités de proximité.
+  source_needed: false
 path:
 - year: '2027'
   text: >-
@@ -114,4 +118,16 @@ sources:
 - title: 'RTS : le suicide des seniors, assisté ou non, augmente en Suisse (2025)'
   url: >-
     https://www.rts.ch/info/societe/2025/article/le-suicide-des-seniors-assiste-ou-non-augmente-en-suisse-28917948.html
+- title: >-
+    Reisch et al., l’évolution des suicides en Suisse après la restriction des armes liée à la réforme
+    Armée XXI (American Journal of Psychiatry, 2013, en anglais)
+  url: https://pubmed.ncbi.nlm.nih.gov/23897090/
+- title: >-
+    Statistiques nordiques de la santé et de la protection sociale : le suicide dans les pays nordiques
+    (en anglais)
+  url: https://nhwstat.org/health/mortality-and-causes-death/suicide
+- title: >-
+    Gouvernement britannique : rapport annuel sur la solitude (janvier 2020, en anglais)
+  url: >-
+    https://www.gov.uk/government/publications/loneliness-annual-report-the-first-year/loneliness-annual-report-january-2020--2
 ---

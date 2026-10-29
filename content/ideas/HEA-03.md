@@ -45,13 +45,16 @@ precedents:
   source_needed: false
 - place: North Karelia (Finland)
   text: >-
-    cut heart-disease deaths dramatically from the 1970s onwards through a community-wide programme on
-    diet, smoking and local food.
-  source_needed: true
-- place: United Kingdom
+    launched a community-wide prevention programme in 1972 against what was then the highest rate of heart-disease
+    deaths ever measured. Coronary deaths among middle-aged people fell by 84% between 1972 and 2014,
+    and about two-thirds of the decline is explained by changes in diet, smoking and blood pressure.
+  source_needed: false
+- place: The United Kingdom
   text: >-
-    introduced a levy on sugary drinks in 2018, which led manufacturers to cut sugar in many products.
-  source_needed: true
+    introduced a tiered levy on sugary drinks in April 2018, charged to manufacturers rather than shoppers,
+    with no levy on drinks under 5 g of sugar per 100 ml. Evaluations found that manufacturers reduced
+    the sugar content of their drinks.
+  source_needed: false
 path:
 - year: '2027'
   text: >-
@@ -101,6 +104,14 @@ sources:
 - title: 'La Télé: Geneva premiums for 2027 and Pierre Maudet’s reaction'
   url: >-
     https://latele.ch/articles/primes-maudet-cible-une-situation-insupportable-pour-les-genevois
+- title: >-
+    Vartiainen, The North Karelia Project: cardiovascular disease prevention in Finland (Global Cardiology
+    Science and Practice, 2018)
+  url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6062761/
+- title: >-
+    University of Cambridge, MRC Epidemiology Unit: evaluation of the UK Soft Drinks Industry Levy (statement,
+    5 December 2023)
+  url: https://www.epi.ims.cam.ac.uk/?p=19108
 notes: >-
   Background: Rethink Everything (Rethink Health, Rethink Illness, Rethink Food, Rethink Obesity); United
   Cultures (Transdisciplinary Research Center).

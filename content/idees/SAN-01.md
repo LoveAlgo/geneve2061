@@ -41,13 +41,14 @@ precedents:
   source_needed: false
 - place: La Suède
   text: >-
-    a adopté en 1997 la « Vision zéro » pour les morts sur la route : le principe selon lequel le système
-    routier doit être conçu pour que les erreurs humaines ne soient pas mortelles.
-  source_needed: true
+    a adopté la « Vision zéro » en 1997 : le principe selon lequel personne ne devrait être tué ni gravement
+    blessé sur la route, et selon lequel le système routier doit être conçu pour que les erreurs humaines
+    ne soient pas mortelles. Depuis, le nombre de morts sur les routes suédoises a été divisé par deux.
+  source_needed: false
 - place: Oslo (Norvège)
   text: >-
-    mène depuis des années une politique zéro mort et est souvent citée aux côtés d’Helsinki ; la Norvège
-    compte environ deux fois moins de morts sur la route par million d’habitants que la Suisse.
+    n’a enregistré aucun mort parmi les piétons et les cyclistes en 2019. Les morts sur les routes de
+    la ville sont passés de 41 en 1975 à un seul en 2019.
   source_needed: false
 path:
 - year: '2027'
@@ -88,4 +89,13 @@ sources:
     un an (22 août 2025, en anglais)
   url: >-
     https://urban-mobility-observatory.transport.ec.europa.eu/news-events/news/helsinki-records-zero-road-deaths-over-past-year-2025-08-22_en
+- title: >-
+    Administration suédoise des transports : Vision zéro, aucun mort ni blessé grave sur la route (en
+    anglais)
+  url: >-
+    https://bransch.trafikverket.se/en/road-safety-conference/about-the-conference/vision-zero---no-fatalities-or-serious-injuries-through-road-accidents
+- title: >-
+    CIHT : aucun piéton ni cycliste tué à Oslo l’an dernier (janvier 2020, en anglais)
+  url: >-
+    https://www.ciht.org.uk/news/zero-pedestrian-and-cyclist-deaths-in-oslo-last-year/
 ---

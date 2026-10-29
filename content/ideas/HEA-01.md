@@ -48,13 +48,14 @@ precedents:
   source_needed: false
 - place: Sweden
   text: >-
-    adopted Vision Zero for road deaths in 1997, the principle that the road system must be designed so
-    human mistakes are not fatal.
-  source_needed: true
+    adopted Vision Zero in 1997: the principle that no one should be killed or seriously injured on the
+    roads, and that the road system must be designed so human mistakes are not fatal. Road deaths in Sweden
+    have since been halved.
+  source_needed: false
 - place: Oslo (Norway)
   text: >-
-    has pursued a zero-deaths policy for years and is often cited alongside Helsinki; Norway has about
-    half as many road deaths per million inhabitants as Switzerland.
+    recorded no pedestrian or cyclist deaths in 2019. Road deaths in the city fell from 41 in 1975 to
+    one in 2019.
   source_needed: false
 path:
 - year: '2027'
@@ -97,6 +98,13 @@ sources:
     EU Urban Mobility Observatory: Helsinki records zero road deaths over the past year (22 August 2025)
   url: >-
     https://urban-mobility-observatory.transport.ec.europa.eu/news-events/news/helsinki-records-zero-road-deaths-over-past-year-2025-08-22_en
+- title: >-
+    Swedish Transport Administration: Vision Zero, no fatalities or serious injuries through road accidents
+  url: >-
+    https://bransch.trafikverket.se/en/road-safety-conference/about-the-conference/vision-zero---no-fatalities-or-serious-injuries-through-road-accidents
+- title: 'CIHT: Zero pedestrian and cyclist deaths in Oslo last year (January 2020)'
+  url: >-
+    https://www.ciht.org.uk/news/zero-pedestrian-and-cyclist-deaths-in-oslo-last-year/
 notes: >-
   Background: Rethink Everything (Rethink Transport, Rethink Town Planning, Rethink Noise).
 ---

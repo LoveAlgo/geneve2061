@@ -42,6 +42,8 @@ en:
   download_file: grooters-1-part-16-2061.pdf
   more_series: More about the series
   more_series_text: The books, the soundtrack and the Visual Companion, with images of the characters and scenes, are at
+  grooters_url: https://thegrooters.com
+  grooters_link: thegrooters.com
   cover_alt: "Cover of Grooters, Book 1: the circle with the star on a yellow background"
   hut_alt: Six children relaxing on a sofa and on cushions in a wooden hut decorated with 1980s posters
   crystal_alt: A woman in a red qipao holding a glowing heart-shaped red crystal in front of old bookshelves
@@ -89,7 +91,9 @@ fr:
   download_meta: Français · PDF · 20 pages
   download_file: grooters-1-partie-16-2061.pdf
   more_series: En savoir plus sur la série
-  more_series_text: Les livres, la bande originale et le Visual Companion, avec des images des personnages et des scènes, se trouvent sur
+  more_series_text: Les livres, la bande originale et l’album visuel, avec des images des personnages et des scènes, se trouvent sur
+  grooters_url: https://thegrooters.com/fr
+  grooters_link: thegrooters.com/fr
   cover_alt: "Couverture de Grooters, Livre 1 : le cercle avec l’étoile sur fond jaune"
   hut_alt: Six enfants détendus sur un canapé et sur des coussins dans une cabane en bois décorée d’affiches des années 1980
   crystal_alt: Une femme en qipao rouge tenant un cristal rouge lumineux en forme de cœur devant de vieilles étagères de livres

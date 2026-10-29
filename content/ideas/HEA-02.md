@@ -52,18 +52,22 @@ precedents:
   source_needed: false
 - place: Switzerland’s army reform (Army XXI)
   text: >-
-    reduced the number of soldiers keeping guns at home; studies found a lasting drop in firearm suicides.
-  source_needed: true
+    halved the size of the army in 2003–2004, so far fewer men kept a service weapon at home. A study
+    found an enduring drop in suicides among men aged 18 to 43, with only about 22% of the prevented firearm
+    suicides shifting to other methods.
+  source_needed: false
 - place: Finland
   text: >-
-    ran a national suicide prevention programme from 1986 to 1996, and its suicide rate fell substantially
-    in the following years.
-  source_needed: true
-- place: United Kingdom
+    ran a nationwide suicide prevention project from 1986 to 1996. Its suicide rate peaked in 1990, then
+    fell by 45% for men and 31% for women over the following two decades; part of this fall is also linked
+    to wider use of antidepressants.
+  source_needed: false
+- place: The United Kingdom
   text: >-
-    appointed a minister for loneliness in 2018, and doctors can prescribe social activities (“social
-    prescribing”).
-  source_needed: true
+    appointed the world’s first minister for loneliness in January 2018 and published a national loneliness
+    strategy the same year. It funds “social prescribing” link workers in family doctors’ practices, who
+    connect lonely patients with community activities.
+  source_needed: false
 path:
 - year: '2027'
   text: >-
@@ -123,6 +127,15 @@ sources:
 - title: 'RTS: suicide among seniors, assisted or not, is rising in Switzerland (2025)'
   url: >-
     https://www.rts.ch/info/societe/2025/article/le-suicide-des-seniors-assiste-ou-non-augmente-en-suisse-28917948.html
+- title: >-
+    Reisch et al., Change in suicide rates in Switzerland before and after firearm restriction resulting
+    from the 2003 “Army XXI” reform (American Journal of Psychiatry, 2013)
+  url: https://pubmed.ncbi.nlm.nih.gov/23897090/
+- title: 'Nordic Health and Welfare Statistics: suicide in the Nordic countries'
+  url: https://nhwstat.org/health/mortality-and-causes-death/suicide
+- title: 'UK Government: Loneliness Annual Report (January 2020)'
+  url: >-
+    https://www.gov.uk/government/publications/loneliness-annual-report-the-first-year/loneliness-annual-report-january-2020--2
 notes: >-
   Background: Rethink Everything (Rethink Check Out, Rethink Happiness, Rethink Emotions, Rethink Your
   Life Setup); United Cultures (Universal Placement Coordination).
