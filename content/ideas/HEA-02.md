@@ -92,8 +92,9 @@ view: "The number of suicides is far too high for such a wealthy country, and
   anything: assisted suicide is a legal choice in Switzerland. The aim is a
   society in which people are no longer pushed to check out early, because their
   lives are full of meaning and other people. One way to achieve this is to
-  organise society in intentional communities, be it a simple extended household
-  or a whole city building or villa street, or neighbourhood."
+  organise society in intentional communities where people live with like-minded
+  neighbours. A community can be an extended household, a city building, or
+  villa street. Or even a whole neighbourhood."
 sensitive: true
 sources:
   - title: "Federal Statistical Office: Cause of death statistics 2023"
