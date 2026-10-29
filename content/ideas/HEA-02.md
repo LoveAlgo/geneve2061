@@ -65,9 +65,8 @@ precedents:
     source_needed: false
 path:
   - year: "2027"
-    text: Geneva publishes a full list of public hotspots and secures them; the
-      canton sets a numeric suicide-reduction target and reports on it every
-      year.
+    text: Geneva makes a full list of public hotspots and secures them; the canton
+      sets a numeric suicide-reduction target and reports on it every year.
   - year: "2031"
     text: Every family doctor can prescribe social activities; mental-health support
       is available in every school; the first HUG-Centre opens as a pilot.
