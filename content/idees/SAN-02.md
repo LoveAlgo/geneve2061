@@ -81,7 +81,11 @@ view: "Le nombre de suicides est bien trop élevé pour un pays aussi riche, et 
   hausse des « départs » chez les personnes âgées est alarmante. Le but n’est
   pas d’interdire quoi que ce soit : le suicide assisté est un choix légal en
   Suisse. Le but est une société où plus personne ne se sent poussé à partir
-  plus tôt, parce que sa vie est pleine de sens et d’autres personnes. "
+  plus tôt, parce que sa vie est pleine de sens et d’autres personnes. Une façon
+  d’y parvenir consiste à organiser la société en communautés intentionnelles,
+  où les individus vivent aux côtés de voisins partageant les mêmes aspirations.
+  Une telle communauté peut prendre la forme d’un foyer élargi, d’un immeuble
+  urbain, d’une rue composée de villas, voire d’un quartier tout entier."
 sources:
   - title: "Office fédéral de la statistique : statistique des causes de décès 2023"
     url: https://www.bfs.admin.ch/bfs/fr/home/statistiques/catalogues-banques-donnees.gnpdetail.2024-0101.html
