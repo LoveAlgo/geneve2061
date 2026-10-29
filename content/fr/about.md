@@ -15,6 +15,8 @@ La plus grande partie de Genève 2061 est un pont à construire, pas un acte de 
 
 [[bridge-diagram]]
 
+Avant de juger impossible l’une de ces idées, regardez 35 ans en arrière. En 1991, le World Wide Web venait d’être ouvert au public depuis le CERN, ici à Genève, et presque personne n’imaginait à quel point il allait changer nos vies. Nous avons devant nous les mêmes 35 ans, et un nouvel allié puissant, l’intelligence artificielle, pour trouver les solutions qui manquent encore. Et la plupart des idées de ce site n’exigent aucune invention : seulement une décision. « Impossible » veut souvent simplement dire « pas encore ».
+
 ## Ce qui fait avancer une idée
 
 Dans l’histoire, Belinda transforme son île par de nouvelles lois. Smaranda explique le changement par l’offre et la demande. Richie fait remarquer que les lois seules ne changent pas la façon de penser des gens. Chaque idée est donc associée aux forces qui peuvent la faire avancer : la loi, la culture, l’investissement, la technologie et la recherche.

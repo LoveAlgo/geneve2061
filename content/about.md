@@ -15,6 +15,8 @@ Most of Geneva 2061 is a bridge to build, not a leap of faith. Each idea is plac
 
 [[bridge-diagram]]
 
+Before you dismiss any of these ideas as impossible, look back 35 years. In 1991, the World Wide Web was just being opened to the public from CERN, here in Geneva, and hardly anyone imagined how much it would change our lives. We now have the same 35 years ahead of us, and a powerful new ally in artificial intelligence to help find the solutions that are still missing. And most ideas on this site need no invention at all: only a decision. “Impossible” often just means “not yet”.
+
 ## What moves an idea forward
 
 In the story, Belinda changes her island through new laws. Smaranda explains change through supply and demand. Richie points out that laws alone don’t change how people think. So each idea is tagged with the forces that can move it: law, culture, investment, technology and research.
