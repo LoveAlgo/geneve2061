@@ -24,9 +24,9 @@ quote_text: >-
   the differences between what you see here and the Geneva you know of. You might have heard of it: it’s
   called supply and demand.”
 quote_cite: The Grooters, Book 1, chapter “2061”
-today_headline: Switzerland spent CHF 97 billion on health in 2024
+today_headline: Switzerland spent CHF 97 billion on disease in 2024
 today_detail: >-
-  That is CHF 10,792 per inhabitant, nearly two-thirds of it paid by households, directly or through health
+  That is CHF 10,792 per inhabitant, nearly two-thirds of it paid by households, directly or through ‘health’
   insurance premiums. Spending on prevention fell by 15.8% in 2024, back to its pre-Covid level, while
   spending on inpatient treatment rose by 6.6%.
 today_source: >-
@@ -79,13 +79,14 @@ questions:
 - How can AI speed up medical research while keeping people’s health data private?
 - >-
   How should a health system be financed when its goal is to make itself less and less needed?
-view: >-
-  As Laurence Magne put it, disease is often a metaphor for what is wrong with our life rather than with
-  our body. Yet most of the money spent on health goes to treating symptoms instead of their underlying
-  causes. It is like putting a sticker over the red warning light on a car’s dashboard instead of topping
-  up the oil. If we learn to address the causes, from our habits to our relationships and our meaning
-  in life, most sickness can be avoided altogether. The aim is to imagine a world where doctors are hardly
-  needed in the first place.
+view: |-
+  ‘Health’ insurance premiums will not decrease until people start to take responsibility for their own health.
+
+  As Laurence Magne put it, disease is often a metaphor for what is wrong with our life rather than with our body. Yet most of the money spent on health goes to treating symptoms instead of their underlying causes. It is like putting a sticker over the red warning light on a car’s dashboard instead of topping up the oil. If we learn to address the causes, from our habits to our relationships and our meaning in life, most sickness can be avoided altogether.
+
+  And, as the Roman architect Vitruvius already understood 2,000 years ago, urban planning and architecture also have a big influence on people’s health.
+
+  The aim is to imagine a world where doctors are hardly needed in the first place.
 sensitive: false
 sources:
 - title: >-

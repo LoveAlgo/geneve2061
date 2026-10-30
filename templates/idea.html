@@ -58,7 +58,7 @@
   {% endif %}
 
   {% if e.view %}
-  <aside class="view"><h2>{{ t.h_view }}</h2><p>{{ e.view }}</p><p class="src">Henrik Hillerström</p></aside>
+  <aside class="view"><h2>{{ t.h_view }}</h2>{% for para in e.view.split("\n\n") if para.strip() %}<p>{{ para.strip() }}</p>{% endfor %}<p class="src">Henrik Hillerström</p></aside>
   {% endif %}
 
   {% if e.sensitive %}<div class="help" role="note"><p>{{ site.helpline }}</p></div>{% endif %}
