@@ -94,8 +94,8 @@ view: >-
   altogether.
 
 
-  And, as the Roman architect Vitruvius already understood 2,000 years ago,
-  urban planning and architecture also have a big influence on people’s health.
+  And, as the Roman architect Vitruvius already understood 2000 years ago, urban
+  planning and architecture also have a big influence on people’s health.
 
 
   The aim is to imagine a world where doctors are hardly needed in the first
