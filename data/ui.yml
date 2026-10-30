@@ -51,6 +51,9 @@ en:
   crystal_alt: A woman in a red qipao holding a glowing heart-shaped red crystal in front of old bookshelves
   rainbow_alt: The Jet d’Eau in Geneva under a double rainbow, with a paddle steamer on the lake
   levers: {Law: Law, Culture: Culture, Investment: Investment, Technology: Technology, Research: Research}
+  footer_disclaimer: Disclaimer
+  updated: Last updated
+
 fr:
   nav_walk: Balade 2061
   nav_themes: Thèmes
@@ -103,3 +106,5 @@ fr:
   crystal_alt: Une femme en qipao rouge tenant un cristal rouge lumineux en forme de cœur devant de vieilles étagères de livres
   rainbow_alt: Le Jet d’Eau de Genève sous un double arc-en-ciel, avec un bateau à vapeur sur le lac
   levers: {Law: Loi, Culture: Culture, Investment: Investissement, Technology: Technologie, Research: Recherche}
+  footer_disclaimer: Mentions légales
+  updated: Dernière mise à jour
