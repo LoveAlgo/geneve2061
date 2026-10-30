@@ -101,9 +101,11 @@ view: >-
   manager at 6 a.m. and told to leave. Too many people are forced to check out
   early, or spend their last years in a room they can no longer leave.
 
+
   I have often observed that people who retire without finding new goals in life
   tend to decline quickly: having something to live for matters as much as
   health itself. 
+
 
   The tightrope walker Philippe Petit was still walking the wire well into his
   seventies, and my parents’ neighbour still drives to the shops by herself at
