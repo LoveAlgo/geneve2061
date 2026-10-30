@@ -86,10 +86,10 @@ view: >-
 
 
   As Laurence Magne put it, disease is often a metaphor for what is wrong with
-  our life rather than with our body. Yet most of the money spent on health goes
-  to treating symptoms instead of their underlying causes. It is like putting a
-  sticker over the red warning light on a car’s dashboard instead of topping up
-  the oil. If we learn to address the causes, from our habits to our
+  our life rather than with our body. Yet most of the money spent on 'health'
+  goes to treating symptoms instead of their underlying causes. It is like
+  putting a sticker over the red warning light on a car’s dashboard instead of
+  topping up the oil. If we learn to address the causes, from our habits to our
   relationships and our meaning in life, most sickness can be avoided
   altogether.
 
