@@ -87,18 +87,21 @@ questions:
     un salon ?
   - Comment faire en sorte que les années en bonne santé rattrapent les années
     de vie ?
-view: "La vie ressemble à un séjour dans un bel hôtel. Nous aimerions tous
-  libérer la chambre à midi, après une baignade et un long petit-déjeuner au
-  soleil, plutôt que d’être réveillés par le directeur à 6 heures du matin et
-  priés de partir. Trop de gens sont forcés de partir plus tôt, ou passent leurs
-  dernières années dans une chambre qu’ils ne peuvent plus quitter. J’ai souvent
-  observé que les personnes qui prennent leur retraite sans se trouver de
-  nouveaux buts dans la vie déclinent rapidement : avoir une raison de vivre
-  compte autant que la santé elle-même. Le funambule Philippe Petit marchait
-  encore sur son fil bien après 70 ans, et la voisine de mes parents va encore
-  faire ses courses seule en voiture à 99 ans : le but n’est pas seulement de
-  vivre plus longtemps, mais de vivre des années qui valent la peine d’être
-  célébrées."
+view: >-
+  La vie ressemble à un séjour dans un bel hôtel. Nous aimerions tous libérer la
+  chambre à midi, après une baignade et un long petit-déjeuner au soleil, plutôt
+  que d’être réveillés par le directeur à 6 heures du matin et priés de partir. 
+
+  Trop de gens sont forcés de partir plus tôt, ou passent leurs dernières années
+  dans une chambre qu’ils ne peuvent plus quitter. J’ai souvent observé que les
+  personnes qui prennent leur retraite sans se trouver de nouveaux buts dans la
+  vie déclinent rapidement : avoir une raison de vivre compte autant que la
+  santé elle-même. 
+
+  Le funambule Philippe Petit marchait encore sur son fil bien après 70 ans, et
+  la voisine de mes parents va encore faire ses courses seule en voiture à 99
+  ans : le but n’est pas seulement de vivre plus longtemps, mais de vivre des
+  années qui valent la peine d’être célébrées.
 sources:
   - title: "Observatoire suisse de la santé (Obsan) : La santé dans le canton de
       Genève, rapport Obsan 03/2025"
