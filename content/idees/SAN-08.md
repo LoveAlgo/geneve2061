@@ -82,11 +82,11 @@ view: >-
 
   Comme l’a dit Laurence Magne, la maladie est souvent une métaphore de ce qui
   ne va pas dans notre vie plutôt que dans notre corps. Pourtant, l’essentiel de
-  l’argent consacré à la santé sert à traiter des symptômes plutôt que leurs
+  l’argent consacré à la 'santé' sert à traiter des symptômes plutôt que leurs
   causes profondes. C’est comme coller un autocollant sur le voyant rouge du
   tableau de bord de sa voiture au lieu de refaire le niveau d’huile. Si nous
-  apprenons à nous attaquer aux causes, de nos habitudes à nos relations et au
-  sens de notre vie, la plupart des maladies peuvent être évitées.
+  apprenons à identifier les causes, de nos habitudes à nos relations et au sens
+  de notre vie, la plupart des maladies peuvent être évitées.
 
 
   Et, comme l’architecte romain Vitruve l’avait déjà compris il y a 2000 ans,
