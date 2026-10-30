@@ -95,15 +95,19 @@ questions:
   - How do we reach isolated older people who would never walk into a salon on
     their own?
   - How can the years lived in good health catch up with the years of life?
-view: "Life is like a stay in a beautiful hotel. We would all like to check out
-  at noon, after a swim and a long breakfast in the sun, not be woken by the
+view: >-
+  Life is like a stay in a beautiful hotel. We would all like to check out at
+  noon, after a swim and a long breakfast in the sun, not be woken by the
   manager at 6 a.m. and told to leave. Too many people are forced to check out
-  early, or spend their last years in a room they can no longer leave. I have
-  often observed that people who retire without finding new goals in life tend
-  to decline quickly: having something to live for matters as much as health
-  itself. The tightrope walker Philippe Petit was still walking the wire well
-  into his seventies, and my parents’ neighbour still drives to the shops by
-  herself at 99: the aim is not only more years, but years worth celebrating."
+  early, or spend their last years in a room they can no longer leave.
+
+  I have often observed that people who retire without finding new goals in life
+  tend to decline quickly: having something to live for matters as much as
+  health itself. 
+
+  The tightrope walker Philippe Petit was still walking the wire well into his
+  seventies, and my parents’ neighbour still drives to the shops by herself at
+  99: the aim is not only more years, but years worth celebrating.
 sensitive: false
 sources:
   - title: "Swiss Health Observatory (Obsan): La santé dans le canton de Genève,
