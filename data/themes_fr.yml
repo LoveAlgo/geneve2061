@@ -9,8 +9,8 @@ themes:
   - code: ECO
     covers: Monnaie, impôts, banques, revenu de base, monnaies locales
   - code: EDU
-    covers: Écoles, universités comme lieux d’apprentissage, formation tout au long
-      de la vie
+    covers: Écoles, universités, formation indépendante et apprentissage tout au
+      long de la vie
   - code: ENE
     covers: Production, chauffage et rafraîchissement, maisons autonomes, énergie libre
   - code: FOD
