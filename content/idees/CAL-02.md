@@ -13,7 +13,7 @@ vision: En 2061, chaque logement genevois est un lieu de repos. Des murs et des
   armoires et les bibliothèques ajoutent une couche de calme supplémentaire. Le
   silence chez soi n’est plus un luxe, mais la norme.
 quote_text: C’est merveilleux ici, si beau, calme et romantique…
-quote_cite: Grooters, Livre 1, partie 16 « 2061 »
+quote_cite: Grooters, Livre 1, Partie 16 « 2061 »
 today_headline: En Suisse, une personne sur dix est exposée à un bruit excessif
   dû au trafic à son domicile
 today_detail: Neuf sur dix d’entre elles vivent dans des villes et des
