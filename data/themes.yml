@@ -1,7 +1,7 @@
 themes:
   - code: BEA
     name: Beauty
-    covers: Architecture quality, public art, no advertising
+    covers: Architecture quality, public art, aesthetics
     name_fr: Beauté
     code_fr: BEA
   - code: COM
@@ -21,7 +21,7 @@ themes:
     code_fr: ECO
   - code: EDU
     name: Education
-    covers: Schools, universities as places of learning, lifelong learning
+    covers: Schools, universities, independent learning, lifelong learning
     name_fr: Éducation
     code_fr: EDU
   - code: ENE
@@ -90,7 +90,7 @@ themes:
     code_fr: LOI
   - code: MOB
     name: Mobility
-    covers: Walking, cycling, metro, vehicles, traffic noise
+    covers: Walking, cycling, metro, vehicles
     name_fr: Mobilité
     code_fr: MOB
   - code: NAT
@@ -133,3 +133,17 @@ themes:
     covers: Jobs, occupations, career guidance, placement
     name_fr: Travail
     code_fr: TRA
+  - code: CAL
+    name: Calm
+    covers: Silent roads, silent technology, noise reduction solutions, mental calm
+    name_fr: Calme
+    code_fr: CAL
+    heading: "Calm: a city where you can hear yourself think"
+    intro: "As Verity walks through Geneva in 2061, one of the first things she
+      notices is how quiet everything is: no noisy petrol vehicles, only people
+      on foot and on bicycles, and on the lake, sailing boats gliding silently.
+      Calm is one of the most underestimated qualities of a city. Noise causes
+      stress, harms health and is one of the main causes of quarrels between
+      neighbours, while silence helps us rest, think and live together. The
+      ideas below cover calm for the ears, from streets to homes and machines,
+      and calm for the mind, from information overload to public debate."
