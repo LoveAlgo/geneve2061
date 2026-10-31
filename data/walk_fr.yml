@@ -47,6 +47,8 @@ stops:
   - place: Là où se trouvait l’hôpital
     see: Le HUG-Centre, où les gens viennent faire le plein d’affection.
     theme: HEA
+    more_themes:
+      - REL
     quote: « Oui, le plus laid bâtiment de la ville a été remplacé il y a de
       nombreuses années par un magnifique HUG-Centre, où les gens viennent faire
       le plein d’affection. »
