@@ -47,7 +47,7 @@ themes:
   - code: LEI
     covers: Sport, jeux, cafés, fêtes, arts de la scène, tourisme
   - code: MOB
-    covers: Marche, vélo, métro, véhicules, bruit du trafic
+    covers: Marche, vélo, métro, véhicules
   - code: NAT
     covers: Arbres, parcs, biodiversité, animaux, rives du lac
   - code: NEI
