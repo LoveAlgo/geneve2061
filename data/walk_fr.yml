@@ -7,6 +7,10 @@ stops:
     see: Des fruits et légumes presque luisants de fraîcheur, du miel, du fromage et
       des baies des fermes voisines.
     theme: FOD
+    more_themes:
+      - CAL
+      - CON
+      - NAT
   - place: Le rond-point de Plainpalais
     see: Plus de chaîne de restauration rapide, plus de rails de tram, une belle
       entrée de métro, et aucune publicité nulle part.
