@@ -1,7 +1,7 @@
 themes:
   - code: BEA
     name: Beauty
-    covers: Architecture quality, public art, no advertising
+    covers: Architecture quality, public art, aesthetics
     name_fr: Beauté
     code_fr: BEA
   - code: COM
