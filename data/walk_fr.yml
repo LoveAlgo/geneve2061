@@ -55,6 +55,8 @@ stops:
   - place: Le vieux cercle de lecture
     see: Le Cristal d’Amour, flottant au-dessus d’une commode en bois.
     theme: REL
+    more_themes:
+      - COM
 final:
   place: Ce que Verity n’a pas pu voir
   see: Comment les décisions sont prises, comment fonctionne l’économie, et
