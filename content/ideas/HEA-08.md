@@ -24,7 +24,7 @@ quote_text: "“But where do they treat sick people?” “Well, there is a very
   simple principle that explains most of the differences between what you see
   here and the Geneva you know of. You might have heard of it: it’s called
   supply and demand.”"
-quote_cite: The Grooters, Book 1, chapter “2061”
+quote_cite: Grooters, Book 1, Part 16 "2061"
 today_headline: Switzerland spent CHF 97 billion on disease in 2024
 today_detail: That is CHF 10,792 per inhabitant, nearly two-thirds of it paid by
   households, directly or through ‘health’ insurance premiums. Spending on
