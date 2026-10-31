@@ -36,7 +36,12 @@ stops:
       - LEI
   - place: Jardin Anglais and the lake
     see: Sailing boats gliding silently, swans, and no traffic noise at all.
-    theme: MOB
+    theme: CAL
+    more_themes:
+      - LEI
+      - MOB
+      - NAT
+      - WAT
   - place: Where the hospital used to be
     see: The HUG-Centre, where people come to refuel on affection.
     theme: HEA
