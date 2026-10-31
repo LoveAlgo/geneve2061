@@ -15,7 +15,7 @@ vision: Les aînés de Genève comptent parmi les personnes les plus rayonnantes
 quote_text: Ce qui étonna le plus Verity, c’était à quel point tous les gens
   paraissaient rayonnants. Elle pouvait vraiment ressentir leur bonheur et leur
   bien-être, même chez les personnes plus âgées.
-quote_cite: Grooters, Livre 1, partie 16 « 2061 »
+quote_cite: Grooters, Livre 1, Partie 16 « 2061 »
 today_headline: À 65 ans, une Suissesse peut espérer vivre encore 22 ans, mais
   seulement une quinzaine d’années en bonne santé
 today_detail: "En Suisse, l’espérance de vie à 65 ans est de 22,4 ans pour les
