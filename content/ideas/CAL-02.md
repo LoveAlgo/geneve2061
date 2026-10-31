@@ -118,7 +118,7 @@ sources:
   - title: "Thoma Holz: This is Wood100"
     url: https://www.thoma.at/en/wooden-house/wood100/
   - title: "EcoCocon: The panel system, technical performance"
-    url: https://ecococon.eu/the-panel
+    url: https://ecococon.eu
 notes: "Background: Rethink Everything (Rethink Noise: soundproof materials,
   noise-blocking furniture, room layout, density; Rethink Construction:
   breathing walls, Thoma). Terrabloc (Geneva earth blocks) was replaced by
