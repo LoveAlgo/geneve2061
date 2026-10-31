@@ -34,6 +34,9 @@ stops:
     see: Des rues pavées, les cloches de Saint-Pierre, des magasins et des cafés
       chaleureux et conviviaux.
     theme: BEA
+    more_themes:
+      - HER
+      - LEI
   - place: Le Jardin Anglais et le lac
     see: Des voiliers qui glissent en silence, des cygnes, et aucun bruit de trafic.
     theme: MOB
