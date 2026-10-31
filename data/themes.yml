@@ -133,3 +133,8 @@ themes:
     covers: Jobs, occupations, career guidance, placement
     name_fr: Travail
     code_fr: TRA
+  - code: CAL
+    name: Calm
+    covers: Silent roads, silent technology, noise reduction solutions, mental calm
+    name_fr: Calme
+    code_fr: CAL
