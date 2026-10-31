@@ -154,3 +154,9 @@ nav.main a.lang{font-weight:600;color:var(--lake);border:1px solid var(--rule);m
 .tag{font-size:.85rem;padding:.12rem .55rem;border-radius:99px;border:1px solid var(--lake);color:var(--lake);text-decoration:none;background:var(--paper)}
 a.tag:hover{background:var(--lake-soft)}
 .tag.off{border-color:var(--rule);color:var(--muted)}
+/* --- Justified text (to undo: delete this block) --- */
+@media (min-width:600px){
+  .measure p, .measure li, .prose p, .view p { text-align:justify; hyphens:auto; -webkit-hyphens:auto; }
+  .measure .big, .measure .crumbs, .measure .tags, .measure .e-meta, .measure .also, .measure .src, .measure .sources li, .measure .sub { text-align:left; hyphens:manual; -webkit-hyphens:manual; }
+}
+/* --- end of justified text --- */
