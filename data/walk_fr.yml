@@ -44,6 +44,7 @@ stops:
       - LEI
       - MOB
       - NAT
+      - WAT
   - place: Là où se trouvait l’hôpital
     see: Le HUG-Centre, où les gens viennent faire le plein d’affection.
     theme: HEA
