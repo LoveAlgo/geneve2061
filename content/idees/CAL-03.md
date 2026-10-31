@@ -15,10 +15,11 @@ vision: En 2061, les machines qui nous entourent sont presque toutes
   enfoncées par pression au lieu d’être battues, et des haut-parleurs
   directionnels gardent la musique et la télévision dans la pièce où on les
   veut.
-quote_text: Imagine a theatre with a spotlight lighting up only one or two
-  actors on the stage, with the rest of the room in total darkness. Well, these
-  directional speakers work the same way, but with sound instead of light.
-quote_cite: Grooters, Livre 1, partie 8 « Machine »
+quote_text: Imaginez un théâtre où un projecteur n’éclaire qu’un ou deux acteurs
+  sur scène, le reste de la salle plongé dans le noir total. Eh bien, ces
+  haut-parleurs directionnels fonctionnent de la même manière, mais avec du son
+  au lieu de la lumière.
+quote_cite: Grooters, Livre 1, Partie 8 « Machine »
 today_headline: À Genève, les souffleuses à feuilles ne peuvent être utilisées
   que du 1er octobre au 31 janvier
 today_detail: "Parce qu’elles sont bruyantes et peuvent fortement incommoder le
