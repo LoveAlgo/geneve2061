@@ -17,9 +17,10 @@ needs:
 - Ease
 vision: >-
   In 2061, every home in Geneva is a place of rest. Walls and floors made of natural materials such as
-  hempcrete, solid wood and earth keep out the noise of the street and the neighbours, while regulating
-  temperature and humidity. Bedrooms face the quiet side of the building, and wardrobes and bookshelves
-  add a further layer of calm. Silence at home is no longer a luxury, but the norm.
+  hempcrete, solid wood, straw and wood fibre keep out the noise of the street and the neighbours, and
+  keep homes warm in winter and cool in summer. Inside, clay plaster regulates the humidity. Bedrooms
+  face the quiet side of the building, and wardrobes and bookshelves add a further layer of calm. Silence
+  at home is no longer a luxury, but the norm.
 quote_text: It is wonderful here, so beautiful, calm, and romantic…
 quote_cite: The Grooters, Book 1, chapter “2061”
 today_headline: One person in ten in Switzerland is exposed to excessive traffic noise at home
@@ -48,11 +49,12 @@ precedents:
     legal standard. A seven-storey hotel built with the system was erected and ready for use in three
     months.
   source_needed: false
-- place: Terrabloc (Geneva)
+- place: EcoCocon (Slovakia)
   text: >-
-    turns excavated earth from local building sites into compressed earth blocks: a natural material that
-    reduces landfill and the gravel needed for concrete. It won the canton’s sustainable development award
-    in 2011.
+    makes prefabricated wall panels of compressed straw in a timber frame, from 98% natural materials,
+    with straw from farms within 40 km of its factory. A 40 cm wall reaches Passive House insulation levels,
+    blocks 54 decibels of airborne sound, and, with an interior clay plaster that regulates humidity,
+    resists fire for 120 minutes.
   source_needed: false
 patterns:
 - number: '127'
@@ -72,8 +74,8 @@ path:
     well as thermal insulation, favouring natural materials.
 - year: '2041'
   text: >-
-    Hempcrete, solid wood and earth blocks are standard building materials in Geneva, produced within
-    a few hundred kilometres.
+    Hempcrete, solid wood, straw and wood-fibre insulation are standard building materials in Geneva,
+    produced within a few hundred kilometres.
 - year: '2051'
   text: >-
     Most existing buildings have been renovated with soundproof natural materials; complaints about neighbours’
@@ -93,7 +95,7 @@ questions:
   Should sound insulation become a requirement in every renovation, as thermal insulation increasingly
   is?
 view: |-
-  Natural construction materials such as hempcrete, solid wood and earth do much more than keep the cold out: they regulate humidity and temperature, so the walls literally breathe, like cotton clothes compared with polyester. Many of them are also excellent at blocking noise. Straw bale houses are good examples too, but their walls are very thick, so they do not suit every situation.
+  Natural construction materials such as hempcrete, solid wood and straw do much more than keep the cold out: they regulate humidity and temperature, so the walls literally breathe, like cotton clothes compared with polyester. Many of them are also excellent at blocking noise. Straw bale houses are good examples too: their walls are thick, but modern prefabricated straw panels now combine excellent insulation, sound protection and fire safety in a single wall.
 
   The layout matters just as much as the walls: bedrooms should never face a busy street, so that other rooms act as a buffer. And there are simple tricks anyone can use: a wardrobe full of clothes or a bookshelf full of books against a shared wall blocks a surprising amount of noise from the neighbours.
 
@@ -108,10 +110,11 @@ sources:
     https://www.isohemp.com/sites/default/files/2025-09/IH_RECY_INNAUG_Dossier-Presse_A4_UK.pdf
 - title: 'Thoma Holz: This is Wood100'
   url: https://www.thoma.at/en/wooden-house/wood100/
-- title: 'State of Geneva: Visites durables, Terrabloc (in French)'
-  url: https://www.ge.ch/document/14421/annexe/0
+- title: 'EcoCocon: The panel system, technical performance'
+  url: https://ecococon.eu/the-panel
 notes: >-
   Background: Rethink Everything (Rethink Noise: soundproof materials, noise-blocking furniture, room
-  layout, density; Rethink Construction: breathing walls, Thoma). The moon-phase wood claim from Rethink
-  Construction was deliberately left out. Pattern 127 summary to be checked against the book.
+  layout, density; Rethink Construction: breathing walls, Thoma). Terrabloc (Geneva earth blocks) was
+  replaced by EcoCocon because earth insulates poorly. The moon-phase wood claim from Rethink Construction
+  was deliberately left out. Pattern 127 summary to be checked against the book.
 ---
