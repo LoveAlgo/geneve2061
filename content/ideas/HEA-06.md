@@ -25,7 +25,7 @@ vision: Older people in Geneva are among the most radiant people in town. They
 quote_text: What astonished Verity the most was how radiant all the people
   looked. She could really feel their happiness and well-being, even among older
   people.
-quote_cite: The Grooters, Book 1, chapter “2061”
+quote_cite: Grooters, Book 1, Part 16 "2061"
 today_headline: At 65, Swiss women can expect another 22 years of life, but only
   about 15 in good health
 today_detail: "Life expectancy at 65 is 22.4 years for women and 19.8 years for
