@@ -22,7 +22,7 @@ vision: In 2061, Geneva’s streets are quiet. Most people walk or cycle, the fe
   only the wind and the waves.
 quote_text: Again, she couldn’t hear any noisy car traffic or motorboats
   disturbing the quietness, only silently gliding sailing boats.
-quote_cite: The Grooters, Book 1, chapter “2061”
+quote_cite: Grooters, Book 1, Part 16 "2061"
 today_headline: About 120,000 people in Geneva are exposed to road traffic noise
   above federal limits
 today_detail: Geneva is the Swiss canton with the highest share of its

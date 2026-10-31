@@ -24,7 +24,7 @@ vision: In 2061, the machines around us are almost silent. Fridges, ventilation
 quote_text: Imagine a theatre with a spotlight lighting up only one or two
   actors on the stage, with the rest of the room in total darkness. Well, these
   directional speakers work the same way, but with sound instead of light.
-quote_cite: The Grooters, Book 1, Part 8 “Machine”
+quote_cite: Grooters, Book 1, Part 8 “Machine”
 today_headline: In Geneva, leaf blowers may only be used from 1 October to 31 January
 today_detail: "Because they are noisy and can seriously disturb the neighbours,
   their use is regulated by law: on weekdays from 8 a.m. to 7 p.m., on Saturdays

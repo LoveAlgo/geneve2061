@@ -16,7 +16,7 @@ vision: En 2061, les rues de Genève sont calmes. La plupart des gens se
 quote_text: Encore une fois, elle n’entendait aucun trafic automobile bruyant ni
   aucun bateau à moteur perturbant le calme, seulement des voiliers qui
   glissaient silencieusement.
-quote_cite: Grooters, Livre 1, partie 16 « 2061 »
+quote_cite: Grooters, Livre 1, Partie 16 « 2061 »
 today_headline: Environ 120 000 personnes à Genève sont exposées à un bruit
   routier supérieur aux normes fédérales
 today_detail: Genève est le canton suisse où la part de la population exposée à

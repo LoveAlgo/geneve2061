@@ -11,7 +11,7 @@ vision: Le suicide est devenu très rare, et peu de personnes âgées demandent 
 quote_text: Ce qui étonna le plus Verity, c’était à quel point tous les gens
   paraissaient rayonnants. Elle pouvait vraiment ressentir leur bonheur et leur
   bien-être, même chez les personnes plus âgées.
-quote_cite: Grooters, Livre 1, partie 16 « 2061 »
+quote_cite: Grooters, Livre 1, Partie 16 « 2061 »
 today_headline: 995 suicides et 1729 suicides assistés en Suisse en 2023
 today_detail: Les suicides assistés augmentent chaque année depuis une décennie
   et représentent désormais 2 à 3 % de tous les décès. À Genève, 124 personnes

@@ -22,7 +22,7 @@ vision: Suicide has become very rare, and few older people ask for an early
 quote_text: What astonished Verity the most was how radiant all the people
   looked. She could really feel their happiness and well-being, even among older
   people.
-quote_cite: The Grooters, Book 1, chapter “2061”
+quote_cite: Grooters, Book 1, Part 16 "2061"
 today_headline: 995 suicides and 1,729 assisted suicides in Switzerland in 2023
 today_detail: Assisted suicides have risen every year for a decade and now
   account for 2 to 3% of all deaths. In Geneva, 124 people died with the help of

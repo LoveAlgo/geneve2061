@@ -17,7 +17,7 @@ quote_text: "« Mais où soigne-t-on les malades ? » « Eh bien, il y a un prin
   simplissime qui explique l’essentiel des différences entre ce que tu vois ici
   et la Genève que tu connais. Tu en as certainement entendu parler : ça
   s’appelle l’offre et la demande. »"
-quote_cite: Grooters, Livre 1, partie 16 « 2061 »
+quote_cite: Grooters, Livre 1, Partie 16 « 2061 »
 today_headline: La Suisse a dépensé 97 milliards de francs pour la maladie en 2024
 today_detail: Cela représente 10 792 francs par habitant, payés pour près des
   deux tiers par les ménages, directement ou par leurs primes d’assurance

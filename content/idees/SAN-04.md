@@ -15,7 +15,7 @@ vision: "Là où se dressaient les Hôpitaux Universitaires de Genève se trouve
 quote_text: Oui, le plus laid bâtiment de la ville a été remplacé il y a de
   nombreuses années par un magnifique HUG-Centre, où les gens viennent faire le
   plein d’affection.
-quote_cite: Grooters, Livre 1, partie 16 « 2061 »
+quote_cite: Grooters, Livre 1, Partie 16 « 2061 »
 today_headline: Plus de la moitié de la population genevoise se sent seule au
   moins de temps en temps
 today_detail: 51,7 % des Genevoises et des Genevois de 15 ans et plus déclarent

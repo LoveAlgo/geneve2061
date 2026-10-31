@@ -22,7 +22,7 @@ vision: In 2061, every home in Geneva is a place of rest. Walls and floors made
   bookshelves add a further layer of calm. Silence at home is no longer a
   luxury, but the norm.
 quote_text: It is wonderful here, so beautiful, calm, and romantic…
-quote_cite: The Grooters, Book 1, chapter “2061”
+quote_cite: Grooters, Book 1, Part 16 "2061"
 today_headline: One person in ten in Switzerland is exposed to excessive traffic noise at home
 today_detail: Ninety per cent of them live in cities and agglomerations, and
   road traffic is the main cause. In Geneva alone, about 120,000 people live
