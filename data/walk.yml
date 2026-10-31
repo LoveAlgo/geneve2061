@@ -31,6 +31,9 @@ stops:
   - place: The Old Town
     see: Cobbled streets, the bells of Saint-Pierre, warm and cosy shops and cafés.
     theme: BEA
+    more_themes:
+      - HER
+      - LEI
   - place: Jardin Anglais and the lake
     see: Sailing boats gliding silently, swans, and no traffic noise at all.
     theme: MOB
