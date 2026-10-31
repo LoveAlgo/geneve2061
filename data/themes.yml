@@ -21,7 +21,7 @@ themes:
     code_fr: ECO
   - code: EDU
     name: Education
-    covers: Schools, universities as places of learning, lifelong learning
+    covers: Schools, universities, independent learning, lifelong learning
     name_fr: Éducation
     code_fr: EDU
   - code: ENE
