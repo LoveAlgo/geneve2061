@@ -26,6 +26,8 @@ stops:
   - place: The Reformation Wall
     see: POST TENEBRAS LUX, with a star chiselled inside the O.
     theme: EDU
+    more_themes:
+      - HER
   - place: The Old Town
     see: Cobbled streets, the bells of Saint-Pierre, warm and cosy shops and cafés.
     theme: BEA
