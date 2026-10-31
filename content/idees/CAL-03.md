@@ -15,10 +15,10 @@ vision: En 2061, les machines qui nous entourent sont presque toutes
   enfoncées par pression au lieu d’être battues, et des haut-parleurs
   directionnels gardent la musique et la télévision dans la pièce où on les
   veut.
-quote_text: On aurait dit que les seules voitures aux alentours, et il y en
-  avait très peu, étaient des camionnettes de livraison, toutes apparemment
-  alimentées silencieusement par l’électricité.
-quote_cite: Grooters, Livre 1, partie 16 « 2061 »
+quote_text: Imagine a theatre with a spotlight lighting up only one or two
+  actors on the stage, with the rest of the room in total darkness. Well, these
+  directional speakers work the same way, but with sound instead of light.
+quote_cite: Grooters, Livre 1, partie 8 « Machine »
 today_headline: À Genève, les souffleuses à feuilles ne peuvent être utilisées
   que du 1er octobre au 31 janvier
 today_detail: "Parce qu’elles sont bruyantes et peuvent fortement incommoder le
