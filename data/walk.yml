@@ -52,6 +52,8 @@ stops:
   - place: The old book club
     see: The Crystal of Love, hovering above a wooden commode.
     theme: REL
+    more_themes:
+      - HER
 final:
   place: What Verity couldn’t see
   see: How decisions are made, how the economy works, and why people are so
