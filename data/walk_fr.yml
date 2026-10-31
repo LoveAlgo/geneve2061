@@ -21,6 +21,9 @@ stops:
     see: Des parties d’échecs sur les grands échiquiers, des gens qui lisent et
       s’enlacent, des chiens qui jouent sans laisse.
     theme: LEI
+    more_themes:
+      - NAT
+      - REL
   - place: Le Mur des Réformateurs
     see: POST TENEBRAS LUX, avec une étoile gravée dans le O.
     theme: EDU
