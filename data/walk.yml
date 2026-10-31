@@ -20,6 +20,9 @@ stops:
     see: Chess on the giant boards, people reading and embracing, dogs playing off
       the leash.
     theme: LEI
+    more_themes:
+      - NAT
+      - REL
   - place: The Reformation Wall
     see: POST TENEBRAS LUX, with a star chiselled inside the O.
     theme: EDU
