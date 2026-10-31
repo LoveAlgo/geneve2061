@@ -18,8 +18,7 @@ ROOT = Path(__file__).parent
 OUT = ROOT / "_site"
 LANGS = ("fr", "en")
 PREFIX = {"fr": "", "en": "en/"}
-SECTION = {"fr": {"ideas": "idees", "about": "a-propos", "disclaimer": "mentions-legales"},
-           "en": {"ideas": "ideas", "about": "about", "disclaimer": "disclaimer"}}
+SECTION = {"fr": {"ideas": "idees", "about": "a-propos"}, "en": {"ideas": "ideas", "about": "about"}}
 SHARED = ("theme", "readiness", "needs", "levers", "also_relevant", "sensitive")
 problems = []
 
@@ -69,8 +68,6 @@ def main():
     ui = load_yaml("data/ui.yml")
     ui["fr"] = typo_all(ui["fr"])
     site = {"en": load_yaml("data/site.yml"), "fr": typo_all(load_yaml("data/site_fr.yml"))}
-    # The Google Analytics ID is set once, in data/site.yml, and used for both languages.
-    site["fr"]["google_analytics_id"] = site["en"].get("google_analytics_id", "")
     walk = {"en": load_yaml("data/walk.yml"), "fr": typo_all(load_yaml("data/walk_fr.yml"))}
     themes_en = load_yaml("data/themes.yml")["themes"]
     themes_fr_extra = {t["code"]: t for t in typo_all(load_yaml("data/themes_fr.yml")).get("themes", [])}
@@ -178,8 +175,6 @@ def main():
             return p + SECTION[lang]["about"] + "/"
         if kind == "grooters":
             return p + "grooters/"
-        if kind == "disclaimer":
-            return p + SECTION[lang]["disclaimer"] + "/"
         return p
 
     def write(lang, rel, template, alt, **ctx):
@@ -200,6 +195,14 @@ def main():
         target = OUT / rel / "index.html"
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_text(html, encoding="utf-8")
+
+    for lang in LANGS:
+        w = walk[lang]
+        covered = set()
+        for s in w.get("stops", []):
+            s["all_themes"] = [c for c in [s.get("theme")] + list(s.get("more_themes") or []) if c in tkey[lang]]
+            covered.update(s["all_themes"])
+        w["remaining"] = [t["key"] for t in sorted(themes[lang], key=lambda t: t["sortkey"]) if t["key"] not in covered]
 
     pages = {"fr": {}, "en": {}}
     for lang in LANGS:
@@ -240,19 +243,6 @@ def main():
         meta["html"] = md(body)
         write(lang, page_path(lang, "grooters"), "grooters.html", page_path(other, "grooters"), nav="grooters",
               page_title=meta.get("title", "Grooters"), page=meta)
-
-    disclaimer_src = {"en": "content/disclaimer.md", "fr": "content/fr/disclaimer.md"}
-    for lang in LANGS:
-        other = "en" if lang == "fr" else "fr"
-        meta, body = load_front_matter(disclaimer_src[lang])
-        if not meta and not body:
-            problems.append(f"Disclaimer page missing ({disclaimer_src[lang]})")
-            continue
-        if lang == "fr":
-            meta, body = typo_all(meta), fr_typo(body)
-        meta["html"] = md(body)
-        write(lang, page_path(lang, "disclaimer"), "disclaimer.html", page_path(other, "disclaimer"),
-              nav="disclaimer", page_title=meta.get("title", ui[lang]["footer_disclaimer"]), page=meta)
 
     n_en = sum(1 for e, f in pairs if visible(e))
     n_fr = sum(1 for e, f in pairs if visible(f))

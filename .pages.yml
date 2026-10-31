@@ -29,6 +29,7 @@ content:
     options:
       values: &id001
       - BEA
+      - CAL
       - COM
       - CON
       - ECO
@@ -464,6 +465,37 @@ content:
       type: select
       options:
         values: *id001
+    - name: more_themes
+      label: Other themes Verity notices here (optional)
+      type: select
+      options:
+        values:
+        - BEA
+        - CAL
+        - COM
+        - CON
+        - ECO
+        - EDU
+        - ENE
+        - FOD
+        - GOV
+        - HEA
+        - HER
+        - HOU
+        - IND
+        - INT
+        - JUS
+        - LEI
+        - MOB
+        - NAT
+        - NEI
+        - POP
+        - REL
+        - RES
+        - WAS
+        - WAT
+        - WOR
+        multiple: true
     - name: quote
       label: Quote (optional)
       type: text
@@ -502,6 +534,7 @@ content:
       options:
         values:
         - BEA
+        - CAL
         - COM
         - CON
         - ECO
@@ -525,6 +558,37 @@ content:
         - WAS
         - WAT
         - WOR
+    - name: more_themes
+      label: Other themes Verity notices here (optional)
+      type: select
+      options:
+        values:
+        - BEA
+        - CAL
+        - COM
+        - CON
+        - ECO
+        - EDU
+        - ENE
+        - FOD
+        - GOV
+        - HEA
+        - HER
+        - HOU
+        - IND
+        - INT
+        - JUS
+        - LEI
+        - MOB
+        - NAT
+        - NEI
+        - POP
+        - REL
+        - RES
+        - WAS
+        - WAT
+        - WOR
+        multiple: true
     - name: quote
       label: Quote (optional)
       type: text
@@ -594,34 +658,6 @@ content:
   - name: crystal_caption
     label: Caption under the Crystal of Love image
     type: string
-- name: disclaimer
-  label: Disclaimer page (English)
-  type: file
-  path: content/disclaimer.md
-  fields:
-  - name: title
-    label: Title
-    type: string
-  - name: updated
-    label: Last updated (e.g. 30 October 2026)
-    type: string
-  - name: body
-    label: Text
-    type: rich-text
-- name: disclaimer_fr
-  label: Mentions légales (français)
-  type: file
-  path: content/fr/disclaimer.md
-  fields:
-  - name: title
-    label: Titre
-    type: string
-  - name: updated
-    label: Dernière mise à jour (p. ex. 30 octobre 2026)
-    type: string
-  - name: body
-    label: Texte
-    type: rich-text
 - name: site
   label: Site settings and footer (English)
   type: file
@@ -642,9 +678,6 @@ content:
   - name: helpline
     label: Helpline box text
     type: text
-  - name: google_analytics_id
-    label: Google Analytics ID (used for both languages; G-XXXXXXXXXX turns it off)
-    type: string
 - name: site_fr
   label: Réglages et pied de page (français)
   type: file

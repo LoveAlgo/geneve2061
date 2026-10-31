@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% macro tags(codes) %}<p class="tags">{% for c in codes %}{% set th = tkey[c] %}{% if th.ideas %}<a class="tag" href="{{ theme_url(c) }}">{{ th.name }}</a>{% else %}<span class="tag off" title="{{ t.in_preparation }}">{{ th.name }}</span>{% endif %}{% endfor %}</p>{% endmacro %}
 {% block main %}
 <section class="wall" aria-label="Post Tenebras Lux">
   <p class="motto" aria-label="Post Tenebras Lux"><span aria-hidden="true">P{% include "symbol.html" %}ST TENEBRAS LUX</span></p>
@@ -8,19 +9,20 @@
   <p class="lede">{{ walk.intro }}</p>
   <h2>{{ t.walk_heading }}</h2>
   <ol class="walk">
-  {% for s in walk.stops %}{% set th = tkey[s.theme] %}{% set live = th.ideas %}
-    <li class="{{ 'live' if live }}">
+  {% for s in walk.stops %}{% set main = tkey[s.theme] %}
+    <li class="{{ 'live' if main.ideas }}">
       <span class="dot" aria-hidden="true">{{ loop.index }}</span>
-      <h3>{% if live %}<a href="{{ theme_url(s.theme) }}">{{ s.place }}</a>{% else %}{{ s.place }}{% endif %}</h3>
+      <h3>{% if main.ideas %}<a href="{{ theme_url(s.theme) }}">{{ s.place }}</a>{% else %}{{ s.place }}{% endif %}</h3>
       <p>{{ s.see }}</p>
       {% if s.quote %}<blockquote>{{ s.quote }}</blockquote>{% endif %}
-      {% if live %}<a href="{{ theme_url(s.theme) }}">{{ t.explore_theme | replace('{theme}', th.name) }}</a>{% else %}<span class="soon">{{ th.name }}{{ '\u00a0:' if lang == 'fr' else ':' }} {{ t.in_preparation }}</span>{% endif %}
+      {{ tags(s.all_themes) }}
     </li>
   {% endfor %}
     <li>
       <span class="dot" aria-hidden="true">+</span>
       <h3>{{ walk.final.place }}</h3>
       <p>{{ walk.final.see }}</p>
+      {{ tags(walk.remaining) }}
     </li>
   </ol>
 </div>

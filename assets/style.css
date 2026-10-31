@@ -150,3 +150,7 @@ figcaption{font-size:.9rem;color:var(--muted);margin-top:.5rem}
 @media (max-width:560px){ .g-intro{grid-template-columns:1fr} .g-cover{max-width:180px} }
 nav.main a.lang{font-weight:600;color:var(--lake);border:1px solid var(--rule);margin-left:.25rem}
 @media (max-width:560px){ nav.main a{padding:.3rem .45rem;font-size:.9rem} .bar{gap:.5rem} }
+.tags{display:flex;flex-wrap:wrap;gap:.35rem;margin:.4rem 0 0}
+.tag{font-size:.85rem;padding:.12rem .55rem;border-radius:99px;border:1px solid var(--lake);color:var(--lake);text-decoration:none;background:var(--paper)}
+a.tag:hover{background:var(--lake-soft)}
+.tag.off{border-color:var(--rule);color:var(--muted)}
