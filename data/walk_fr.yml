@@ -58,6 +58,7 @@ stops:
     theme: REL
     more_themes:
       - COM
+      - HER
 final:
   place: Ce que Verity n’a pas pu voir
   see: Comment les décisions sont prises, comment fonctionne l’économie, et
