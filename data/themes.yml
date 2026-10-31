@@ -90,7 +90,7 @@ themes:
     code_fr: LOI
   - code: MOB
     name: Mobility
-    covers: Walking, cycling, metro, vehicles, traffic noise
+    covers: Walking, cycling, metro, vehicles
     name_fr: Mobilité
     code_fr: MOB
   - code: NAT
