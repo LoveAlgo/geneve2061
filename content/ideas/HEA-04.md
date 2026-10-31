@@ -24,7 +24,7 @@ vision: "Where Geneva’s main hospital once stood, there is now the HUG-Centre:
   come in, only the wish for human warmth."
 quote_text: Yes, the ugliest building in town was replaced many years ago by a
   wonderful HUG-Centre, where people come to refuel on affection.
-quote_cite: The Grooters, Book 1, Part 16 “2061”
+quote_cite: Grooters, Book 1, Part 16 “2061”
 today_headline: More than half of Geneva’s population feels lonely at least sometimes
 today_detail: 51.7% of Geneva residents aged 15 and over say they sometimes to
   very often feel lonely, well above the Swiss average of 42.3%. Among 15- to
