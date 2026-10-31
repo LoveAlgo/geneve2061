@@ -9,10 +9,13 @@ stops:
     more_themes:
       - CAL
       - CON
+      - NAT
   - place: Rond-point de Plainpalais
     see: No fast-food chain, no tram rails, a beautiful metro entrance, and no
       advertising anywhere.
     theme: MOB
+    more_themes:
+      - BEA
   - place: Parc des Bastions
     see: Chess on the giant boards, people reading and embracing, dogs playing off
       the leash.
