@@ -4,116 +4,109 @@ title: Far fewer chronic diseases
 theme: HEA
 readiness: eng
 status: ready
-summary: >-
-  Chronic diseases cause about 80% of Swiss health costs, and premiums keep rising. In Geneva, one adult
-  in three has high blood pressure.
+summary: Chronic diseases cause about 80% of Swiss health costs, and premiums
+  keep rising. In Geneva, one adult in three has high blood pressure.
 also_relevant:
-- FOD
+  - FOD
 needs:
-- Food
-- Movement / exercise
-- Rest / sleep
-- Air
-- Learning
-vision: >-
-  Heart disease, type 2 diabetes and high blood pressure have become uncommon. People eat fresh local
-  food, move every day, have meaningful work and good relationships, and the hospital has shrunk because
-  far fewer people need it.
-quote_text: Smaranda was probably in her mid-forties, but looked at least ten years younger.
-quote_cite: The Grooters, Book 1, chapter “2061”
+  - Food
+  - Movement / exercise
+  - Rest / sleep
+  - Air
+  - Learning
+vision: Heart disease, type 2 diabetes and high blood pressure have become
+  uncommon. People eat fresh local food, move every day, have meaningful work
+  and good relationships, and the hospital has shrunk because far fewer people
+  need it.
+quote_text: Smaranda was probably in her mid-forties, but looked at least ten
+  years younger.
+quote_cite: Grooters, Book 1, Part 16 "2061"
 today_headline: 35% of Geneva adults aged 35 to 74 have high blood pressure
-today_detail: >-
-  In the same measured sample, 14% are obese, a further 34% overweight, and 7% have diabetes.
-today_source: >-
-  Bus Santé population study, HUG and University of Geneva, data 2015–2023 (Preventive Medicine Reports,
-  2025)
+today_detail: In the same measured sample, 14% are obese, a further 34%
+  overweight, and 7% have diabetes.
+today_source: Bus Santé population study, HUG and University of Geneva, data
+  2015–2023 (Preventive Medicine Reports, 2025)
 today_facts:
-- >-
-  Chronic (non-communicable) diseases account for about 80% of health costs in Switzerland, and around
-  half of them could be avoided with more exercise, less alcohol and no smoking, according to the director
-  of the Federal Office of Public Health (2025).
-- >-
-  Health insurance premiums in Geneva will rise by 4.4% in 2027; the Swiss average rises by 5.0% to 412
-  francs a month. Geneva plans 830 million francs of premium subsidies in its 2027 budget.
-- >-
-  There is good news too: high blood pressure in Geneva fell from 38.9% to 35.2% between 2005–2014 and
-  2015–2023, with the biggest improvement among people with less education and lower income.
+  - Chronic (non-communicable) diseases account for about 80% of health costs in
+    Switzerland, and around half of them could be avoided with more exercise,
+    less alcohol and no smoking, according to the director of the Federal Office
+    of Public Health (2025).
+  - Health insurance premiums in Geneva will rise by 4.4% in 2027; the Swiss
+    average rises by 5.0% to 412 francs a month. Geneva plans 830 million francs
+    of premium subsidies in its 2027 budget.
+  - "There is good news too: high blood pressure in Geneva fell from 38.9% to
+    35.2% between 2005–2014 and 2015–2023, with the biggest improvement among
+    people with less education and lower income."
 precedents:
-- place: Geneva itself
-  text: >-
-    shows that progress is possible: the Bus Santé study measured a fall in high blood pressure over twenty
-    years, especially in disadvantaged groups.
-  source_needed: false
-- place: North Karelia (Finland)
-  text: >-
-    launched a community-wide prevention programme in 1972 against what was then the highest rate of heart-disease
-    deaths ever measured. Coronary deaths among middle-aged people fell by 84% between 1972 and 2014,
-    and about two-thirds of the decline is explained by changes in diet, smoking and blood pressure.
-  source_needed: false
-- place: The United Kingdom
-  text: >-
-    introduced a tiered levy on sugary drinks in April 2018, charged to manufacturers rather than shoppers,
-    with no levy on drinks under 5 g of sugar per 100 ml. Evaluations found that manufacturers reduced
-    the sugar content of their drinks.
-  source_needed: false
+  - place: Geneva itself
+    text: "shows that progress is possible: the Bus Santé study measured a fall in
+      high blood pressure over twenty years, especially in disadvantaged
+      groups."
+    source_needed: false
+  - place: North Karelia (Finland)
+    text: launched a community-wide prevention programme in 1972 against what was
+      then the highest rate of heart-disease deaths ever measured. Coronary
+      deaths among middle-aged people fell by 84% between 1972 and 2014, and
+      about two-thirds of the decline is explained by changes in diet, smoking
+      and blood pressure.
+    source_needed: false
+  - place: The United Kingdom
+    text: introduced a tiered levy on sugary drinks in April 2018, charged to
+      manufacturers rather than shoppers, with no levy on drinks under 5 g of
+      sugar per 100 ml. Evaluations found that manufacturers reduced the sugar
+      content of their drinks.
+    source_needed: false
 path:
-- year: '2027'
-  text: >-
-    Bus Santé results become a public health dashboard for Geneva, updated every year and broken down
-    by neighbourhood.
-- year: '2031'
-  text: >-
-    No fast food near schools; healthy eateries are supported; a fixed share of the health budget goes
-    to prevention and health education.
-- year: '2041'
-  text: >-
-    High blood pressure, obesity and type 2 diabetes are clearly falling in every age group; premiums
-    stop rising.
-- year: '2051'
-  text: >-
-    Hospital capacity can be reduced, and the freed space becomes HUG-Centres and gardens.
-- year: '2061'
-  text: >-
-    Chronic disease is the exception, and Smaranda’s supply-and-demand principle has done its work.
+  - year: "2027"
+    text: Bus Santé results become a public health dashboard for Geneva, updated
+      every year and broken down by neighbourhood.
+  - year: "2031"
+    text: No fast food near schools; healthy eateries are supported; a fixed share
+      of the health budget goes to prevention and health education.
+  - year: "2041"
+    text: High blood pressure, obesity and type 2 diabetes are clearly falling in
+      every age group; premiums stop rising.
+  - year: "2051"
+    text: Hospital capacity can be reduced, and the freed space becomes HUG-Centres
+      and gardens.
+  - year: "2061"
+    text: Chronic disease is the exception, and Smaranda’s supply-and-demand
+      principle has done its work.
 levers:
-- Culture
-- Law
-- Investment
+  - Culture
+  - Law
+  - Investment
 questions:
-- >-
-  How much can meaning, relationships and less stress reduce chronic disease, on top of diet and exercise?
-  Bus Santé could add questions on meaning and social life to find out.
-- >-
-  Which food additives harm health, and which protect food when it travels only a short distance anyway?
-- How can prevention be financed when insurers mostly pay for treatment?
-view: >-
-  Health is about far more than nutrition and exercise: work, relationships, environment and mindset matter
-  just as much. Most illness can be avoided by addressing its underlying causes rather than its symptoms,
-  and that is something people can learn. It is equally important to feed people healthy food, to teach
-  them how to stay healthy and to build healthy cities and buildings.
+  - How much can meaning, relationships and less stress reduce chronic disease,
+    on top of diet and exercise? Bus Santé could add questions on meaning and
+    social life to find out.
+  - Which food additives harm health, and which protect food when it travels
+    only a short distance anyway?
+  - How can prevention be financed when insurers mostly pay for treatment?
+view: "Health is about far more than nutrition and exercise: work,
+  relationships, environment and mindset matter just as much. Most illness can
+  be avoided by addressing its underlying causes rather than its symptoms, and
+  that is something people can learn. It is equally important to feed people
+  healthy food, to teach them how to stay healthy and to build healthy cities
+  and buildings."
 sensitive: false
 sources:
-- title: >-
-    Nehme et al., Twenty years population-based trends in hypertension in Geneva (Preventive Medicine
-    Reports, 2025)
-  url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11999646/
-- title: >-
-    Federal Office of Public Health: interview with director Anne Lévy on prevention (June 2025, in French)
-  url: https://www.bag.admin.ch/en/sparmassnahmen-praevention-bleibt-wichtig-en
-- title: 'La Télé: 2027 premiums rise by 5% on average in Switzerland'
-  url: https://latele.ch/articles/nouvelle-envolee-des-primes-maladie-en-2027
-- title: 'La Télé: Geneva premiums for 2027 and Pierre Maudet’s reaction'
-  url: >-
-    https://latele.ch/articles/primes-maudet-cible-une-situation-insupportable-pour-les-genevois
-- title: >-
-    Vartiainen, The North Karelia Project: cardiovascular disease prevention in Finland (Global Cardiology
-    Science and Practice, 2018)
-  url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6062761/
-- title: >-
-    University of Cambridge, MRC Epidemiology Unit: evaluation of the UK Soft Drinks Industry Levy (statement,
-    5 December 2023)
-  url: https://www.epi.ims.cam.ac.uk/?p=19108
-notes: >-
-  Background: Rethink Everything (Rethink Health, Rethink Illness, Rethink Food, Rethink Obesity); United
-  Cultures (Transdisciplinary Research Center).
+  - title: Nehme et al., Twenty years population-based trends in hypertension in
+      Geneva (Preventive Medicine Reports, 2025)
+    url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11999646/
+  - title: "Federal Office of Public Health: interview with director Anne Lévy on
+      prevention (June 2025, in French)"
+    url: https://www.bag.admin.ch/en/sparmassnahmen-praevention-bleibt-wichtig-en
+  - title: "La Télé: 2027 premiums rise by 5% on average in Switzerland"
+    url: https://latele.ch/articles/nouvelle-envolee-des-primes-maladie-en-2027
+  - title: "La Télé: Geneva premiums for 2027 and Pierre Maudet’s reaction"
+    url: https://latele.ch/articles/primes-maudet-cible-une-situation-insupportable-pour-les-genevois
+  - title: "Vartiainen, The North Karelia Project: cardiovascular disease prevention
+      in Finland (Global Cardiology Science and Practice, 2018)"
+    url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6062761/
+  - title: "University of Cambridge, MRC Epidemiology Unit: evaluation of the UK
+      Soft Drinks Industry Levy (statement, 5 December 2023)"
+    url: https://www.epi.ims.cam.ac.uk/?p=19108
+notes: "Background: Rethink Everything (Rethink Health, Rethink Illness, Rethink
+  Food, Rethink Obesity); United Cultures (Transdisciplinary Research Center)."
 ---
