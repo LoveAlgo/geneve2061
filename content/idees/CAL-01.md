@@ -115,7 +115,7 @@ view: >-
 
 
   Quand les gens ont cessé de faire du bruit pendant la pandémie, la faune est
-  revenue au cœur des villes. Imaginez ce qu’une Genève calme pourrait nous
+  revenue au cœur des villes. Imaginez ce qu'une Genève calme pourrait nous
   rendre.
 sources:
   - title: "Conseil d’État de Genève : réponse à la question écrite urgente QUE
