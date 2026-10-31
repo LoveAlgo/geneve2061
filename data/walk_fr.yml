@@ -39,7 +39,11 @@ stops:
       - LEI
   - place: Le Jardin Anglais et le lac
     see: Des voiliers qui glissent en silence, des cygnes, et aucun bruit de trafic.
-    theme: MOB
+    theme: CAL
+    more_themes:
+      - LEI
+      - MOB
+      - NAT
   - place: Là où se trouvait l’hôpital
     see: Le HUG-Centre, où les gens viennent faire le plein d’affection.
     theme: HEA
