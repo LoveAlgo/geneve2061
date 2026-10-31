@@ -27,6 +27,9 @@ stops:
   - place: Le Mur des Réformateurs
     see: POST TENEBRAS LUX, avec une étoile gravée dans le O.
     theme: EDU
+    more_themes:
+      - HER
+      - LEI
   - place: La Vieille-Ville
     see: Des rues pavées, les cloches de Saint-Pierre, des magasins et des cafés
       chaleureux et conviviaux.
