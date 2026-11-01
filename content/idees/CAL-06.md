@@ -54,7 +54,8 @@ precedents:
     text: mise au point par l’Institut national américain pour la sécurité et la
       santé au travail mesure le bruit avec un iPhone à 2 décibels près, si bien
       que chacun peut vérifier si une salle de classe, un bureau ou une
-      bibliothèque est trop bruyant.
+      bibliothèque est trop bruyant. D'autres apps similaires pour mesurer les
+      décibels existent aussi.
     source_needed: false
 patterns:
   - number: "183"
