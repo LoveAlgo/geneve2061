@@ -56,7 +56,8 @@ precedents:
   - place: A free decibel app
     text: developed by the US National Institute for Occupational Safety and Health
       measures noise with an iPhone to within 2 decibels, so anyone can check
-      whether a classroom, office or library is too noisy.
+      whether a classroom, office or library is too noisy. Other similar apps
+      for measuring decibels also exist.
     source_needed: false
 patterns:
   - number: "183"
