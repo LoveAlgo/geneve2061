@@ -14,26 +14,26 @@
   {{ needs_block(e) }}
 {% else %}
   <h2 style="margin-top:0">{{ t.h_vision }}</h2>
-  <p class="vision">{{ e.vision }}</p>
+  <p class="vision">{{ lk(e.vision) }}</p>
   {% if e.quote_text %}<blockquote class="quote">{{ e.quote_text }}<cite>{{ e.quote_cite }}</cite></blockquote>{% endif %}
 
   <h2>{{ t.h_today }}</h2>
   <div class="now">
     <p class="big">{{ e.today_headline }}</p>
-    <p>{{ e.today_detail }}</p>
+    <p>{{ lk(e.today_detail) }}</p>
     {% if e.today_source %}<p class="src">{{ t.source }} {{ e.today_source }}</p>{% endif %}
   </div>
-  {% if e.today_facts %}<ul class="facts">{% for f in e.today_facts %}<li>{{ f }}</li>{% endfor %}</ul>{% endif %}
+  {% if e.today_facts %}<ul class="facts">{% for f in e.today_facts %}<li>{{ lk(f) }}</li>{% endfor %}</ul>{% endif %}
 
   {% if e.precedents %}
   <h2>{{ t.h_done }}</h2>
-  <ul class="prec">{% for p in e.precedents %}<li><b>{{ p.place }}</b> {{ p.text }}{% if p.source_needed %} <span class="verify">{{ t.source_needed }}</span>{% endif %}</li>{% endfor %}</ul>
+  <ul class="prec">{% for p in e.precedents %}<li><b>{{ p.place }}</b> {{ lk(p.text) }}{% if p.source_needed %} <span class="verify">{{ t.source_needed }}</span>{% endif %}</li>{% endfor %}</ul>
   {% endif %}
 
   {% if e.patterns %}
   <h2>{{ t.h_patterns }}</h2>
   <p>{{ t.patterns_intro }}</p>
-  <ul class="prec">{% for p in e.patterns %}<li><b>{{ p.number }} {{ p.name }}</b>: {{ p.text }}</li>{% endfor %}</ul>
+  <ul class="prec">{% for p in e.patterns %}<li><b>{{ p.number }} {{ p.name }}</b>: {{ lk(p.text) }}</li>{% endfor %}</ul>
   {% endif %}
 
   <h2>{{ t.h_far }}</h2>
@@ -42,7 +42,7 @@
   {% if e.path %}
   <h2>{{ t.h_path }}</h2>
   <p>{{ t.path_note }}</p>
-  <ol class="path">{% for p in e.path %}<li><span class="yr">{{ p.year }}</span>{{ p.text }}</li>{% endfor %}</ol>
+  <ol class="path">{% for p in e.path %}<li><span class="yr">{{ p.year }}</span>{{ lk(p.text) }}</li>{% endfor %}</ol>
   {% endif %}
 
   {% if e.levers %}
@@ -54,11 +54,11 @@
 
   {% if e.questions %}
   <h2>{{ t.h_questions }}</h2>
-  <ul>{% for q in e.questions %}<li>{{ q }}</li>{% endfor %}</ul>
+  <ul>{% for q in e.questions %}<li>{{ lk(q) }}</li>{% endfor %}</ul>
   {% endif %}
 
   {% if e.view %}
-  <aside class="view"><h2>{{ t.h_view }}</h2>{% for para in e.view.split("\n\n") if para.strip() %}<p>{{ para.strip() }}</p>{% endfor %}<p class="src">Henrik Hillerström</p></aside>
+  <aside class="view"><h2>{{ t.h_view }}</h2>{% for para in e.view.split("\n\n") if para.strip() %}<p>{{ lk(para.strip()) }}</p>{% endfor %}<p class="src">Henrik Hillerström</p></aside>
   {% endif %}
 
   {% if e.sensitive %}<div class="help" role="note"><p>{{ site.helpline }}</p></div>{% endif %}

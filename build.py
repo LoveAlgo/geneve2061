@@ -13,6 +13,7 @@ from pathlib import Path
 import markdown
 import yaml
 from jinja2 import ChainableUndefined, Environment, FileSystemLoader
+from markupsafe import Markup, escape
 
 ROOT = Path(__file__).parent
 OUT = ROOT / "_site"
@@ -189,6 +190,7 @@ def main():
             need_group=(lambda n: need_fr.get(need_group.get(n, ""), need_group.get(n, ""))) if lang == "fr"
             else (lambda n: need_group.get(n, "")),
             lever=lambda l: ui[lang]["levers"].get(l, l),
+            lk=make_linker(lang, root),
             theme_url=lambda key: root + page_path(lang, "theme", key),
             idea_url=lambda i: root + page_path(lang, "idea", i["id"]),
             **ctx)
@@ -203,6 +205,34 @@ def main():
             s["all_themes"] = [c for c in [s.get("theme")] + list(s.get("more_themes") or []) if c in tkey[lang]]
             covered.update(s["all_themes"])
         w["remaining"] = [t["key"] for t in sorted(themes[lang], key=lambda t: t["sortkey"]) if t["key"] not in covered]
+
+    # Index for [[CODE]] links: either language's code leads to the idea in the page's language
+    link_index = {"en": {}, "fr": {}}
+    for e, f in pairs:
+        for lang, idea in (("en", e), ("fr", f)):
+            if visible(idea):
+                target = (page_path(lang, "idea", idea["id"]), idea.get("title", idea["id"]))
+                for code in (e["id"], f["id"] if f else None):
+                    if code:
+                        link_index[lang][code.upper()] = target
+
+    def make_linker(lang, root):
+        def lk(text):
+            if not text:
+                return ""
+            s = str(escape(text))
+            def internal(m):
+                code = m.group(1).upper()
+                if code in link_index[lang]:
+                    path, title = link_index[lang][code]
+                    return f'<a href="{root}{path}">{title}</a>'
+                problems.append(f"link [[{code}]] points to an idea that does not exist or is hidden")
+                return code
+            s = re.sub(r"\[\[([A-Za-z]{3}-\d{2})\]\]", internal, s)
+            s = re.sub(r"\[([^\]]+)\]\((https?://[^)\s]+)\)",
+                       lambda m: f'<a href="{m.group(2)}" target="_blank" rel="noopener">{m.group(1)}</a>', s)
+            return Markup(s)
+        return lk
 
     pages = {"fr": {}, "en": {}}
     for lang in LANGS:
