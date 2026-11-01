@@ -19,7 +19,7 @@ today_headline: En Suisse, une personne sur dix est exposée à un bruit excessi
 today_detail: Neuf sur dix d’entre elles vivent dans des villes et des
   agglomérations, et le trafic routier en est la principale cause. Rien qu’à
   Genève, environ 120 000 personnes vivent avec un bruit routier supérieur aux
-  normes fédérales (voir Des rues calmes).
+  normes fédérales (voir [[CAL-01]].
 today_source: Office fédéral de l’environnement (OFEV), page thématique sur le bruit (2025)
 today_facts:
   - De plus en plus de personnes se plaignent du bruit aux abords de leur
