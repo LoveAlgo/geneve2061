@@ -26,7 +26,7 @@ quote_cite: Grooters, Book 1, Part 16 "2061"
 today_headline: One person in ten in Switzerland is exposed to excessive traffic noise at home
 today_detail: Ninety per cent of them live in cities and agglomerations, and
   road traffic is the main cause. In Geneva alone, about 120,000 people live
-  with road traffic noise above federal limits (see Quiet streets).
+  with road traffic noise above federal limits (see [[CAL-01]]).
 today_source: Federal Office for the Environment (FOEN), noise theme page (2025)
 today_facts:
   - More and more people complain about noise around their homes, from sports
