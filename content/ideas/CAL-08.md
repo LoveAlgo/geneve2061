@@ -17,11 +17,11 @@ needs:
   - Clarity
 vision: "In 2061, public debate in Geneva is calm, structured and based on
   facts. Politicians no longer fight each other for the sake of it: they work
-  together for the people who elected them, because you need two wings to fly,
-  not just a right wing or a left wing. Neighbourhoods of a few thousand people
-  make many decisions by consent, the way a good partnership does, and pass on
-  what they cannot settle themselves. The media report what matters, including
-  what goes well, and election posters no longer clutter the streets."
+  together for the people who elected them. Political parties as such have
+  disappeared completely. Neighbourhoods of a few thousand people make many
+  decisions by consent, the way a good partnership does, and pass on what they
+  cannot settle themselves. The media report what matters, including what goes
+  well, and election posters no longer clutter the streets."
 quote_text: Even if Geneva seems to be a good place today, there is still plenty
   of negativity, sickness, ugliness and corruption here as well. Read a
   newspaper, or just go out and look on the streets and listen to people.
