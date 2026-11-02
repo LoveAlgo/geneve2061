@@ -154,3 +154,8 @@ themes:
       neighbours, while silence helps us rest, think and live together. The
       ideas below cover calm for the ears, from streets to homes and machines,
       and calm for the mind, from information overload to public debate."
+  - code: SPA
+    name: Space
+    covers: Astronomy, space research and industry, space exploration, the night sky
+    name_fr: Espace
+    code_fr: ESP
