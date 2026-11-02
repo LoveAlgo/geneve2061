@@ -95,8 +95,8 @@ questions:
   - How can older people and people with disabilities get around easily in a
     city with few cars?
   - "With the explosion of bicycle and e-bike use, the city centre lacks bicycle
-    racks: what creative solutions can Geneva find, and what can it learn from
-    cities like Amsterdam and Copenhagen?"
+    racks: what own creative solutions can Geneva find, and what can it learn
+    from cities like Amsterdam and Copenhagen?"
 view: >-
   Did you know that in Swedish, cycling (cykla) and happiness (lycka) are
   perfect anagrams? Yet bicycles and cars are no good fit on the same road, and
