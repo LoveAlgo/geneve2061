@@ -48,6 +48,15 @@ themes:
     covers: Sport, jeux, cafés, fêtes, arts de la scène, tourisme
   - code: MOB
     covers: Marche, vélo, métro, véhicules
+    heading: "Mobilité : une ville où se déplacer est un plaisir"
+    intro: "Quand Verity arrive dans la Genève de 2061, l’une des premières choses
+      qu’elle remarque, c’est à quel point tout est calme : les gens se
+      déplacent surtout à pied ou à vélo, les rares véhicules sont des
+      camionnettes de livraison silencieuses, et les seules voitures sont des
+      véhicules de location automatiques garés à la périphérie pour les trajets
+      plus longs. Un métro a remplacé les rails du tram. Les idées ci-dessous
+      décrivent comment Genève peut y parvenir : des distances plus courtes, de
+      meilleurs réseaux et beaucoup moins de voitures."
   - code: NAT
     covers: Arbres, parcs, biodiversité, animaux, rives du lac
   - code: NEI
