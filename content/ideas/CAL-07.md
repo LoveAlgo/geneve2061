@@ -104,6 +104,11 @@ view: >-
   Streaming platforms, too, seem geared more towards quantity than quality, and
   even libraries are not always good at curating quality books. This is a fairly
   recent phenomenon, and much more research and rethinking is needed.
+
+
+  Do you feel more intelligent (educated), inspired or uplifted after having
+  consumed a certain piece of information? If not, avoid similar content in the
+  future.
 sensitive: false
 sources:
   - title: "State of Geneva: Téléphone portable à l’école, interdiction totale et
