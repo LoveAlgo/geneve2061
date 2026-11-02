@@ -14,6 +14,7 @@ needs:
 - Ease
 - Order
 - Efficiency
+- Effectiveness
 vision: >-
   In 2061, roadworks in Geneva are rare and short. Under the main streets, utility tunnels carry water,
   gas, electricity, heating and data lines, so they can be inspected and repaired without digging up the
