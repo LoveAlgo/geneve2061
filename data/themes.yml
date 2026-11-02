@@ -93,6 +93,13 @@ themes:
     covers: Walking, cycling, metro, vehicles
     name_fr: Mobilité
     code_fr: MOB
+    heading: "Mobility: a city where getting around is a pleasure"
+    intro: "When Verity arrives in the Geneva of 2061, one of the first things she
+      notices is how quiet everything is: people get around mostly on foot or by
+      bicycle, the few vehicles are silent delivery vans, and the only cars are
+      self-driving rental cars parked on the outskirts for longer trips. A metro
+      has replaced the tram rails. The ideas below describe how Geneva can get
+      there: shorter distances, better networks, and far fewer cars."
   - code: NAT
     name: Nature
     covers: Trees, parks, biodiversity, animals, lakeshore
