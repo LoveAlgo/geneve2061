@@ -12,10 +12,10 @@ also_relevant:
   - FOD
 needs:
   - Air
-  - Rest / sleep
   - Ease
   - Efficiency
   - Effectiveness
+  - Joy
 vision: "In 2061, deliveries in Geneva are quiet and clean. Goods arrive at hubs
   on the edge of the centre, often by rail, and travel the last kilometre by
   cargo bike or silent electric van, outside peak hours. Parcels wait in shared
