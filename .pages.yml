@@ -50,6 +50,7 @@ content:
       - POP
       - REL
       - RES
+      - SPA
       - WAS
       - WAT
       - WOR
@@ -492,6 +493,7 @@ content:
         - POP
         - REL
         - RES
+        - SPA
         - WAS
         - WAT
         - WOR
@@ -555,6 +557,7 @@ content:
         - POP
         - REL
         - RES
+        - SPA
         - WAS
         - WAT
         - WOR
@@ -585,6 +588,7 @@ content:
         - POP
         - REL
         - RES
+        - SPA
         - WAS
         - WAT
         - WOR
