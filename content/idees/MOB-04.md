@@ -82,9 +82,10 @@ view: >-
   choses se font bien plus vite : les Néerlandais remplacent des ponts
   autoroutiers entiers en un week-end, et leurs ponts ne s’effondrent pas.
   Alors, qu’est-ce qui nous empêche de travailler efficacement en Suisse ? Je
-  pense que plusieurs facteurs entrent en jeu : corruption présumée ; certaines
-  lois, comme les limites aux horaires de travail ; une mauvaise planification
-  et l’incompétence ; et peut-être la volonté que tout soit parfait.
+  pense que plusieurs facteurs entrent en jeu : soupçon de corruption ;
+  certaines lois, comme les limites aux horaires de travail ; une mauvaise
+  planification et l’incompétence ; et peut-être la volonté que tout soit
+  parfait.
 
 
   Des galeries techniques comme celle de la rue du Marché montrent qu’une bonne
