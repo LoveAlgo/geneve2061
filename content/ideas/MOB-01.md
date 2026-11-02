@@ -72,7 +72,8 @@ path:
       reached within 15 minutes on foot or by bicycle.
   - year: "2031"
     text: A continuous network of protected cycle lanes links all neighbourhoods,
-      with separate space for pedestrians, cyclists and fast e-bikes.
+      with separate space for pedestrians and cyclists, and enough secure
+      bicycle parking in the city centre.
   - year: "2041"
     text: Every neighbourhood has its shops, services and green spaces within a
       short walk, and more than two-thirds of trips are made on foot or by
