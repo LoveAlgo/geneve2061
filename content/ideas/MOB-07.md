@@ -124,9 +124,12 @@ view: >-
   architecture. Old World cities that grew organically can be confusing, but
   they have far more charm than the numbered streets and avenues of Midtown
   Manhattan. As for buses, why does bus E go to Hermance and bus A to Gy, while
-  bus G goes to Corsier? Bus H should go to Hermance, and bus G to Gy. And one
-  thing nobody really thinks about: teaching people how to find their way in
-  their own city.
+  bus G goes to Corsier? Bus H should go to Hermance, and bus G to Gy. 
+
+
+  And one thing nobody really thinks about: teaching people how to find their
+  way in their own city. And airlines and tour operators could teach visitors
+  how to best find their way in their destination city.
 sensitive: false
 sources:
   - title: "Commune of Cologny: Procès-verbal de la séance du Conseil municipal du
