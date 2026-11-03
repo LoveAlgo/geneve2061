@@ -79,22 +79,14 @@ questions:
     abordables, et pas seulement des appartements de luxe ?
   - Comment encourager les gens à parcourir les courtes distances à pied plutôt
     qu’en bus ou en voiture ?
-view: >-
-  Aujourd’hui, beaucoup trop de gens prennent le bus, la voiture ou même le vélo
-  pour des distances si courtes qu’ils pourraient les parcourir à pied. Pour la
-  santé publique, je dirais que si un trajet à pied prend moins de 25 minutes,
-  il faut marcher : c’est un exercice physique gratuit dont nous avons de toute
-  façon besoin. Je comprends que beaucoup de gens n’aiment pas marcher à Genève
-  aujourd’hui, avec toute sa circulation et ses chantiers, mais à l’avenir, avec
-  plus de verdure, moins de bruit et moins de circulation, ces promenades seront
-  bien plus agréables.
-
-
-  Aucun trajet de porte à porte ne devrait durer plus de 30 minutes, que ce soit
-  en métro, à vélo ou à pied. Une façon d’y parvenir est de transformer une
-  partie des bureaux actuels du centre-ville en logements, et de déplacer ces
-  bureaux en périphérie, plus près des gens qui vivent en banlieue. Ainsi, moins
-  de gens auraient besoin de faire de longs trajets.
+view: "Aujourd’hui, beaucoup trop de gens prennent le bus, la voiture ou même le
+  vélo pour des distances si courtes qu’ils pourraient les parcourir à pied.
+  Pour la santé publique, je dirais que si un trajet à pied prend moins de 25
+  minutes, il faut marcher : c’est un exercice physique gratuit dont nous avons
+  de toute façon besoin. Je comprends que beaucoup de gens n’aiment pas marcher
+  à Genève aujourd’hui, avec toute sa circulation et ses chantiers, mais à
+  l’avenir, avec plus de verdure, moins de bruit et moins de circulation, ces
+  promenades seront bien plus agréables."
 sources:
   - title: "Econostrum : Les frontaliers marquent le pas à Genève, enregistrant la
       plus faible hausse depuis 2009, d’après les chiffres de l’OCSTAT (février
