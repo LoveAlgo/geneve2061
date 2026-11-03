@@ -108,6 +108,7 @@ sources:
       2023)"
     url: https://www.ge.ch/document/33088/annexe/4
   - title: La Poste suisse transporte des échantillons de laboratoire par drone
+      (Juin 2022)
     url: https://transportjournal.com/fr/2022/06/01/la-poste-suisse-confie-son-exploitation-de-drones-a-matternet/
   - title: "Banque des Territoires : Albi installe des maraîchers sur des friches
       urbaines (octobre 2016)"
