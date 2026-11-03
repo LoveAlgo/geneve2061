@@ -107,7 +107,7 @@ sources:
       marchandises et de services, États généraux des mobilités (September 2023,
       in French)"
     url: https://www.ge.ch/document/33088/annexe/4
-  - title: Swiss Post transports laboratory samples by drone (October 2022, in French)
+  - title: Swiss Post transports laboratory samples by drone (June 2022, in French)
     url: https://transportjournal.com/fr/2022/06/01/la-poste-suisse-confie-son-exploitation-de-drones-a-matternet/
   - title: "Banque des Territoires: Albi installe des maraîchers sur des friches
       urbaines (October 2016, in French)"
