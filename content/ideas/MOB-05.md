@@ -107,9 +107,8 @@ sources:
       marchandises et de services, États généraux des mobilités (September 2023,
       in French)"
     url: https://www.ge.ch/document/33088/annexe/4
-  - title: "Switzerland Global Enterprise: Swiss Post to transport laboratory
-      samples by drone in Zurich"
-    url: https://www.s-ge.com/en/article/news/20184-drones-post
+  - title: Swiss Post transports laboratory samples by drone (in French)
+    url: https://transportjournal.com/fr/2022/06/01/la-poste-suisse-confie-son-exploitation-de-drones-a-matternet/
   - title: "Banque des Territoires: Albi installe des maraîchers sur des friches
       urbaines (October 2016, in French)"
     url: https://www.banquedesterritoires.fr/albi-installe-des-maraichers-sur-des-friches-urbaines-81
