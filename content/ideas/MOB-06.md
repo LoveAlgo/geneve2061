@@ -87,21 +87,13 @@ questions:
     apartments?
   - How can people be encouraged to walk short distances rather than take the
     bus or the car?
-view: >-
-  Today, far too many people take the bus, the car or even the bicycle for
+view: "Today, far too many people take the bus, the car or even the bicycle for
   distances so short that they could walk. For public health, I would say that
   if a commute on foot takes less than 25 minutes, one should walk: it is free
   physical exercise that we need anyway. I can understand that many people do
   not like walking in Geneva today, with all its traffic and roadworks, but in
   the future, such walks, with more greenery and less noise and traffic, will be
-  far more pleasant.
-
-
-  No door-to-door commute should take more than 30 minutes, whether by metro,
-  bicycle or on foot. One way to get there is to turn some of today’s
-  city-centre offices into homes, and to move those offices to the outskirts,
-  within easier reach of the people living in the suburbs. Then fewer people
-  would need to commute far.
+  far more pleasant."
 sensitive: false
 sources:
   - title: "Econostrum: Les frontaliers marquent le pas à Genève, enregistrant la
