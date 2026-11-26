@@ -1,0 +1,58 @@
+{# Cards for the right-hand column. Each page chooses which ones to show. #}
+{% macro download() %}
+<section class="card card-dl">
+  <h2>{{ t.side_walk_title }}</h2>
+  <div class="card-dl-body">
+    <img src="{{ root }}assets/images/grooters-1-cover.jpg" alt="" width="70" height="112" loading="lazy">
+    <p>{{ t.side_walk_text }}</p>
+  </div>
+  <a class="dl" href="{{ root }}assets/downloads/{{ t.download_file }}" download>{{ t.download }}<small>{{ t.download_meta }}</small></a>
+</section>
+{% endmacro %}
+
+{% macro reform() %}
+<section class="card card-reform">
+  <h2>{{ t.side_reform_title }}</h2>
+  <p>{{ t.side_reform_html | safe }}</p>
+  <p class="card-note">{{ t.side_reform_cite }}</p>
+</section>
+{% endmacro %}
+
+{% macro progress() %}
+<section class="card">
+  <h2>{{ t.side_progress_title }}</h2>
+  <p class="stat"><b>{{ stats.ideas }}</b> {{ t.side_progress_ideas }}</p>
+  <p class="stat"><b>{{ stats.themes }}</b> {{ t.side_progress_themes | replace('{n}', themes | length | string) }}</p>
+  <p class="card-note">{{ t.side_progress_by }}</p>
+  <ul class="lvl-list">
+  {% for lvl in readiness_levels %}<li><span class="badge r-{{ lvl.code }}">{{ lvl.label }}</span><b>{{ stats.by[lvl.code] }}</b></li>{% endfor %}
+  </ul>
+</section>
+{% endmacro %}
+
+{% macro levels(counts=None) %}
+<section class="card">
+  <h2>{{ t.side_levels_title }}</h2>
+  <p class="card-note">{{ t.side_levels_text }}</p>
+  <ul class="lvl-list lvl-explain">
+  {% for lvl in readiness_levels %}<li><span class="badge r-{{ lvl.code }}">{{ lvl.label }}</span>{% if counts %}<b>{{ counts[lvl.code] }}</b>{% endif %}<span class="lvl-text">{{ lvl.text }}</span></li>{% endfor %}
+  </ul>
+</section>
+{% endmacro %}
+
+{% macro timeline() %}
+<section class="card">
+  <h2>{{ t.side_timeline_title }}</h2>
+  <ol class="mini-time">
+  {% for item in t.side_timeline %}<li><span class="yr">{{ item.year }}</span>{{ item.text }}</li>{% endfor %}
+  </ol>
+</section>
+{% endmacro %}
+
+{% macro series() %}
+<section class="card">
+  <h2>{{ t.side_series_title }}</h2>
+  <p>{{ t.side_series_text }}</p>
+  <a class="btn" href="{{ t.grooters_url }}" target="_blank" rel="noopener">{{ t.side_series_button }}</a>
+</section>
+{% endmacro %}

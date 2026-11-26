@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% from "macros.html" import badge, needs_block with context %}
+{% import "side.html" as side with context %}
 {% block main %}
 <p class="crumbs"><a href="{{ base }}themes/">{{ t.themes_title }}</a> / <a href="{{ theme_url(e.theme) }}">{{ theme.name }}</a> / {{ e.id }}</p>
 <div class="e-head measure">
@@ -13,11 +14,11 @@
   <div class="stub">{{ t.stub }}</div>
   {{ needs_block(e) }}
 {% else %}
-  <h2 style="margin-top:0">{{ t.h_vision }}</h2>
+  <h2 id="s-vision" style="margin-top:0">{{ t.h_vision }}</h2>
   <p class="vision">{{ lk(e.vision) }}</p>
   {% if e.quote_text %}<blockquote class="quote">{{ e.quote_text }}<cite>{{ e.quote_cite }}</cite></blockquote>{% endif %}
 
-  <h2>{{ t.h_today }}</h2>
+  <h2 id="s-today">{{ t.h_today }}</h2>
   <div class="now">
     <p class="big">{{ e.today_headline }}</p>
     <p>{{ lk(e.today_detail) }}</p>
@@ -26,21 +27,21 @@
   {% if e.today_facts %}<ul class="facts">{% for f in e.today_facts %}<li>{{ lk(f) }}</li>{% endfor %}</ul>{% endif %}
 
   {% if e.precedents %}
-  <h2>{{ t.h_done }}</h2>
+  <h2 id="s-done">{{ t.h_done }}</h2>
   <ul class="prec">{% for p in e.precedents %}<li><b>{{ p.place }}</b> {{ lk(p.text) }}{% if p.source_needed %} <span class="verify">{{ t.source_needed }}</span>{% endif %}</li>{% endfor %}</ul>
   {% endif %}
 
   {% if e.patterns %}
-  <h2>{{ t.h_patterns }}</h2>
+  <h2 id="s-patterns">{{ t.h_patterns }}</h2>
   <p>{{ t.patterns_intro }}</p>
   <ul class="prec">{% for p in e.patterns %}<li><b>{{ p.number }} {{ p.name }}</b>: {{ lk(p.text) }}</li>{% endfor %}</ul>
   {% endif %}
 
-  <h2>{{ t.h_far }}</h2>
+  <h2 id="s-far">{{ t.h_far }}</h2>
   <p>{{ badge(e.readiness) }} {{ readiness[e.readiness].text }}</p>
 
   {% if e.path %}
-  <h2>{{ t.h_path }}</h2>
+  <h2 id="s-path">{{ t.h_path }}</h2>
   <p>{{ t.path_note }}</p>
   <ol class="path">{% for p in e.path %}<li><span class="yr">{{ p.year }}</span>{{ lk(p.text) }}</li>{% endfor %}</ol>
   {% endif %}
@@ -53,7 +54,7 @@
   {{ needs_block(e) }}
 
   {% if e.questions %}
-  <h2>{{ t.h_questions }}</h2>
+  <h2 id="s-questions">{{ t.h_questions }}</h2>
   <ul>{% for q in e.questions %}<li>{{ lk(q) }}</li>{% endfor %}</ul>
   {% endif %}
 
@@ -64,10 +65,44 @@
   {% if e.sensitive %}<div class="help" role="note"><p>{{ site.helpline }}</p></div>{% endif %}
 
   {% if e.sources %}
-  <h2>{{ t.h_sources }}</h2>
+  <h2 id="s-sources">{{ t.h_sources }}</h2>
   <ol class="sources">{% for s in e.sources %}<li>{% if s.url %}<a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.title }}</a>{% else %}{{ s.title }}{% endif %}</li>{% endfor %}</ol>
   {% endif %}
 {% endif %}
   <p><a href="{{ theme_url(e.theme) }}">{{ t.back_to | replace('{theme}', theme.name) }}</a></p>
 </div>
+{% endblock %}
+{% block aside %}
+<section class="card">
+  <h2>{{ t.side_glance_title }}</h2>
+  <dl class="glance">
+    <dt>{{ t.side_glance_theme }}</dt>
+    <dd><a href="{{ theme_url(e.theme) }}">{{ theme.name }}</a></dd>
+    <dt>{{ t.side_glance_far }}</dt>
+    <dd>{{ badge(e.readiness) }}<br><span class="card-note">{{ t.side_glance_missing }} {{ readiness[e.readiness].missing }}</span></dd>
+    {% if e.also_relevant %}<dt>{{ t.side_glance_also }}</dt>
+    <dd>{% for c in e.also_relevant %}<a href="{{ theme_url(c) }}">{{ tkey[c].name }}</a>{{ ', ' if not loop.last }}{% endfor %}</dd>{% endif %}
+    {% set st = namespace(i=0, place='') %}
+    {% for s in walk.stops %}{% if not st.i and s.theme == e.theme %}{% set st.i = loop.index %}{% set st.place = s.place %}{% endif %}{% endfor %}
+    {% for s in walk.stops %}{% if not st.i and e.theme in s.all_themes %}{% set st.i = loop.index %}{% set st.place = s.place %}{% endif %}{% endfor %}
+    {% if st.i %}<dt>{{ t.side_glance_walk }}</dt>
+    <dd><a href="{{ base }}#stop-{{ st.i }}">{{ st.i }}. {{ st.place }}</a></dd>{% endif %}
+  </dl>
+</section>
+{{ side.download() }}
+{% if e.status == 'ready' %}
+<section class="card card-toc">
+  <h2>{{ t.side_toc_title }}</h2>
+  <ul class="toc">
+    <li><a href="#s-vision">{{ t.h_vision }}</a></li>
+    <li><a href="#s-today">{{ t.h_today }}</a></li>
+    {% if e.precedents %}<li><a href="#s-done">{{ t.h_done }}</a></li>{% endif %}
+    {% if e.patterns %}<li><a href="#s-patterns">{{ t.h_patterns }}</a></li>{% endif %}
+    <li><a href="#s-far">{{ t.h_far }}</a></li>
+    {% if e.path %}<li><a href="#s-path">{{ t.h_path }}</a></li>{% endif %}
+    {% if e.questions %}<li><a href="#s-questions">{{ t.h_questions }}</a></li>{% endif %}
+    {% if e.sources %}<li><a href="#s-sources">{{ t.h_sources }}</a></li>{% endif %}
+  </ul>
+</section>
+{% endif %}
 {% endblock %}

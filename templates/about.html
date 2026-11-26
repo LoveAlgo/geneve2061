@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% import "side.html" as side with context %}
 {% block main %}
 <div class="measure prose">
   <h1>{{ about.title }}</h1>
@@ -8,3 +9,4 @@
   {{ about.html | safe }}
 </div>
 {% endblock %}
+{% block aside %}{{ side.timeline() }}{{ side.download() }}{% endblock %}

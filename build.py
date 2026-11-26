@@ -155,6 +155,17 @@ def main():
         for t in themes[lang]:
             t["ideas"].sort(key=lambda i: i["id"])
 
+    # Figures for the right-hand column: ideas published, themes started, ideas per readiness level
+    stats = {}
+    for lang in LANGS:
+        published = [i for t in themes[lang] for i in t["ideas"]]
+        by = {l["code"]: 0 for l in levels}
+        for i in published:
+            by[i["readiness"]] = by.get(i["readiness"], 0) + 1
+        stats[lang] = dict(ideas=len(published), themes=sum(1 for t in themes[lang] if t["ideas"]), by=by)
+        for t in themes[lang]:
+            t["by"] = {l["code"]: sum(1 for i in t["ideas"] if i["readiness"] == l["code"]) for l in levels}
+
     # Output
     if OUT.exists():
         shutil.rmtree(OUT)
@@ -184,7 +195,7 @@ def main():
         other = "en" if lang == "fr" else "fr"
         html = env.get_template(template).render(
             lang=lang, other=other, root=root, base=root + PREFIX[lang], alt=root + alt, t=ui[lang],
-            site=site[lang], themes=themes[lang], tkey=tkey[lang], readiness=readiness[lang],
+            site=site[lang], stats=stats[lang], themes=themes[lang], tkey=tkey[lang], readiness=readiness[lang],
             readiness_levels=[readiness[lang][l["code"]] for l in levels], walk=walk[lang],
             need_name=(lambda n: need_fr.get(n, n)) if lang == "fr" else (lambda n: n),
             need_group=(lambda n: need_fr.get(need_group.get(n, ""), need_group.get(n, ""))) if lang == "fr"

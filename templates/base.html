@@ -35,8 +35,16 @@
     </nav>
   </div>
 </header>
-<main id="main">
+<main id="main" class="frame">
+{% block top %}{% endblock %}
+<div class="cols">
+  <div class="col-main">
 {% block main %}{% endblock %}
+  </div>
+  <aside class="col-side" aria-label="{{ t.side_label }}">
+{% block aside %}{% import "side.html" as side with context %}{{ side.download() }}{% endblock %}
+  </aside>
+</div>
 </main>
 <footer>
   <p>{{ site.copyright }}</p>

@@ -1,11 +1,14 @@
 {% extends "base.html" %}
 {% macro tags(codes) %}<p class="tags">{% for c in codes %}{% set th = tkey[c] %}{% if th.ideas %}<a class="tag" href="{{ theme_url(c) }}">{{ th.name }}</a>{% else %}<span class="tag off" title="{{ t.in_preparation }}">{{ th.name }}</span>{% endif %}{% endfor %}</p>{% endmacro %}
-{% block main %}
-<section class="hero">
-  <picture>
+{% import "side.html" as side with context %}
+{% block top %}
+<picture class="hero-pic">
     <source media="(max-width:600px)" srcset="{{ root }}assets/images/hero-reforme-geneve-mobile.jpg" width="1000" height="588">
     <img src="{{ root }}assets/images/hero-reforme-geneve.jpg" width="2000" height="655" fetchpriority="high" alt="{{ t.hero_alt }}">
-  </picture>
+</picture>
+{% endblock %}
+{% block main %}
+<section class="hero">
   <h1 class="hero-title">{{ site.hero_title }}</h1>
   <p class="hero-sub">{{ site.hero_subtitle }}</p>
 </section>
@@ -14,7 +17,7 @@
   <h2>{{ t.walk_heading }}</h2>
   <ol class="walk">
   {% for s in walk.stops %}{% set main = tkey[s.theme] %}
-    <li class="{{ 'live' if main.ideas }}">
+    <li id="stop-{{ loop.index }}" class="{{ 'live' if main.ideas }}">
       <span class="dot" aria-hidden="true">{{ loop.index }}</span>
       <h3>{% if main.ideas %}<a href="{{ theme_url(s.theme) }}">{{ s.place }}</a>{% else %}{{ s.place }}{% endif %}</h3>
       <p>{{ s.see }}</p>
@@ -31,3 +34,4 @@
   </ol>
 </div>
 {% endblock %}
+{% block aside %}{{ side.reform() }}{{ side.progress() }}{{ side.download() }}{% endblock %}

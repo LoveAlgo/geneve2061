@@ -54,6 +54,43 @@ en:
   levers: {Law: Law, Culture: Culture, Investment: Investment, Technology: Technology, Research: Research}
   footer_disclaimer: Disclaimer
   updated: Last updated
+  # right-hand column
+  side_label: More on this page
+  side_walk_title: Read Verity’s walk
+  side_walk_text: The chapter of Grooters, Book 1, that this website starts from. Free to download.
+  side_reform_title: Reformer and réformer
+  side_reform_html: >-
+    In French, the accent changes the meaning. Without it, <em>reformer</em> means to form again, to
+    reshape: the work of urban planners on streets, buildings and parks. With it, <em>réformer</em>
+    means to reform mindsets, laws and institutions, as Calvin did. Geneva 2061 needs both.
+  side_reform_cite: As Verity explains in Grooters, Book 1.
+  side_progress_title: The site so far
+  side_progress_ideas: ideas published
+  side_progress_themes: "themes started, out of {n}"
+  side_progress_by: "How far along they are:"
+  side_levels_title: How far along
+  side_levels_text: Each idea is placed on one of four bridges, depending on how much of the way already exists.
+  side_glance_title: At a glance
+  side_glance_theme: Theme
+  side_glance_far: How far along
+  side_glance_missing: "Still missing:"
+  side_glance_also: Also relevant to
+  side_glance_walk: On Verity’s walk
+  side_toc_title: On this page
+  side_theme_ideas: "Ideas in this theme:"
+  side_timeline_title: Five centuries of reform
+  side_timeline:
+    - year: "1536"
+      text: Geneva adopts the Reformation.
+    - year: "2026"
+      text: Today. This website starts building the bridge to 2061.
+    - year: "2036"
+      text: The Reformation’s 500th anniversary. In the Grooters, the wall now reads REFORME GENEVE.
+    - year: "2061"
+      text: Verity walks through the Geneva of her dreams.
+  side_series_title: The Grooters series
+  side_series_text: The books, the soundtrack and the Visual Companion, with images of the characters and scenes.
+  side_series_button: Visit thegrooters.com
 
 fr:
   nav_walk: Balade 2061
@@ -110,3 +147,41 @@ fr:
   levers: {Law: Loi, Culture: Culture, Investment: Investissement, Technology: Technologie, Research: Recherche}
   footer_disclaimer: Mentions légales
   updated: Dernière mise à jour
+  # colonne de droite
+  side_label: Plus sur cette page
+  side_walk_title: Lire la balade de Verity
+  side_walk_text: Le chapitre de Grooters, Livre 1, dont part ce site. Téléchargement gratuit.
+  side_reform_title: Reformer et réformer
+  side_reform_html: >-
+    En français, l’accent change le sens. Sans accent, <em>reformer</em> signifie former de nouveau,
+    remodeler : le travail des urbanistes sur les rues, les bâtiments et les parcs. Avec l’accent,
+    <em>réformer</em>, c’est transformer les mentalités, les lois et les institutions, comme l’a fait Calvin.
+    Genève 2061 a besoin des deux.
+  side_reform_cite: Comme l’explique Verity dans Grooters, Livre 1.
+  side_progress_title: Le site à ce jour
+  side_progress_ideas: idées publiées
+  side_progress_themes: "thèmes entamés sur {n}"
+  side_progress_by: "Où elles en sont :"
+  side_levels_title: Où en sommes-nous ?
+  side_levels_text: Chaque idée est placée sur l’un des quatre ponts, selon la part du chemin qui existe déjà.
+  side_glance_title: En bref
+  side_glance_theme: Thème
+  side_glance_far: Où en est-on ?
+  side_glance_missing: "Il manque encore :"
+  side_glance_also: Concerne aussi
+  side_glance_walk: Sur la balade de Verity
+  side_toc_title: Sur cette page
+  side_theme_ideas: "Idées de ce thème :"
+  side_timeline_title: Cinq siècles de réforme
+  side_timeline:
+    - year: "1536"
+      text: Genève adopte la Réforme.
+    - year: "2026"
+      text: Aujourd’hui. Ce site commence à construire le pont vers 2061.
+    - year: "2036"
+      text: Les 500 ans de la Réforme. Dans les Grooters, le mur porte désormais REFORME GENEVE.
+    - year: "2061"
+      text: Verity se promène dans la Genève de ses rêves.
+  side_series_title: La série des Grooters
+  side_series_text: Les livres, la bande originale et l’album visuel, avec des images des personnages et des scènes.
+  side_series_button: Visiter thegrooters.com

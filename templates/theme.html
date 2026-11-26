@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% from "macros.html" import badge with context %}
+{% import "side.html" as side with context %}
 {% block main %}
 <div class="measure">
   <p class="crumbs"><a href="{{ base }}themes/">{{ t.themes_title }}</a> / {{ th.name }}</p>
@@ -20,3 +21,4 @@
 <div class="measure"><div class="stub">{{ t.theme_empty }}</div></div>
 {% endif %}
 {% endblock %}
+{% block aside %}{% if th.ideas %}{{ side.levels(th.by) }}{% else %}{{ side.levels() }}{% endif %}{{ side.download() }}{% endblock %}
