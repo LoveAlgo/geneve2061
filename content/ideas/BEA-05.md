@@ -89,8 +89,8 @@ path:
     text: Geneva adopts a design guide for street lamps, boxes, bins and signs, and
       dedicates a share of every infrastructure budget to art and craftsmanship.
   - year: "2041"
-    text: Every new metro line is built with art stations and decorated entrances,
-      and each neighbourhood has its own gateway.
+    text: Every new metro line (see [[MOB-03]]) is built with art stations and
+      decorated entrances, and each neighbourhood has its own gateway.
   - year: "2051"
     text: All the city’s infrastructure, from bridges to bus shelters, has been
       redesigned or decorated.
