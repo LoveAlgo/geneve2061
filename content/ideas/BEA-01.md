@@ -5,8 +5,8 @@ theme: BEA
 readiness: will
 status: ready
 summary: >-
-  Nature builds with the golden ratio, from the spirals of a sunflower to the leaves on a stem.
-  Buildings and streets designed with the same proportions can relax us the way a tree does.
+  Nature builds with the golden ratio, from the spirals of a sunflower to the leaves on a stem. Buildings
+  and streets designed with the same proportions can relax us the way a tree does.
 also_relevant:
 - CON
 - HEA
@@ -53,13 +53,19 @@ today_facts:
   found a preference for the golden rectangle as have found none. The effect may lie less in a single
   shape than in a whole composition, as in a tree or a façade (see the open questions below).
 precedents:
-- place: Le Corbusier
+- place: Leonardo da Vinci
   text: >-
-    the Swiss-born architect, built a whole system of measurements, the Modulor, on human proportions,
-    the Fibonacci numbers and the golden ratio, and applied it to his buildings from the Unité d’habitation
-    in Marseille (1952) onwards. It shows that a city can work with a proportional system. It also shows
-    that proportion is only one ingredient: the Unité is a bare concrete block, and opinions on its beauty
-    remain divided.
+    drew the Vitruvian Man around 1490 after the canon of human proportions laid down by the Roman architect
+    Vitruvius. A few years later he supplied about sixty illustrations for De divina proportione, Luca
+    Pacioli’s book on the golden ratio and its use in art and architecture, printed in Venice in 1509.
+    The great builders of the Renaissance worked from this knowledge.
+  source_needed: false
+- place: The Great Mosque of Kairouan (Tunisia)
+  text: >-
+    one of the oldest and most famous mosques of North Africa, was analysed by two architecture researchers
+    in 2004. They found a consistent use of the golden section in the overall plan, the prayer hall, the
+    courtyard and the minaret. Similar studies exist for many churches, cathedrals and mosques built before
+    1900, whose builders constructed the ratio with compass and rope.
   source_needed: false
 - place: Mohawk Group (United States)
   text: >-
@@ -110,8 +116,6 @@ view: |-
   Beauty can be measured objectively with the golden ratio. It is the building code Nature uses to create everything she creates. Whether it is a beautiful person, a beautiful building or a beautiful landscape: if it follows the golden ratio, we feel a sense of peace looking at it. And because Nature builds everything with the golden ratio, we get it automatically when we build with natural materials.
 
   Why is beauty so important? Because it prevents stress, and stress is the source of most health problems. Our subconscious is an order-seeking machine. When it sees disorder, such as an ugly building, it keeps trying to fix it in the background, like a computer program that runs unseen and uses up energy. That is why people are more stressed in cities than in nature. Ugliness is disorder. Beauty is order.
-
-  When we look at a building that uses the golden ratio properly, we should be able to relax just as we relax looking at a tree. And this can now be measured, with a simple heart-rate variability device.
 sensitive: false
 sources:
 - title: >-
@@ -127,17 +131,25 @@ sources:
 - title: 'Richard Taylor, University of Oregon: research on fractals and stress reduction'
   url: https://blogs.uoregon.edu/richardtaylor/?p=308
 - title: >-
-    Research article on the golden ratio and the perceived attractiveness of shapes, with a review of the contested evidence (PubMed Central)
+    Research article on the golden ratio and the perceived attractiveness of shapes, with a review of
+    the contested evidence (PubMed Central)
   url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3485848
-- title: 'Icon: Modulor Man by Le Corbusier'
-  url: https://www.iconeye.com/design/modulor-man-by-le-corbusier
 - title: 'University of Oregon: New carpeting will have people walking on fractals'
   url: https://news.uoregon.edu/content/new-carpeting-will-have-people-walking-fractals
 - title: GoldenNumber.net by Gary Meisner, and the PhiMatrix design software
   url: https://www.goldennumber.net/phimatrix/
+- title: >-
+    Princeton University Library: Divine Proportion illustrated by Leonardo (Pacioli, De divina proportione,
+    1509)
+  url: >-
+    https://www.princeton.edu/~graphicarts/2008/05/divine_proportion_illustrated.html
+- title: >-
+    Boussora, K. and Mazouz, S.: The Use of the Golden Section in the Great Mosque at Kairouan, Nexus
+    Network Journal (2004)
+  url: https://doi.org/10.1007/s00004-004-0002-y
 notes: >-
   Background: Rethink Everything (Rethink Beauty: golden ratio as Nature's building code, beauty is order,
   the subconscious as an order-seeking machine, natural materials). HRV link from Henrik's message of
   26 Nov 2026. No Pattern Language pattern attached; symmetry, proportion and repetition (Pattern 166)
-  belong to BEA-02.
+  belong to BEA-02. Le Corbusier removed at Henrik’s request (26 Nov 2026).
 ---
