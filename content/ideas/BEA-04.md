@@ -51,6 +51,32 @@ precedents:
     project came from citizens, and the designs were chosen in competitions with more than 170 participants.
     The new quarter now draws thousands of visitors every day.
   source_needed: false
+- place: Poundbury (England)
+  text: >-
+    is a new urban extension of Dorchester in Dorset, built on land of the Duchy of Cornwall. The then
+    Prince of Wales, now King Charles III, asked the architect Léon Krier in 1988 to design it in the
+    spirit of traditional Dorset architecture, and construction began in 1993. Shops, workshops and offices
+    sit among the houses, and the affordable homes, 35% of the total, are built to the same standard as
+    the others, so nobody can tell them apart. More than 2,300 people work in its 180-odd businesses,
+    and when it is finished in 2027 it will be home to about 5,800 people.
+  source_needed: false
+- place: Ciudad Cayalá (Guatemala)
+  text: >-
+    is a new town within Guatemala City, master-planned in 2003 by Léon Krier with the Guatemalan firm
+    Estudio Urbano, whose founders, Pedro Godoy and María Sánchez, trained at Notre Dame. Its first phase
+    opened in 2011: lime-washed walls, red tile roofs, arcades, cobbled squares and a church, with Mayan
+    ornamental details that root it in local culture. In a city of gated developments, its streets and
+    squares are open to everyone, and the Congress for the New Urbanism gave it a Charter Award in 2021.
+  source_needed: false
+- place: Habersham (South Carolina)
+  text: >-
+    is a New Urbanist neighbourhood near the historic town of Beaufort, designed in 1996 by the firm DPZ
+    for the developers Robert Turner and Stephen Davis, with building starting in 1998. On 283 acres,
+    about 1,100 homes in the local Lowcountry style, with porches, pitched roofs and wooden siding, are
+    grouped into neighbourhoods, hamlets and a small town centre within walking distance. After a quarter
+    of a century, it is one of the best-known and most influential traditional neighbourhoods in the United
+    States, and it is still growing.
+  source_needed: false
 - place: The University of Notre Dame’s Driehaus Prize
   text: >-
     has honoured a living architect working in the traditional and classical tradition every year since
@@ -124,8 +150,27 @@ sources:
   url: https://en.wikipedia.org/wiki/New_Frankfurt_Old_Town
 - title: 'University of Notre Dame: The Richard H. Driehaus Prize'
   url: https://driehausprize.nd.edu/
+- title: 'Poundbury: history and masterplan'
+  url: https://poundbury.co.uk/about/history
+- title: 'Institution of Civil Engineers: Poundbury'
+  url: https://ice.org.uk/what-is-civil-engineering/infrastructure-projects/poundbury
+- title: 'The Duchy of Cornwall on Google Arts & Culture: Poundbury'
+  url: >-
+    https://artsandculture.google.com/story/poundbury-the-duchy-of-cornwall/KgUB63rNqmmnJQ?hl=en-GB
+- title: >-
+    Congress for the New Urbanism: An ambitious classical town rises in Guatemala (Cayalá)
+  url: https://cnu.org/node/1197
+- title: 'Congress for the New Urbanism: Paseo Cayalá, 2021 Charter Award'
+  url: https://www.cnu.org/node/8595
+- title: 'University of Notre Dame: Cayalá has grand designs'
+  url: https://architecture.nd.edu/news-events/news/cayal-has-grand-designs
+- title: 'Congress for the New Urbanism: Habersham at 25'
+  url: https://www.cnu.org/node/9997
+- title: 'DPZ: Habersham'
+  url: https://www.dpz.com/projects/habersham/
 notes: >-
   Background: Rethink Everything (Rethink Architecture/Design: Emperor’s New Clothes, public art, Vitruvius,
   Montparnasse vs Eiffel; Rethink Construction: local materials, Adelaide). Egyptians from Henrik’s message
-  of 26 Nov 2026. Pattern summaries 116 and 117 to be checked against the book.
+  of 26 Nov 2026. Pattern summaries 116 and 117 to be checked against the book. Poundbury, Cayalá and
+  Habersham added at Henrik’s request (26 Nov 2026).
 ---
