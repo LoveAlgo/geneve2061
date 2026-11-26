@@ -6,6 +6,7 @@ en:
   nav_about: About
   switch_label: Français
   switch_short: FR
+  hero_alt: "The Reformation Wall in Geneva, with the statues of Farel, Calvin, Beza and Knox, and the inscription REFORME GENEVE, with a star inside the O"
   walk_heading: Walk with Verity
   explore_theme: Explore the {theme} theme
   in_preparation: in preparation
@@ -61,6 +62,7 @@ fr:
   nav_about: À propos
   switch_label: English
   switch_short: EN
+  hero_alt: "Le Mur des Réformateurs à Genève, avec les statues de Farel, Calvin, Bèze et Knox, et l’inscription REFORME GENEVE, une étoile dans le O"
   walk_heading: Balade avec Verity
   explore_theme: Découvrir le thème {theme}
   in_preparation: en préparation
@@ -95,7 +97,7 @@ fr:
   read_walk: Lire la balade
   read_walk_text: La partie 16, « 2061 », peut être téléchargée gratuitement, avec la numérotation des pages de l’édition brochée.
   download: Télécharger la partie 16
-  download_meta: Français · PDF · 20 pages
+  download_meta: Français · PDF · 21 pages
   download_file: grooters-1-partie-16-2061.pdf
   more_series: En savoir plus sur la série
   more_series_text: Les livres, la bande originale et l’album visuel, avec des images des personnages et des scènes, se trouvent sur

@@ -25,9 +25,12 @@ stops:
       - NAT
       - REL
   - place: Le Mur des Réformateurs
-    see: POST TENEBRAS LUX, avec une étoile gravée dans le O.
+    see: REFORME GENEVE, avec une étoile gravée dans le O. L’inscription a été
+      changée en 2036, pour le 500e anniversaire de la Réforme à Genève ; POST
+      TENEBRAS LUX est toujours là, en lettres plus petites.
     theme: EDU
     more_themes:
+      - GOV
       - HER
       - LEI
   - place: La Vieille-Ville
@@ -51,7 +54,7 @@ stops:
     more_themes:
       - REL
     quote: « Oui, le plus laid bâtiment de la ville a été remplacé il y a de
-      nombreuses années par un magnifique HUG-Centre, où les gens viennent faire
+      nombreuses années par un magnifique HUG-Centre avec un parc, où les gens viennent faire
       le plein d’affection. »
   - place: Le vieux cercle de lecture
     see: Le Cristal d’Amour, flottant au-dessus d’une commode en bois.

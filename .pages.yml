@@ -673,6 +673,12 @@ content:
   - name: tagline
     label: Tagline
     type: string
+  - name: hero_title
+    label: Home page title (below the photo)
+    type: string
+  - name: hero_subtitle
+    label: Home page subtitle
+    type: string
   - name: copyright
     label: Copyright line
     type: string
@@ -692,6 +698,12 @@ content:
     type: string
   - name: tagline
     label: Tagline
+    type: string
+  - name: hero_title
+    label: Home page title (below the photo)
+    type: string
+  - name: hero_subtitle
+    label: Home page subtitle
     type: string
   - name: copyright
     label: Copyright line

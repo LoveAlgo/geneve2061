@@ -1,9 +1,13 @@
 {% extends "base.html" %}
 {% macro tags(codes) %}<p class="tags">{% for c in codes %}{% set th = tkey[c] %}{% if th.ideas %}<a class="tag" href="{{ theme_url(c) }}">{{ th.name }}</a>{% else %}<span class="tag off" title="{{ t.in_preparation }}">{{ th.name }}</span>{% endif %}{% endfor %}</p>{% endmacro %}
 {% block main %}
-<section class="wall" aria-label="Post Tenebras Lux">
-  <p class="motto" aria-label="Post Tenebras Lux"><span aria-hidden="true">P{% include "symbol.html" %}ST TENEBRAS LUX</span></p>
-  <p class="motto-sub">{{ site.tagline }}</p>
+<section class="hero">
+  <picture>
+    <source media="(max-width:600px)" srcset="{{ root }}assets/images/hero-reforme-geneve-mobile.jpg" width="1000" height="588">
+    <img src="{{ root }}assets/images/hero-reforme-geneve.jpg" width="2000" height="655" fetchpriority="high" alt="{{ t.hero_alt }}">
+  </picture>
+  <h1 class="hero-title">{{ site.hero_title }}</h1>
+  <p class="hero-sub">{{ site.hero_subtitle }}</p>
 </section>
 <div class="measure">
   <p class="lede">{{ walk.intro }}</p>
