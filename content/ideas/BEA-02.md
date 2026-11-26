@@ -99,8 +99,8 @@ path:
     text: "Every street and square in the city is composed with care: balanced,
       rhythmic and harmonious in colour."
   - year: "2061"
-    text: "As Verity sees it at the Jardin Anglais: new buildings tastefully merged
-      with their surroundings."
+    text: "As Verity sees it in Plainpalais: new buildings tastefully merged with
+      their surroundings."
 levers:
   - Culture
   - Law
