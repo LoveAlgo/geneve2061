@@ -65,7 +65,7 @@ patterns:
       l’extérieur, et un abri contre le bruit et les passages, sans être
       complètement enfermé."
 path:
-  - year: "2027"
+  - year: "2028"
     text: Chaque école et chaque université de Genève mesure l’acoustique de ses
       salles de classe, et les plus bruyantes sont traitées en priorité.
   - year: "2031"

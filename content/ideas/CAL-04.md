@@ -57,7 +57,7 @@ patterns:
       traffic, where people can withdraw from the noise for a few moments of
       calm.
 path:
-  - year: "2027"
+  - year: "2028"
     text: Geneva maps its quiet places and protects the most valuable ones in its
       planning, as part of the trame blanche.
   - year: "2031"

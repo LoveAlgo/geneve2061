@@ -60,7 +60,7 @@ precedents:
       ce qui traverse le plus facilement les murs."
     source_needed: false
 path:
-  - year: "2027"
+  - year: "2028"
     text: Le canton, les communes et les coopératives d’habitation n’achètent plus
       que les classes de réfrigérateurs, de ventilations et de pompes à chaleur
       les plus silencieuses disponibles.

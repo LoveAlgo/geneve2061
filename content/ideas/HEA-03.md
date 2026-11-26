@@ -57,7 +57,7 @@ precedents:
       content of their drinks.
     source_needed: false
 path:
-  - year: "2027"
+  - year: "2028"
     text: Bus Santé results become a public health dashboard for Geneva, updated
       every year and broken down by neighbourhood.
   - year: "2031"

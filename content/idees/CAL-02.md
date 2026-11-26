@@ -60,7 +60,7 @@ patterns:
       à la plus intime, comme les chambres, tout au fond. Ainsi placées, les
       chambres sont naturellement les pièces les plus calmes.
 path:
-  - year: "2027"
+  - year: "2028"
     text: Genève publie un guide du logement calme, et chaque demande d’autorisation
       de construire indique quelles pièces donnent sur le côté bruyant.
   - year: "2031"

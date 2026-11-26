@@ -50,7 +50,7 @@ precedents:
       aimées, sans être poussés vers une option plutôt qu’une autre."
     source_needed: false
 path:
-  - year: "2027"
+  - year: "2028"
     text: "Les écoles genevoises enseignent l’hygiène informationnelle dès l’école
       primaire : comment choisir, vérifier et limiter les informations que nous
       consommons."

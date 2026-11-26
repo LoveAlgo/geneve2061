@@ -67,7 +67,7 @@ patterns:
       de naissance organisés autour de la mère et de sa famille, supportés par
       des sage-femmes."
 path:
-  - year: "2027"
+  - year: "2028"
     text: Genève publie chaque année les chiffres sur le lieu de naissance, les
       déclenchements et les césariennes, et chaque femme enceinte est informée
       de toutes ses options, y compris la maison de naissance et l’accouchement

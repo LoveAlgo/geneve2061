@@ -70,7 +70,7 @@ patterns:
       that can grow slowly: at first a hobby, gradually becoming a productive
       workshop or other business."
 path:
-  - year: "2027"
+  - year: "2028"
     text: Geneva makes healthy life expectancy at 65 a key public indicator,
       published every year.
   - year: "2031"

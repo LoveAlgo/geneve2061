@@ -61,7 +61,7 @@ patterns:
       that no part of the city is empty at night and people can live close to
       their work.
 path:
-  - year: "2027"
+  - year: "2028"
     text: Geneva publishes average door-to-door commute times by neighbourhood, and
       makes it easier to convert empty offices in the city centre into homes.
   - year: "2031"

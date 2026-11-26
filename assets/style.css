@@ -205,3 +205,8 @@ nav.main a:hover{color:var(--terra)}
 .toc a{text-decoration:none}
 .toc a:hover{text-decoration:underline}
 @media (min-width:1000px){ .card-toc{position:sticky;top:calc(env(safe-area-inset-top,0px) + 80px)} }
+
+/* quotes inside text pages (e.g. "Why 2061?" on the About page) */
+.prose blockquote{border-left:3px solid var(--gold);margin:1rem 0 1.2rem;padding:.2rem 0 .2rem 1rem;font-style:italic;color:var(--muted)}
+.prose blockquote p{margin:0 0 .45rem;text-align:left}
+.prose blockquote p:last-child{font-style:normal;font-size:.85rem;margin:.5rem 0 0}

@@ -59,7 +59,7 @@ patterns:
     sol d’un quartier, l’environnement devient invivable pour les gens, et proposaient ce seuil comme
     limite stricte. La Genève de 2061 va plus loin : presque plus aucune voiture garée dans les rues.
 path:
-- year: '2027'
+- year: '2028'
   text: >-
     Genève assouplit la règle qui impose de remplacer chaque place de stationnement supprimée, au moins
     là où l’autopartage et les transports publics sont bons.

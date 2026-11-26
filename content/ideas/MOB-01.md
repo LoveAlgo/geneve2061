@@ -67,7 +67,7 @@ patterns:
       traffic and pedestrian paths wherever possible, with bike racks at every
       destination.
 path:
-  - year: "2027"
+  - year: "2028"
     text: Geneva publishes a map showing, for every neighbourhood, what can be
       reached within 15 minutes on foot or by bicycle.
   - year: "2031"

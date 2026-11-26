@@ -58,7 +58,7 @@ precedents:
       de proximité.
     source_needed: false
 path:
-  - year: "2027"
+  - year: "2028"
     text: Genève fait une liste complète des points chauds publics et les sécurise ;
       le canton fixe un objectif chiffré de réduction des suicides et en rend
       compte chaque année.

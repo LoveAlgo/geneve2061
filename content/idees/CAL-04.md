@@ -52,7 +52,7 @@ patterns:
     calme, comme un chemin à l’arrière, un jardin ou une cour à l’écart du trafic, où l’on peut se retirer
     du bruit pour quelques instants de calme.
 path:
-- year: '2027'
+- year: '2028'
   text: >-
     Genève cartographie ses lieux calmes et protège les plus précieux dans sa planification, dans le cadre
     de la trame blanche.

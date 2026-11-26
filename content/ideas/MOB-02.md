@@ -65,7 +65,7 @@ patterns:
       people, and proposed this as a strict upper limit. Geneva 2061 goes
       further: almost no parked cars in the streets at all."
 path:
-  - year: "2027"
+  - year: "2028"
     text: Geneva relaxes the rule requiring every removed parking space to be
       replaced, at least where car sharing and public transport are good.
   - year: "2031"

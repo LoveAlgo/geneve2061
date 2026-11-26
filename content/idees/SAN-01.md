@@ -50,7 +50,7 @@ precedents:
       2019.
     source_needed: false
 path:
-  - year: "2027"
+  - year: "2028"
     text: Le canton adopte un objectif zéro officiel, avec un rapport public annuel
       mesuré à la fois par habitant et par kilomètre parcouru.
   - year: "2031"

@@ -79,7 +79,7 @@ patterns:
       people can find their way, and give directions, by moving from the larger
       realm to the smaller one.
 path:
-  - year: "2027"
+  - year: "2028"
     text: Geneva adopts one consistent wayfinding standard for streets, public
       transport and public buildings, with maps that show walking times.
   - year: "2031"

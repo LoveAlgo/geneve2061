@@ -5,6 +5,22 @@ Genève 2061 part d’une image de l’avenir et remonte jusqu’à aujourd’hu
 
 L’image vient de la balade de Verity dans Genève, dans le premier livre des Grooters. Les idées qui la sous-tendent viennent d’études d’urbanisme et de vingt ans de recherche indépendante, et chacune est confrontée à deux choses : la situation actuelle de Genève, et ce que d’autres villes ont déjà réalisé. Genève 2061 se veut cohérente avec une vision pour toute la planète, et non isolée.
 
+## Pourquoi 2061 ?
+
+> Boss, qui s’intéressait à l’histoire — et au futur — de sa ville natale, Genève, demanda à Verity :
+>
+> — Pourquoi est-ce que tu penses que ton Monde de Rêve était situé spécifiquement en 2061 ? Pourquoi pas en 2059, ou en 2073 ?
+>
+> — Je ne sais pas.
+>
+> — Lis-le à l’envers, suggéra Léo.
+>
+> — Bien sûr ! s’exclamèrent tous les Grooters simultanément.
+>
+> Grooters, Livre 1, partie 17 « Sauna et Fondue »
+
+Lu à l’envers, 2061 devient 1602 : l’année de l’Escalade, quand Genève repoussa l’attaque surprise nocturne des troupes du duc de Savoie et préserva son indépendance de ville réformée. Les Genevois la célèbrent encore chaque année en décembre.
+
 ## Comment chaque idée est présentée
 
 Chaque idée suit la même structure : à quoi ressemble Genève en 2061 ; un fait mesuré sur Genève aujourd’hui, avec sa source ; les endroits où elle a déjà été réalisée ; où nous en sommes ; des étapes proposées ; ce qui la fait avancer ; les besoins humains qu’elle sert ; les questions ouvertes ; et le point de vue personnel de l’auteur, séparé des faits.
@@ -15,7 +31,7 @@ La plus grande partie de Genève 2061 est un pont à construire, pas un acte de 
 
 [[bridge-diagram]]
 
-Avant de juger impossible l’une de ces idées, regardez 35 ans en arrière. En 1991, le World Wide Web venait d’être ouvert au public depuis le CERN, ici à Genève, et presque personne n’imaginait à quel point il allait changer nos vies. Nous avons devant nous les mêmes 35 ans, et un nouvel allié puissant, l’intelligence artificielle, pour trouver les solutions qui manquent encore. Et la plupart des idées de ce site n’exigent aucune invention : seulement une décision. « Impossible » veut souvent simplement dire « pas encore ».
+Avant de juger impossible l’une de ces idées, regardez 34 ans en arrière. En 1993, le CERN, ici à Genève, mettait le World Wide Web dans le domaine public, et presque personne n’imaginait à quel point il allait changer nos vies. Nous avons devant nous les mêmes 34 ans, et un nouvel allié puissant, l’intelligence artificielle, pour trouver les solutions qui manquent encore. Et la plupart des idées de ce site n’exigent aucune invention : seulement une décision. « Impossible » veut souvent simplement dire « pas encore ».
 
 ## Ce qui fait avancer une idée
 

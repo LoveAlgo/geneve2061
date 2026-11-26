@@ -66,7 +66,7 @@ patterns:
       rather than a hospital ward: small birth places organised around the
       mother and her family, supported by midwives."
 path:
-  - year: "2027"
+  - year: "2028"
     text: Geneva publishes yearly figures on place of birth, inductions and
       caesareans, and every pregnant woman is informed about all her options,
       including birth centres and home birth.

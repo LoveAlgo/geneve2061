@@ -61,7 +61,7 @@ precedents:
       tones, which are precisely what travels most easily through walls."
     source_needed: false
 path:
-  - year: "2027"
+  - year: "2028"
     text: The canton, the communes and the housing cooperatives buy only the
       quietest classes of fridges, ventilation and heat pumps available.
   - year: "2031"

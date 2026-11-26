@@ -55,7 +55,7 @@ precedents:
       nudging towards any option."
     source_needed: false
 path:
-  - year: "2027"
+  - year: "2028"
     text: "Geneva schools teach information hygiene from primary school onwards: how
       to choose, check and limit the information we consume."
   - year: "2031"

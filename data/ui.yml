@@ -57,7 +57,7 @@ en:
   # right-hand column
   side_label: More on this page
   side_walk_title: Read Verity’s walk
-  side_walk_text: The chapter of Grooters, Book 1, that this website starts from. Free to download.
+  side_walk_text: The chapter of Grooters Book 1, “2061”, that this website starts from. Free to download.
   side_reform_title: Reformer and réformer
   side_reform_html: >-
     In French, the accent changes the meaning. Without it, <em>reformer</em> means to form again, to
@@ -82,7 +82,7 @@ en:
   side_timeline:
     - year: "1536"
       text: Geneva adopts the Reformation.
-    - year: "2026"
+    - year: "2027"
       text: Today. This website starts building the bridge to 2061.
     - year: "2036"
       text: The Reformation’s 500th anniversary. In the Grooters, the wall now reads REFORME GENEVE.
@@ -150,7 +150,7 @@ fr:
   # colonne de droite
   side_label: Plus sur cette page
   side_walk_title: Lire la balade de Verity
-  side_walk_text: Le chapitre de Grooters, Livre 1, dont part ce site. Téléchargement gratuit.
+  side_walk_text: Le chapitre « 2061 » de Grooters Livre 1, dont part ce site. Téléchargement gratuit.
   side_reform_title: Reformer et réformer
   side_reform_html: >-
     En français, l’accent change le sens. Sans accent, <em>reformer</em> signifie former de nouveau,
@@ -176,7 +176,7 @@ fr:
   side_timeline:
     - year: "1536"
       text: Genève adopte la Réforme.
-    - year: "2026"
+    - year: "2027"
       text: Aujourd’hui. Ce site commence à construire le pont vers 2061.
     - year: "2036"
       text: Les 500 ans de la Réforme. Dans les Grooters, le mur porte désormais REFORME GENEVE.

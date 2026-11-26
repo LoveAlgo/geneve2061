@@ -33,6 +33,14 @@ stops:
       - GOV
       - HER
       - LEI
+  - place: Là où se trouvait l’hôpital
+    see: Le HUG-Centre, où les gens viennent faire le plein d’affection.
+    theme: HEA
+    more_themes:
+      - REL
+    quote: « Oui, le plus laid bâtiment de la ville a été remplacé il y a de
+      nombreuses années par un magnifique HUG-Centre avec un parc, où les gens viennent faire
+      le plein d’affection. »
   - place: La Vieille-Ville
     see: Des rues pavées, les cloches de Saint-Pierre, des magasins et des cafés
       chaleureux et conviviaux.
@@ -48,14 +56,6 @@ stops:
       - MOB
       - NAT
       - WAT
-  - place: Là où se trouvait l’hôpital
-    see: Le HUG-Centre, où les gens viennent faire le plein d’affection.
-    theme: HEA
-    more_themes:
-      - REL
-    quote: « Oui, le plus laid bâtiment de la ville a été remplacé il y a de
-      nombreuses années par un magnifique HUG-Centre avec un parc, où les gens viennent faire
-      le plein d’affection. »
   - place: Le vieux cercle de lecture
     see: Le Cristal d’Amour, flottant au-dessus d’une commode en bois.
     theme: REL

@@ -49,7 +49,7 @@ precedents:
       déjà la recherche médicale.
     source_needed: false
 path:
-  - year: "2027"
+  - year: "2028"
     text: Genève lance un programme de recherche sur la vie sans maladie, réunissant
       l’université, les hôpitaux et des chercheurs en IA, avec l’espérance de
       vie en bonne santé comme principal indicateur.

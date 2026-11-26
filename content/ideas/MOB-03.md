@@ -63,7 +63,7 @@ patterns:
       connected web, in which every line meets the others at interchanges, so
       that people can travel from anywhere to anywhere without a car.
 path:
-  - year: "2027"
+  - year: "2028"
     text: Geneva votes on the Jura–Léman–Salève underground line, planned together
       with the French authorities.
   - year: "2031"

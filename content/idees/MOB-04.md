@@ -52,7 +52,7 @@ precedents:
       embouteillages dans toute la ville.
     source_needed: false
 path:
-  - year: "2027"
+  - year: "2028"
     text: Genève et ses services industriels publient un plan commun sur dix ans de
       tous les travaux sur les réseaux et les rues, afin que chaque rue ne soit
       ouverte qu’une seule fois.

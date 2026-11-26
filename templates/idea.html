@@ -85,6 +85,7 @@
     {% set st = namespace(i=0, place='') %}
     {% for s in walk.stops %}{% if not st.i and s.theme == e.theme %}{% set st.i = loop.index %}{% set st.place = s.place %}{% endif %}{% endfor %}
     {% for s in walk.stops %}{% if not st.i and e.theme in s.all_themes %}{% set st.i = loop.index %}{% set st.place = s.place %}{% endif %}{% endfor %}
+    {% if not st.i and e.theme in walk.remaining %}{% set st.i = walk.stops | length + 1 %}{% set st.place = walk.final.place %}{% endif %}
     {% if st.i %}<dt>{{ t.side_glance_walk }}</dt>
     <dd><a href="{{ base }}#stop-{{ st.i }}">{{ st.i }}. {{ st.place }}</a></dd>{% endif %}
   </dl>

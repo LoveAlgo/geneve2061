@@ -58,7 +58,7 @@ precedents:
       months and caused huge traffic jams throughout the city.
     source_needed: false
 path:
-  - year: "2027"
+  - year: "2028"
     text: Geneva and its utilities publish a shared ten-year plan of all works on
       networks and streets, so that each street is opened only once.
   - year: "2031"

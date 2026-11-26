@@ -59,7 +59,7 @@ precedents:
       patients to community activities instead of only prescribing medicine.
     source_needed: false
 path:
-  - year: "2027"
+  - year: "2028"
     text: Geneva makes loneliness an official public-health indicator, measured
       every year and by neighbourhood.
   - year: "2031"

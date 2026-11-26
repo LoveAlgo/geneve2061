@@ -61,7 +61,7 @@ patterns:
       des fontaines, des bassins et des ruisseaux que l’on peut voir, entendre
       et toucher, au cœur de l’espace public."
 path:
-  - year: "2027"
+  - year: "2028"
     text: Genève réalise des enquêtes sur les paysages sonores dans chaque quartier,
       en demandant aux habitants quels sons ils aiment et lesquels les
       dérangent.

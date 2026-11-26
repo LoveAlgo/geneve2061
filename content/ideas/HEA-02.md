@@ -64,7 +64,7 @@ precedents:
       patients with community activities.
     source_needed: false
 path:
-  - year: "2027"
+  - year: "2028"
     text: Geneva makes a full list of public hotspots and secures them; the canton
       sets a numeric suicide-reduction target and reports on it every year.
   - year: "2031"

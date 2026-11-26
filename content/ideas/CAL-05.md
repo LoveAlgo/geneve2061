@@ -66,7 +66,7 @@ patterns:
       pools and streams that can be seen, heard and touched, as part of everyday
       public space."
 path:
-  - year: "2027"
+  - year: "2028"
     text: Geneva carries out soundscape surveys in every neighbourhood, asking
       residents which sounds they love and which disturb them.
   - year: "2031"

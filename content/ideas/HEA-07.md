@@ -63,7 +63,7 @@ patterns:
       pool, sports and social life, where families come regularly and medical
       care is only a small part of what happens.
 path:
-  - year: "2027"
+  - year: "2028"
     text: Geneva sets a target for health literacy and measures it regularly, with a
       separate figure for the canton.
   - year: "2031"

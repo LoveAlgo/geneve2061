@@ -66,7 +66,7 @@ patterns:
       right degree of enclosure: a wall behind you, a view out, and protection
       from noise and passers-by, without being completely shut in."
 path:
-  - year: "2027"
+  - year: "2028"
     text: Every school and university in Geneva measures the acoustics of its
       classrooms, and the noisiest rooms are treated first.
   - year: "2031"

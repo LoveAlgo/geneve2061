@@ -55,7 +55,7 @@ precedents:
       proximité plutôt que de seulement prescrire des médicaments.
     source_needed: false
 path:
-  - year: "2027"
+  - year: "2028"
     text: Genève fait de la solitude un indicateur officiel de santé publique,
       mesuré chaque année et par quartier.
   - year: "2031"

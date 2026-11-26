@@ -63,7 +63,7 @@ patterns:
       Leur réponse : un lieu qui peut grandir lentement, d’abord un simple
       passe-temps, qui devient peu à peu un atelier ou business productif."
 path:
-  - year: "2027"
+  - year: "2028"
     text: Genève fait de l’espérance de vie en bonne santé à 65 ans un indicateur
       public clé, publié chaque année.
   - year: "2031"

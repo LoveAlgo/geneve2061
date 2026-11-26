@@ -59,7 +59,7 @@ patterns:
       familles viennent régulièrement et où les soins médicaux ne sont qu’une
       petite partie de ce qui s’y passe.
 path:
-  - year: "2027"
+  - year: "2028"
     text: Genève se fixe un objectif en matière de compétences en santé et les
       mesure régulièrement, avec un chiffre propre au canton.
   - year: "2031"

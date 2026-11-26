@@ -64,7 +64,7 @@ patterns:
       most private, such as bedrooms, at the far end. Placed this way, the
       bedrooms are naturally the quietest rooms.
 path:
-  - year: "2027"
+  - year: "2028"
     text: Geneva publishes a guide to quiet homes, and every building permit shows
       which rooms face the noisy side.
   - year: "2031"

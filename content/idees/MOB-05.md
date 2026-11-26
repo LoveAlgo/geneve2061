@@ -58,7 +58,7 @@ precedents:
       commencer à produire davantage de sa propre nourriture."
     source_needed: false
 path:
-  - year: "2027"
+  - year: "2028"
     text: Genève se fixe un objectif pour la part des livraisons du dernier
       kilomètre effectuées en vélo-cargo ou en véhicule électrique, et crée son
       premier centre logistique raccordé au rail.

@@ -54,7 +54,7 @@ precedents:
       fell from 41 in 1975 to one in 2019.
     source_needed: false
 path:
-  - year: "2027"
+  - year: "2028"
     text: The canton adopts an official zero target, with a public yearly report
       measured both per resident and per kilometre travelled.
   - year: "2031"

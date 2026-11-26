@@ -73,7 +73,7 @@ patterns:
       that a city should therefore be made up of self-governing communities of
       around 7,000, each with real decision-making power.
 path:
-  - year: "2027"
+  - year: "2028"
     text: geneve2061.ch and similar platforms present public questions with facts,
       sources and options side by side, as a basis for structured debate.
   - year: "2031"

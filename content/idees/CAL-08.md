@@ -67,7 +67,7 @@ patterns:
     bien plus grandes qu’environ 5000 à 10 000 personnes, et qu’une ville devrait donc être formée de
     communautés autonomes d’environ 7000 habitants, chacune dotée d’un véritable pouvoir de décision.
 path:
-- year: '2027'
+- year: '2028'
   text: >-
     geneve2061.ch et d’autres plateformes présentent les questions publiques avec les faits, les sources
     et les options côte à côte, comme base d’un débat structuré.

@@ -53,7 +53,7 @@ precedents:
       It shows how AI is already speeding up medical research.
     source_needed: false
 path:
-  - year: "2027"
+  - year: "2028"
     text: Geneva launches a research programme on disease-free life, bringing
       together the university, the hospitals and AI researchers, with healthy
       life expectancy as its main measure.

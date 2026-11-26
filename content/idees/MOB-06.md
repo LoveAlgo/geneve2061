@@ -55,7 +55,7 @@ patterns:
       regroupés dans des zones séparées, afin qu’aucun quartier ne soit vide la
       nuit et que chacun puisse vivre près de son travail.
 path:
-  - year: "2027"
+  - year: "2028"
     text: Genève publie la durée moyenne des trajets de porte à porte par quartier,
       et facilite la transformation des bureaux vides du centre-ville en
       logements.

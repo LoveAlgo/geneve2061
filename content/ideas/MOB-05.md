@@ -59,7 +59,7 @@ precedents:
       start producing more of its own food."
     source_needed: false
 path:
-  - year: "2027"
+  - year: "2028"
     text: Geneva sets a target for the share of last-kilometre deliveries made by
       cargo bike or electric vehicle, and creates its first rail-connected
       logistics hub.

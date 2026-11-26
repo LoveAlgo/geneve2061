@@ -72,7 +72,7 @@ patterns:
       as a back path, garden or courtyard away from the traffic, where people
       can withdraw from the noise.
 path:
-  - year: "2027"
+  - year: "2028"
     text: "Nobody in Geneva sleeps above the legal night-time noise limits: 30 km/h
       at night wherever it is needed, and noise radars that can fine excessively
       loud vehicles."

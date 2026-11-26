@@ -56,7 +56,7 @@ patterns:
     où chaque ligne rejoint les autres à des points d’échange, afin que l’on puisse aller de partout à
     partout sans voiture.
 path:
-- year: '2027'
+- year: '2028'
   text: >-
     Genève vote sur la Liaison Jura – Léman – Salève, planifiée avec les autorités françaises.
 - year: '2031'

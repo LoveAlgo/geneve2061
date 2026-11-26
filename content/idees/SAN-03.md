@@ -50,7 +50,7 @@ precedents:
       leurs boissons.
     source_needed: false
 path:
-  - year: "2027"
+  - year: "2028"
     text: Les résultats de Bus Santé deviennent un tableau de bord public de la
       santé à Genève, mis à jour chaque année et détaillé par quartier.
   - year: "2031"

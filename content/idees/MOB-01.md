@@ -60,7 +60,7 @@ patterns:
       possible à la fois du trafic automobile et des chemins piétons, avec des
       places de stationnement pour vélos à chaque destination.
 path:
-  - year: "2027"
+  - year: "2028"
     text: Genève publie une carte qui montre, pour chaque quartier, ce que l’on peut
       atteindre en 15 minutes à pied ou à vélo.
   - year: "2031"

@@ -25,8 +25,8 @@
       {{ tags(s.all_themes) }}
     </li>
   {% endfor %}
-    <li>
-      <span class="dot" aria-hidden="true">+</span>
+    <li id="stop-{{ walk.stops | length + 1 }}">
+      <span class="dot" aria-hidden="true">{{ walk.stops | length + 1 }}</span>
       <h3>{{ walk.final.place }}</h3>
       <p>{{ walk.final.see }}</p>
       {{ tags(walk.remaining) }}

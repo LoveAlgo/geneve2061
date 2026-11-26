@@ -72,7 +72,7 @@ patterns:
     son propre portail et son chemin principal, afin que l’on puisse trouver son chemin, et l’indiquer,
     en passant du domaine le plus grand au plus petit.
 path:
-- year: '2027'
+- year: '2028'
   text: >-
     Genève adopte une norme d’orientation unique et cohérente pour les rues, les transports publics et
     les bâtiments publics, avec des plans qui indiquent les temps de marche.
