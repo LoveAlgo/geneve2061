@@ -20,7 +20,7 @@ vision: >-
   and discreet. People find what they need through websites, maps and the recommendations of friends,
   and the eye can rest wherever it looks.
 quote_text: The city was beautiful and well kept. No advertising anywhere.
-quote_cite: The Grooters, Book 1, chapter “2061”
+quote_cite: Grooters Book 1, Part 16 “2061”
 today_headline: >-
   The City of Geneva rejected an advertising ban by 51.9% in 2023, while neighbouring Vernier has had
   one since 2023

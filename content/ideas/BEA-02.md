@@ -23,7 +23,7 @@ vision: In 2061, every façade, street and square in Geneva is composed like a
   again.
 quote_text: plenty of nice new bars and restaurants on the waterfront,
   tastefully merged with their surroundings.
-quote_cite: The Grooters, Book 1, chapter “2061”
+quote_cite: Grooters Book 1, Part 16 “2061”
 today_headline: Geneva once had its own covered galleries, the “dômes” of the
   Rues-Basses, and removed them in the 19th century
 today_detail: From the late 18th century, wooden canopies and arcades known as

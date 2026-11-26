@@ -21,7 +21,7 @@ vision: >-
   and repair workshops can be found in every neighbourhood.
 quote_text: >-
   People were dressed in a very tasteful way. Elegant men and women everywhere wore some timeless fashion.
-quote_cite: The Grooters, Book 1, chapter “2061”
+quote_cite: Grooters Book 1, Part 16 “2061”
 today_headline: 'Fewer Genevans get enough exercise than other Swiss: 69.1% against 76.0%'
 today_detail: >-
   In 2022, 69.1% of Geneva’s population was sufficiently physically active, compared with 76.0% in Switzerland

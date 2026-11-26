@@ -22,7 +22,7 @@ vision: >-
   stone, and each neighbourhood welcomes you through its own gateway.
 quote_text: >-
   The tram rails were gone too, replaced by a new metro station entrance, beautifully decorated.
-quote_cite: The Grooters, Book 1, chapter “2061”
+quote_cite: Grooters Book 1, Part 16 “2061”
 today_headline: >-
   Geneva’s five new Léman Express stations share one signature: Jean Nouvel’s glass bricks
 today_detail: >-

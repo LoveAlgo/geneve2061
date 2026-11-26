@@ -24,7 +24,7 @@ quote_text: >-
   During her studies, she read not only law books, but also many other books on topics like health, physics,
   psychology, history, architecture because she wanted to understand the big picture of what could make
   people’s lives worse or better.
-quote_cite: The Grooters, Book 1, chapter “2061”
+quote_cite: Grooters Book 1, Part 16 “2061”
 today_headline: >-
   Geneva is home to the Swiss Center for Affective Sciences, one of the world’s first research centres
   on emotions

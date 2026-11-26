@@ -23,7 +23,7 @@ vision: >-
 quote_text: >-
   Only beautiful houses and buildings could be built, and the architects had to have their names engraved
   on their buildings to make sure that they would not build anything they were not proud of.
-quote_cite: The Grooters, Book 1, chapter “2061”
+quote_cite: Grooters Book 1, Part 16 “2061”
 today_headline: >-
   Geneva’s building law contains an aesthetic clause, but it can only refuse an “architectural error”
 today_detail: >-

@@ -22,7 +22,7 @@ vision: >-
   a heart-rate monitor can see it: in front of a well-proportioned building, the body relaxes just as
   it does in front of a tree.
 quote_text: Strange… everything is so harmonious…
-quote_cite: The Grooters, Book 1, chapter “2061”
+quote_cite: Grooters Book 1, Part 16 “2061”
 today_headline: >-
   One person in four in Geneva suffers from psychological distress, far more than the Swiss average
 today_detail: >-

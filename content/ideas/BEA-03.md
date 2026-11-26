@@ -23,7 +23,7 @@ vision: In 2061, every Genevan learns to see. Children draw, model and paint,
   beautiful, or ask why it is not.
 quote_text: Creative, yes. Aesthetic, no. She was not happy with most modernist
   buildings built by her architecture colleagues.
-quote_cite: The Grooters, Book 1, chapter “Sydney”
+quote_cite: Grooters Book 1, Part 9 “Sydney”
 today_headline: Geneva has had no university school of architecture since 2009
 today_detail: The University of Geneva taught architecture from 1946, first in a
   school and from 1994 in an institute with the status of a faculty. Its closure

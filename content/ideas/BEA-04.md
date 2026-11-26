@@ -23,7 +23,7 @@ vision: >-
 quote_text: >-
   The Old Town had remained mostly unchanged, with the difference that most stores, bars, and restaurants
   seemed to emanate much more warmth and cosiness than what she could remember.
-quote_cite: The Grooters, Book 1, chapter “2061”
+quote_cite: Grooters Book 1, Part 16 “2061”
 today_headline: >-
   In surveys, a clear majority of people prefer traditional architecture, yet very little of it is built
 today_detail: >-
