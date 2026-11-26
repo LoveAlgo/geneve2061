@@ -58,7 +58,8 @@ precedents:
     text: has six kilometres of arcades, the “Lauben”, in its Old Town, a UNESCO
       World Heritage Site. They form one of the longest covered shopping
       promenades in Europe, sheltering pedestrians from rain in winter and
-      giving cool shade in summer.
+      giving cool shade in summer. Pattern 119 "Arcades" of A Pattern Language
+      has used the Bern arcades as a photo example.
     source_needed: false
   - place: Esperance, Western Australia
     text: The seaside town of Esperance in Western Australia has ‘repeated’ the
